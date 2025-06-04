@@ -12,7 +12,7 @@ def safe_get(d, *keys, default=""):
             return default
     return d if d is not None else default
 
-def get_orcid_works(orcid_id):
+def get_orcid_titles_and_dois(orcid_id):
     url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
     headers = {
         "Accept": "application/json"
@@ -24,15 +24,23 @@ def get_orcid_works(orcid_id):
         works = response.json().get("group", [])
         for i, work in enumerate(works, 1):
             work_summary = work.get("work-summary", [])
-            if work_summary:
-                ws = work_summary[0]
-                title = safe_get(ws, "title", "title", "value")
-                year = safe_get(ws, "publication-date", "year", "value")
-                month = safe_get(ws, "publication-date", "month", "value")
-                day = safe_get(ws, "publication-date", "day", "value")
-                print(f"{i}. {title} ({year}/{month}/{day})")
+            if not work_summary:
+                continue
+
+            ws = work_summary[0]
+            title = safe_get(ws, "title", "title", "value", default="Sin título")
+
+            doi = ""
+            external_ids = ws.get("external-ids", {}).get("external-id", [])
+            for eid in external_ids:
+                if eid.get("external-id-type") == "doi":
+                    doi = eid.get("external-id-value", "")
+                    break  # Solo queremos un DOI por publicación
+
+            print(f"{i}. {title}\n   DOI: {doi if doi else 'No disponible'}")
     else:
         print(f"Failed to fetch data. Status code: {response.status_code}")
 
+# Ejemplo de uso
 example_orcid_id = "0000-0002-3261-5005"
-get_orcid_works(example_orcid_id)
+get_orcid_titles_and_dois(example_orcid_id)
