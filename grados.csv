@@ -1,4 +1,6 @@
-codigo,grado,campo,institucion,pais,fecha
-JRH0,Licenciatura,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,02/2008
-JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,10/2016
-JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,10/2020
+codigo,grado,campo,institucion,pais,año,mes 
+JRH0,Licenciatura,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,02
+JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,2016,10
+JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,2020,10
+AGZ0,Bachiller,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+AGZ0,Licenciatura,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
