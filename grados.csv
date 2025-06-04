@@ -1,6 +1,17 @@
 codigo,grado,campo,institucion,pais,año,mes 
-JRH0,Licenciatura,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,02
+JRH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,02
 JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,2016,10
 JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,2020,10
-AGZ0,Bachiller,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
-AGZ0,Licenciatura,Ingenieria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
+AGZ0,Bachiller,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+AGZ0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
+LCR0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2016,09
+LCR0,Maestría,Ingeniería Mecanica,Universidad de Utah,Estados Unidos,2022,06
+CVS0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,12
+CVS0,Maestría,Ingeníeria en Microsistemas Electromecánicos,Albert Ludwing University Freiburg,Alemania,2013,11
+CVS0,Doctorado,Ingeníeria de Superficies,Universidad de Sídney,Australia,2022,09
+NUS0,Bachillerato,Ingeníeria de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2009,
+NUS0,Licenciatura,Ingeníeria de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2011,
+NUS0,Maestría,Ingeníeria Mecánica,RWTH Aachen University,Alemania,2022,
+JGF0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,09
+JGF0,Maestría,Ingeníeria en Ciencias en Mecatrónica,University of Applied Sciences,Alemania,2015,15
+JGF0,Doctorado,Sistemas de control,Universidad de Sherffield,Inglaterra,2023,02
