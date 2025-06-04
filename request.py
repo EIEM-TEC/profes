@@ -19,6 +19,5 @@ def get_orcid_works(orcid_id):
     else:
         print(f"Failed to fetch data. Status code: {response.status_code}")
 
-# Example ORCID iD (belongs to Dr. José Luis Hernández Garciadiego)
 example_orcid_id = "0000-0002-3261-5005"
 get_orcid_works(example_orcid_id)
