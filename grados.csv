@@ -2,7 +2,7 @@ codigo,grado,campo,institucion,pais,año,mes
 JRH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,02
 JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,2016,10
 JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,2020,10
-AGZ0,Bachiller,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+AGZ0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
 AGZ0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
 LCR0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2016,09
 LCR0,Maestría,Ingeniería Mecanica,Universidad de Utah,Estados Unidos,2022,06
@@ -19,3 +19,17 @@ HJQ0,Bachillerato,Ingeníeria en Electromecánica,Universidad Fidelitas,Costa Ri
 HJQ0,Licenciatura,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,1991,04
 HJQ0,Maestría,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,2003,10
 HJQ0,Maestría,Ingeníeria de Protección Contra Incendios,UNED,España,2019,12
+COZ0,Bachillerato,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,2005,
+COZ0,Maestría,Sistemas Modernos de Manufactura,Instituto Tecnológico de Costa Rica,Costa Rica,2013,10
+VJH0,Bachillerato,Ingenieía Mecánica Aeronáutica,KIIGA,Rusia,1992,
+VJH0,Mestría,Ciencia de la Ingeniería,KIIGA,Rusia,1992,
+LGG0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1994,
+LGG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+LGG0,Maestría,Gestión de Activos,PMM Business School,España,2016,
+OGC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1995,
+OGC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+OGC0,Maestría,Ingeniería Electromecánica,Instituto Tecnológico de Costa Rica,Costa Rica,2003,
+LMS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1999,
+LMS0,Maestría,Ingeniería en Computación,Instituto Tecnológico de Costa Rica,Costa Rica,2004,
+LMS0,Maestría,Ingeniería Electrica,Universidad de Costa Rica,Costa Rica,2016,
+LMS0,Doctorado,Sistemas Fotovoltaicos,Instituto Tecnológico de Costa Rica,Costa Rica,2022,
