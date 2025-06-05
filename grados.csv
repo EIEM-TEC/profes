@@ -29,11 +29,13 @@ LGG0,Maestría,Gestión de Activos,PMM Business School,España,2016,
 OGC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1995,
 OGC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
 OGC0,Maestría,Ingeniería Electromecánica,Instituto Tecnológico de Costa Rica,Costa Rica,2003,
+LMS0,Técnico,Electrónica,COVAO,Costa Rica,1994,
 LMS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1999,
 LMS0,Maestría,Ingeniería en Computación,Instituto Tecnológico de Costa Rica,Costa Rica,2004,
+LMS0,Especialización,Robótica Industrial,CNAD,México,2004,
 LMS0,Maestría,Ingeniería Electrica,Universidad de Costa Rica,Costa Rica,2016,
 LMS0,Doctorado,Sistemas Fotovoltaicos,Instituto Tecnológico de Costa Rica,Costa Rica,2022,
-SMO0,Licenciatura,Ingenoería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,02
+SMO0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,02
 SMO0,Maestría,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2017,11
 CPS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1993,12
 CPS0,Maestría,Admministración de la Ingeniería Electromecánica con énfasis en Gestión de Mantenimiento,Instituto Tecnológico de Costa Rica,Costa Rica,2011,12
@@ -62,3 +64,45 @@ JMJ0,Doctorado,Ingeniería Industrial e Informática,ISAE-SUPAERO,Francia,2022,0
 JAC0,Bachillerato,Ingeniería Electromecánica,Universidad Internacional de las Americas,Costa Rica,0000,
 JAC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
 JAC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
+JAC0,Maestría,Sistemas Modernos en Manufactura,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
+JMH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2009,
+JMH0,Mestría,Ingeniería de la Energía,Universidad Politécnica de Madrid,España,2015,
+JRG0,Técnico,Mecánica de Precisión,0000,Costa Rica,0000,
+JRG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
+LSM0,Licenciatura,Ingeniería Mecánica,Universidad de Costa Rica,Costa Rica,1998,
+LSM0,Maestría,Administración de Proyectos de Construcción,Universidad de Costa Rica,Costa Rica,2010,
+LAR0,Bachillerato,Ingeniería Electrónica,Instituto Tecnológico de Costa Rica,Costa Rica,1997,
+LAR0,Maestría,Ingeniería Electrónica,Instituto Tecnológico de Costa Rica,Costa Rica,2003,
+MMC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1996,
+MMC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1998,
+MMC0,Maestría,Ingeniería Mecánica Especialidad en Diseño Mecánico,Centro Nacional de Investigación y Desarrollo Tecnólogico,México,2001,
+NVP0,Bachillerato,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2003,02
+NVP0,Licenciatura,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2004,12
+NVP0,Maestría,Ingeniería Electrónica,Instituto Tecnológico de Costa Rica,Costa Rica,2018,06
+OMR0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1988,
+OMR0,Especialización,Energía Solar Fotovoltaica,FYCSA,España,1989,
+OMR0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1993,
+OMR0,Maestría,Administración de Empresas,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+PCJ0,0000,00000,00000,0000,000,
+REH0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1990,02
+REH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1998,08
+REH0,Maestría,Administración de Ingeniería Electromecánica con Enfasis en Administración de Energía,Instituto Tecnológico de Costa Rica,Costa Rica,2017,06
+FMG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2013,03
+FMG0,Maestría,Ingeniería en Microsistemas,Albert-Ludwings Universitat Freiburg,Alemania,2023,10
+LCG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2017,
+MJC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2018,11
+MBC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,
+JPS0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2007,
+SMC0,Técnico,Electricidad,ITH,Honduras,1993,11
+SMC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1999,02
+SMC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,02
+SMC0,Maestría,Administración de Empresas,Instituto Tecnológico de Costa Rica,Costa Rica,2007,09
+GMJ0,Bachillerato,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2002,04
+GMJ0,Especialización,Mercados Energéticos,Universidad Nacional de Colombia,Colombia,2013,06 
+GMJ0,Maestría,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2010,20
+LMC0,Bachillerato,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2002,10
+LMC0,Licenciatura,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2009,10
+LMC0,Maestría,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2012,12
+LMC0,Maestría,Administración de Proyectos,Universidad para la Cooperación Internacional,Costa Rica,2021,05
+RMC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,09
+RMC0,Maestría,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2013,06
