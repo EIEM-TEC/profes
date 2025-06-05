@@ -3,25 +3,25 @@ JRH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico
 JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,2016,10
 JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,2020,10
 AGZ0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
-AGZ0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
-LCR0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2016,09
+AGZ0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
+LCR0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2016,09
 LCR0,Maestría,Ingeniería Mecanica,Universidad de Utah,Estados Unidos,2022,06
-CVS0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,12
-CVS0,Maestría,Ingeníeria en Microsistemas Electromecánicos,Albert Ludwing University Freiburg,Alemania,2013,11
-CVS0,Doctorado,Ingeníeria de Superficies,Universidad de Sídney,Australia,2022,09
-NUS0,Bachillerato,Ingeníeria de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2009,
-NUS0,Licenciatura,Ingeníeria de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2011,
-NUS0,Maestría,Ingeníeria Mecánica,RWTH Aachen University,Alemania,2022,
-JGF0,Licenciatura,Ingeníeria en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,09
-JGF0,Maestría,Ingeníeria en Ciencias en Mecatrónica,University of Applied Sciences,Alemania,2015,15
+CVS0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,12
+CVS0,Maestría,Ingeniería en Microsistemas Electromecánicos,Albert Ludwing University Freiburg,Alemania,2013,11
+CVS0,Doctorado,Ingeniería de Superficies,Universidad de Sídney,Australia,2022,09
+NUS0,Bachillerato,Ingeniería de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2009,
+NUS0,Licenciatura,Ingeniería de los Materiales,Instituto Tecnológico de Costa Rica,Costa Rica,2011,
+NUS0,Maestría,Ingeniería Mecánica,RWTH Aachen University,Alemania,2022,
+JGF0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,09
+JGF0,Maestría,Ingeniería en Ciencias en Mecatrónica,University of Applied Sciences,Alemania,2015,15
 JGF0,Doctorado,Sistemas de control,Universidad de Sherffield,Inglaterra,2023,02
-HJQ0,Bachillerato,Ingeníeria en Electromecánica,Universidad Fidelitas,Costa Rica,2017,06
-HJQ0,Licenciatura,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,1991,04
-HJQ0,Maestría,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,2003,10
-HJQ0,Maestría,Ingeníeria de Protección Contra Incendios,UNED,España,2019,12
-COZ0,Bachillerato,Ingeníeria Mecánica,Universidad de Costa Rica,Costa Rica,2005,
+HJQ0,Bachillerato,Ingeniería en Electromecánica,Universidad Fidelitas,Costa Rica,2017,06
+HJQ0,Licenciatura,Ingeniería Mecánica,Universidad de Costa Rica,Costa Rica,1991,04
+HJQ0,Maestría,Ingeniería Mecánica,Universidad de Costa Rica,Costa Rica,2003,10
+HJQ0,Maestría,Ingeniería de Protección Contra Incendios,UNED,España,2019,12
+COZ0,Bachillerato,Ingeniería Mecánica,Universidad de Costa Rica,Costa Rica,2005,
 COZ0,Maestría,Sistemas Modernos de Manufactura,Instituto Tecnológico de Costa Rica,Costa Rica,2013,10
-VJH0,Bachillerato,Ingenieía Mecánica Aeronáutica,KIIGA,Rusia,1992,
+VJH0,Bachillerato,Ingeniería Mecánica Aeronáutica,KIIGA,Rusia,1992,
 VJH0,Mestría,Ciencia de la Ingeniería,KIIGA,Rusia,1992,
 LGG0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1994,
 LGG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
@@ -33,4 +33,32 @@ LMS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico
 LMS0,Maestría,Ingeniería en Computación,Instituto Tecnológico de Costa Rica,Costa Rica,2004,
 LMS0,Maestría,Ingeniería Electrica,Universidad de Costa Rica,Costa Rica,2016,
 LMS0,Doctorado,Sistemas Fotovoltaicos,Instituto Tecnológico de Costa Rica,Costa Rica,2022,
-LMS0,Doctorado,Sistemas Fotovoltaicos,Instituto Tecnológico de Costa Rica,Costa Rica,2022,
+SMO0,Licenciatura,Ingenoería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,02
+SMO0,Maestría,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2017,11
+CPS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1993,12
+CPS0,Maestría,Admministración de la Ingeniería Electromecánica con énfasis en Gestión de Mantenimiento,Instituto Tecnológico de Costa Rica,Costa Rica,2011,12
+FBG0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2005,
+FBG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,
+GBG0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,09
+GBG0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2003,09
+GBG0,Maestría,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2017,11
+GGR0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001,
+GGR0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002,
+GGR0,Maestría,Ingeniería Eléctrica,Universidad de Costa Rica,Costa Rica,2014,
+GGR0,Maestría,Administración de Negocios,Universidad Estatal a Distancia,Costa Rica,2018,
+GGR0,Doctorado,Ingeniería,Instituto Tecnológico de Costa Rica,Costa Rica,2024,
+GRN0,Bachillerato,Física,Universidad de Costa Rica,Costa Rica,2009,02
+GRN0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008,09
+GRN0,Maestría,Ciencias de la Ingeniería Mecánica,Universidad de Chile,Chile,2014,10
+GRN0,Doctorado,Ingeniería,Universidad de Costa Rica,Costa Rica,2022,12
+IVG0,Licenciatura,Ingeniería Mecánica,Universidad de Costa Rica,Costa Rica,0000,
+IVG0,Maestría,Administración de Ingeniería Electromecánica,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
+IVG0,Maestría,Gestión y Generación de Energía,Universidad de Cadíz,España,0000,
+JGC0,Bachillerato,Enseñanza de Electromecánica,Universidad Técnica Nacional,Costa Rica,2012,11
+JGC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,02
+JMJ0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011,09
+JMJ0,Maestría,Ingeniería Aeroespacial,ISAE-SUPAERO,Francia,2018,09
+JMJ0,Doctorado,Ingeniería Industrial e Informática,ISAE-SUPAERO,Francia,2022,02
+JAC0,Bachillerato,Ingeniería Electromecánica,Universidad Internacional de las Americas,Costa Rica,0000,
+JAC0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
+JAC0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,0000,
