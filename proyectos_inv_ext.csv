@@ -1,12 +1,10 @@
-codigo,numProy,proyecto,inicio,fin,tipo,nombre,inicioNom,finNom,horas,investigador,id
-JRH0,0000-0136-0036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,12/31/2019,Investigación,Ingeniería en Electrónica,01/01/2016,09/26/2016,10,Juan José Rojas Hernández,303920836
-JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química,03/01/2020,12/31/2020,8,Juan José Rojas Hernández,303920836
-JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química,01/01/2021,12/31/2021,8,Juan José Rojas Hernández,303920836
-JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química,01/01/2022,12/31/2022,8,Juan José Rojas Hernández,303920836
-JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica,07/01/2022,12/31/2023,10,Juan José Rojas Hernández,303920836
-JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica,07/01/2023,06/30/2024,8,Juan José Rojas Hernández,303920836
-JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica,01/01/2024,12/31/2024,8,Juan José Rojas Hernández,303920836
-JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica,01/01/2025,12/31/2025,8,Juan José Rojas Hernández,303920836
-JRH0,00-0134-1016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,06/30/2023,Extensión,Ingeniería Electromecánica,07/01/2022,06/30/2023,2,Juan José Rojas Hernández,303920836
-JRH0,1341023,
-
+codigo,numProy,proyecto,inicio,fin,tipo,nombre
+JRH0,0000-0136-0036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,12/31/2019,Investigación,Ingeniería en Electrónica
+JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química
+JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica
+JRH0,00-0134-1016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,06/30/2023,Extensión,Ingeniería Electromecánica
+JRH0,1341023,Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor aprovechamiento del recurso hídrico mediante la incorporación de sistemas IoT,05/15/2023,12/31/2023,Extensión,Ingeniería Electromecánica
+JRH0,0000-0134-1025,Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico,01/01/2024,12/31/2025,Investigación,Ingeniería Electromecánica
+JRH0,1341029,Desarrollo de un sistema de monitoreo y alerta para la detección de la exposición al calor en labores agrícolas: Aplicación en la zafra de la caña de azúcar,01/01/2025,12/31/2027,Investigación, Ingeniería Electromecánica
+JRH0,1460108,Desarrollo de una plataforma tecnológica escalable y modular para el registro de variables físicas y químicas asociadas a la calidad y abundancia del agua potable,01/01/2025,13/31/2027,Investigación,Química
+JRH0,1340030,ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago,01/01/2025,12/31/2026,Extensión,Ingeniería Electromecánica
