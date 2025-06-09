@@ -1,0 +1,22 @@
+cv:
+  name: Luis Felipe Córdoba Ramírez
+  email: lfcordoba@itcr.ac.cr
+  phone: +506-25509347
+  orcid: 0000-0003-2345-1528
+locale:
+  language: es
+  phone_number_format: national
+  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: Última actualización el TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    pdf_path: CVs/LCR0.pdf
+    typst_path: CVs/LCR0.typ
+    html_path: CVs/LCR0.html
+    markdown_path: CVs/LCR0.md
+    dont_generate_html: true
+    dont_generate_markdown: false
+    dont_generate_png: false
