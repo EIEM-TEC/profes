@@ -10,14 +10,62 @@ output_dir = "yamls"
 os.makedirs(output_dir, exist_ok=True)
 
 # === Step 3: Function to create a RenderCV-compatible YAML dict ===
-def make_rendercv_yaml(profe):   
+def make_rendercv_yaml(profe):
+
+
+
+    # Normalizar fecha (si viene como dd/mm/yyyy)
+    def normalizar_fecha(fecha, permitir_año=True):
+        try:
+            if isinstance(fecha, float):
+                return str(int(fecha))
+            if "/" in fecha:
+                partes = fecha.strip().split("/")
+                if len(partes) == 3:
+                    return f"{partes[2]}-{partes[1].zfill(2)}-{partes[0].zfill(2)}"
+                elif len(partes) == 2:
+                    return f"{partes[1]}-{partes[0].zfill(2)}"
+                elif len(partes) == 1:
+                    return partes[0] if permitir_año else ""
+            if "-" in fecha:
+                return fecha  # ya tiene formato válido
+            if len(fecha) == 4 and fecha.isdigit():
+                return fecha
+        except:
+            pass
+        return
     yaml_dict = {
         "cv": {
             "name": profe["nombre"],
             "email": profe["correo"],
             "phone": f"+506-{row["telefono"]}",
-            "orcid": profe["orcid"]
+            "orcid": profe["orcid"],
+            "sections": {
+                "education": [
+                    {
+                        "institution": profe.get("colegio", ""),
+                        "area": profe.get("titulo", ""),
+                        "degree": profe.get("titulo", ""),
+                        "location": profe.get("colegio", ""),
+                        "start_date": normalizar_fecha(profe.get("incCol", "")),
+                        "end_date": normalizar_fecha(profe.get("incCol", "")),
+                        "highlights": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "company": profe.get("escuela", ""),
+                        "position": profe.get("tipoNom", ""),
+                        "area": "Docencia",
+                        "location": profe.get("sede", ""),
+                        "start_date": normalizar_fecha(profe.get("fechaCon", "")),
+                        "end_date": "present",
+                        "highlights": []
+                    }
+                ]
+            },
         },
+
         "locale": {
             "language": "es",
             "phone_number_format": "national",
@@ -37,13 +85,16 @@ def make_rendercv_yaml(profe):
                 "dont_generate_markdown": False,
                 "dont_generate_png": False
             }
-        }
+        },
+
         # "personal": {
         #     "name": name,
         #     "email": row["correo"],
         #     "phone": str(row["telefono"]),
         #     "orcid": row["orcid"]
         # },
+
+        
         # "education": [
         #     {
         #         "degree": row["titulo"],
@@ -71,6 +122,7 @@ for _, row in datos.iterrows():
         yaml.dump(yaml_dict, f, allow_unicode=True, sort_keys=False)
 
 print(f"✅ Se generaron {len(datos)} archivos YAML en el folder '{output_dir}'")
+
 
 
 
