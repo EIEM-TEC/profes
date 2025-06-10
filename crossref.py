@@ -45,7 +45,7 @@ def get_ieee_metadata_from_crossref(doi):
             "titulo": data.get("title", [""])[0],
             "revista": data.get("container-title", [""])[0],
             "tipo": data.get("type", ""),
-            "autores": ", ".join(authors),
+            "autores": ";".join(authors),
             "año": year,
             "mes": month,
             "dia": day,

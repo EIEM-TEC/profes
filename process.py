@@ -9,7 +9,7 @@ today = date.today()
 datos = pd.read_csv("datos.csv")
 grados = pd.read_csv("grados.csv")
 carrera = pd.read_csv("carrera.csv")
-publicacioness = pd.read_csv("publicaciones.csv")
+publicaciones = pd.read_csv("publicaciones.csv")
 
 # === Step 2: Create output folder ===
 output_dir = "yamls"
@@ -38,7 +38,18 @@ def make_career_entries(id,carrera):
         career_entries.append(entry)
     return career_entries
 
-def make_publication_entries(id,publicaciones)
+def make_publication_entries(id,publicaciones):
+    publication_entries = []
+    for _, row in publicaciones.iterrows():
+        print(row.get("autores","").split(";"))
+        entry = {
+            "title": row["titulo"]   
+        }
+        publication_entries.append(entry)
+    return publication_entries
+
+id = "JRH0"
+make_publication_entries(id,publicaciones)
 
 # Normalizar fecha (si viene como dd/mm/yyyy)
 def normalizar_fecha(fecha, permitir_año=True):
