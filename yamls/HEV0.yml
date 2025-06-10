@@ -24,7 +24,7 @@ locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 09/06/2025'
+  last_updated_date_template: 'Última actualización: 10/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -32,31 +32,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Feb: null
-    Sep: null
-    Nov: null
     Jun: null
-    Jul: null
-    Abr: null
-    May: null
-    Oct: null
     Ene: null
+    Abr: null
+    Jul: null
     Dic: null
+    Sep: null
+    Oct: null
+    May: null
     Ago: null
     Mar: null
+    Feb: null
+    Nov: null
   full_names_of_months: !!set
-    Noviembre: null
     Marzo: null
-    Octubre: null
-    Abril: null
-    Junio: null
-    Julio: null
-    Agosto: null
     Diciembre: null
+    Abril: null
     Mayo: null
-    Febrero: null
-    Septiembre: null
     Enero: null
+    Junio: null
+    Agosto: null
+    Julio: null
+    Febrero: null
+    Octubre: null
+    Septiembre: null
+    Noviembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:

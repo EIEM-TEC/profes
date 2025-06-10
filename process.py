@@ -41,7 +41,7 @@ def make_career_entries(id,carrera):
 def make_publication_entries(id,publicaciones):
     publication_entries = []
     for _, row in publicaciones.iterrows():
-        print(row.get("autores","").split(";"))
+        #print(row.get("autores","").split(";"))
         entry = {
             "title": row["titulo"]   
         }
