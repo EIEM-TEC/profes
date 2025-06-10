@@ -3,61 +3,61 @@
 
 #let name = "Juan José Rojas Hernández"
 #let locale-catalog-page-numbering-style = context { "Juan José Rojas Hernández - Página " + str(here().page()) + " de " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Última actualización el June 2025"
+#let locale-catalog-last-updated-date-style = "Última actualización: 09/06/2025"
 #let locale-catalog-language = "es"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.2em
 #let design-colors-text = rgb(0, 0, 0)
-#let design-colors-section-titles = rgb(0, 79, 144)
+#let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
-#let design-colors-name = rgb(0, 79, 144)
-#let design-colors-connections = rgb(0, 79, 144)
-#let design-colors-links = rgb(0, 79, 144)
-#let design-section-titles-font-family = "Source Sans 3"
+#let design-colors-name = rgb(0, 0, 0)
+#let design-colors-connections = rgb(0, 0, 0)
+#let design-colors-links = rgb(0, 0, 0)
+#let design-section-titles-font-family = "XCharter"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.2em
 #let design-section-titles-type = "with-parial-line"
-#let design-section-titles-vertical-space-above = 0.5cm
+#let design-section-titles-vertical-space-above = 0.55cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
-#let design-links-use-external-link-icon = true
+#let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
-#let design-text-font-family = "Source Sans 3"
+#let design-text-font-family = "XCharter"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
-#let design-header-use-icons-for-connections = true
-#let design-header-name-font-family = "Source Sans 3"
-#let design-header-name-font-size = 30pt
-#let design-header-name-bold = true
-#let design-header-connections-font-family = "Source Sans 3"
+#let design-header-use-icons-for-connections = false
+#let design-header-name-font-family = "XCharter"
+#let design-header-name-font-size = 25pt
+#let design-header-name-bold = false
+#let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
-#let design-header-use-icons-for-connections = true
+#let design-header-use-icons-for-connections = false
 #let design-header-horizontal-space-between-connections = 0.5cm
-#let design-header-separator-between-connections = ""
+#let design-header-separator-between-connections = "|"
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
 #let design-highlights-top-margin = 0.25cm
-#let design-highlights-left-margin = 0.4cm
-#let design-highlights-vertical-space-between-highlights = 0.25cm
-#let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
-#let design-entries-vertical-space-between-entries = 1.2em
+#let design-highlights-left-margin = 0cm
+#let design-highlights-vertical-space-between-highlights = 0.19cm
+#let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
+#let design-entries-vertical-space-between-entries = 0.4cm
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
-#let design-entries-left-and-right-margin = 0.2cm
+#let design-entries-left-and-right-margin = 0cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
 #let design-page-left-margin = 2cm
 #let design-page-right-margin = 2cm
 #let design-page-show-last-updated-date = true
-#let design-page-show-page-numbering = true
-#let design-links-underline = false
-#let design-entry-types-education-entry-degree-column-width = 1cm
+#let design-page-show-page-numbering = false
+#let design-links-underline = true
+#let design-entry-types-education-entry-degree-column-width = 2.5cm
 #let date = datetime.today()
 
 // Metadata:
@@ -451,10 +451,203 @@
 
 // Print connections:
 #let connections-list = (
-  [#box(original-link("mailto:juan.rojas@itcr.ac.cr")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)juan.rojas\@itcr.ac.cr])],
-  [#box(original-link("tel:+506-8858-1419")[#fa-icon("phone", size: 0.9em) #h(0.05cm)8858 1419])],
+  [#box(original-link("mailto:juan.rojas@itcr.ac.cr")[juan.rojas\@itcr.ac.cr])],
+  [#box(original-link("tel:+506-8858-1419")[8858 1419])],
 )
 #connections(connections-list)
+
+
+
+== Información Laboral
+
+
+#one-col-entry(
+  content: [#strong[Cédula:] 303910836]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Tipo de nombramiento:] Propiedad]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Fecha de contratación:] 03\/02\/2014]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Sede:] Cartago]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Escuela:] Ingeniería Electromecánica]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Correo:] juan.rojas\@itcr.ac.cr]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[ORCID:] 0000-0002-3261-5005]
+)
+
+
+== Educación
+
+
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Instituto Tecnológico de Costa Rica], Licenciatura in Ingeniería en Mantenimiento Industrial -- Costa Rica
+  ],
+  right-content: [
+    Ago 2008
+  ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
+)
+
+#v(design-entries-vertical-space-between-entries)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Instituto Tecnológico de Costa Rica], Maestría in Ingeniería en Electrónica con énfasis en microsistemas -- Costa Rica
+  ],
+  right-content: [
+    Ago 2016
+  ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
+)
+
+#v(design-entries-vertical-space-between-entries)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Instituto Tecnológico de Kyushu], Doctorado in Ciencia aplicada a la integración de sistemas -- Japón
+  ],
+  right-content: [
+    Ago 2020
+  ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
+)
+
+
+
+== Carrera Profesional
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Profesor Instructor] 
+  ],
+  right-content: [
+    03\/02\/2014
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Medio Profesor Adjunto] 
+  ],
+  right-content: [
+    01\/17\/2016
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Profesor Adjunto] 
+  ],
+  right-content: [
+    25\/10\/2019
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Intermedio Profesor Asociado] 
+  ],
+  right-content: [
+    02\/11\/2021
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Profesor Asociado] 
+  ],
+  right-content: [
+    02\/02\/2022
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Intermedio Profesor Catedrático] 
+  ],
+  right-content: [
+    03\/03\/2025
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
 
 
 

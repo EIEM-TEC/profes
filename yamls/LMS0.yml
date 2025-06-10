@@ -2,13 +2,91 @@ cv:
   name: Luis Diego Murillo Soto
   email: lmurillo@itcr.ac.cr
   phone: +506-25509347
-  orcid: 0000-0002-6601-1082
+  sections:
+    Información laboral:
+    - label: Cédula
+      details: '109320672'
+    - label: Tipo de nombramiento
+      details: Propiedad
+    - label: Fecha de contratación
+      details: 19/07/2002
+    - label: Sede
+      details: Cartago
+    - label: Escuela
+      details: Ingeniería Electromecánica
+    - label: Correo
+      details: lmurillo@itcr.ac.cr
+    - label: ORCID
+      details: 0000-0002-6601-1082
+    Educación:
+    - institution: COVAO
+      area: Electrónica
+      degree: Técnico
+      location: Costa Rica
+      end_date: 1994-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Bachillerato
+      location: Costa Rica
+      end_date: 1999-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Computación
+      degree: Maestría
+      location: Costa Rica
+      end_date: 2004-01
+    - institution: CNAD
+      area: Robótica Industrial
+      degree: Especialización
+      location: México
+      end_date: 2004-01
+    - institution: Universidad de Costa Rica
+      area: Ingeniería Electrica
+      degree: Maestría
+      location: Costa Rica
+      end_date: 2016-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Sistemas Fotovoltaicos
+      degree: Doctorado
+      location: Costa Rica
+      end_date: 2022-01
+    Carrera profesional: []
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: Última actualización el TODAY
+  last_updated_date_template: 'Última actualización: 09/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualmente
+  abbreviations_for_months: !!set
+    Ago: null
+    Mar: null
+    Abr: null
+    May: null
+    Ene: null
+    Dic: null
+    Jul: null
+    Feb: null
+    Sep: null
+    Jun: null
+    Nov: null
+    Oct: null
+  full_names_of_months: !!set
+    Febrero: null
+    Octubre: null
+    Agosto: null
+    Enero: null
+    Junio: null
+    Abril: null
+    Marzo: null
+    Julio: null
+    Mayo: null
+    Septiembre: null
+    Diciembre: null
+    Noviembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -20,3 +98,8 @@ rendercv_settings:
     dont_generate_html: true
     dont_generate_markdown: false
     dont_generate_png: false
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      degree_column_width: 2.5cm

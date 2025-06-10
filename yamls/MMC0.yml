@@ -2,13 +2,76 @@ cv:
   name: Manuel Francisco Mata Coto
   email: mfmata@itcr.ac.cr
   phone: +506-25509349
-  orcid: .nan
+  sections:
+    Información laboral:
+    - label: Cédula
+      details: '303300268'
+    - label: Tipo de nombramiento
+      details: Propiedad
+    - label: Fecha de contratación
+      details: 05/02/2002
+    - label: Sede
+      details: Cartago
+    - label: Escuela
+      details: Ingeniería Electromecánica
+    - label: Correo
+      details: mfmata@itcr.ac.cr
+    - label: ORCID
+      details: .nan
+    Educación:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Bachillerato
+      location: Costa Rica
+      end_date: 1996-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Licenciatura
+      location: Costa Rica
+      end_date: 1998-01
+    - institution: Centro Nacional de Investigación y Desarrollo Tecnólogico
+      area: Ingeniería Mecánica Especialidad en Diseño Mecánico
+      degree: Maestría
+      location: México
+      end_date: 2001-01
+    Carrera profesional: []
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: Última actualización el TODAY
+  last_updated_date_template: 'Última actualización: 09/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualmente
+  abbreviations_for_months: !!set
+    Ago: null
+    Mar: null
+    Abr: null
+    May: null
+    Ene: null
+    Dic: null
+    Jul: null
+    Feb: null
+    Sep: null
+    Jun: null
+    Nov: null
+    Oct: null
+  full_names_of_months: !!set
+    Febrero: null
+    Octubre: null
+    Agosto: null
+    Enero: null
+    Junio: null
+    Abril: null
+    Marzo: null
+    Julio: null
+    Mayo: null
+    Septiembre: null
+    Diciembre: null
+    Noviembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -20,3 +83,8 @@ rendercv_settings:
     dont_generate_html: true
     dont_generate_markdown: false
     dont_generate_png: false
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      degree_column_width: 2.5cm
