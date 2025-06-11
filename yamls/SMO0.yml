@@ -1,0 +1,85 @@
+cv:
+  name: Sebastián Mata Ortega
+  email: semata@itcr.ac.cr
+  phone: +506-25509343
+  sections:
+    Información laboral:
+    - label: Cédula
+      details: '304270273'
+    - label: Tipo de nombramiento
+      details: Propiedad
+    - label: Fecha de contratación
+      details: 01/02/2016
+    - label: Sede
+      details: Cartago
+    - label: Escuela
+      details: Ingeniería Electromecánica
+    - label: Correo
+      details: semata@itcr.ac.cr
+    - label: ORCID
+      details: 0000-0003-3437-656X
+    Educación:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Licenciatura
+      location: Costa Rica
+      end_date: 2011-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Maestría
+      location: Costa Rica
+      end_date: 2017-01
+    Carrera profesional: []
+locale:
+  language: es
+  phone_number_format: national
+  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: 'Última actualización: 10/06/2025'
+  date_template: MONTH_ABBREVIATION YEAR
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualmente
+  abbreviations_for_months: !!set
+    Jun: null
+    Ene: null
+    Abr: null
+    Jul: null
+    Dic: null
+    Sep: null
+    Oct: null
+    May: null
+    Ago: null
+    Mar: null
+    Feb: null
+    Nov: null
+  full_names_of_months: !!set
+    Marzo: null
+    Diciembre: null
+    Abril: null
+    Mayo: null
+    Enero: null
+    Junio: null
+    Agosto: null
+    Julio: null
+    Febrero: null
+    Octubre: null
+    Septiembre: null
+    Noviembre: null
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    pdf_path: CVs/SMO0.pdf
+    typst_path: CVs/SMO0.typ
+    html_path: CVs/SMO0.html
+    markdown_path: CVs/SMO0.md
+    dont_generate_html: true
+    dont_generate_markdown: false
+    dont_generate_png: false
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      degree_column_width: 2.5cm

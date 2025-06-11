@@ -1,0 +1,75 @@
+cv:
+  name: Herson Esquivel Vargas
+  email: h.esquivelvargas@itcr.ac.cr
+  phone: +506-88131925
+  sections:
+    Información laboral:
+    - label: Cédula
+      details: '304100380'
+    - label: Tipo de nombramiento
+      details: Contratado por tiempo definido
+    - label: Fecha de contratación
+      details: 01/02/2012
+    - label: Sede
+      details: Cartago
+    - label: Escuela
+      details: Ingeniería en Computación
+    - label: Correo
+      details: h.esquivelvargas@itcr.ac.cr
+    - label: ORCID
+      details: 0009-0009-9828-6775
+    Educación: []
+    Carrera profesional: []
+locale:
+  language: es
+  phone_number_format: national
+  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: 'Última actualización: 10/06/2025'
+  date_template: MONTH_ABBREVIATION YEAR
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualmente
+  abbreviations_for_months: !!set
+    Jun: null
+    Ene: null
+    Abr: null
+    Jul: null
+    Dic: null
+    Sep: null
+    Oct: null
+    May: null
+    Ago: null
+    Mar: null
+    Feb: null
+    Nov: null
+  full_names_of_months: !!set
+    Marzo: null
+    Diciembre: null
+    Abril: null
+    Mayo: null
+    Enero: null
+    Junio: null
+    Agosto: null
+    Julio: null
+    Febrero: null
+    Octubre: null
+    Septiembre: null
+    Noviembre: null
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    pdf_path: CVs/HEV0.pdf
+    typst_path: CVs/HEV0.typ
+    html_path: CVs/HEV0.html
+    markdown_path: CVs/HEV0.md
+    dont_generate_html: true
+    dont_generate_markdown: false
+    dont_generate_png: false
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      degree_column_width: 2.5cm

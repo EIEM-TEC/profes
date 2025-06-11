@@ -1,0 +1,95 @@
+cv:
+  name: Oscar Monge Ruiz
+  email: omonge@itcr.ac.cr
+  phone: +506-25509349
+  sections:
+    Información laboral:
+    - label: Cédula
+      details: '303100709'
+    - label: Tipo de nombramiento
+      details: Propiedad
+    - label: Fecha de contratación
+      details: 16/07/2014
+    - label: Sede
+      details: Cartago
+    - label: Escuela
+      details: Ingeniería Electromecánica
+    - label: Correo
+      details: omonge@itcr.ac.cr
+    - label: ORCID
+      details: .nan
+    Educación:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Bachillerato
+      location: Costa Rica
+      end_date: 1988-01
+    - institution: FYCSA
+      area: Energía Solar Fotovoltaica
+      degree: Especialización
+      location: España
+      end_date: 1989-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Mantenimiento Industrial
+      degree: Licenciatura
+      location: Costa Rica
+      end_date: 1993-01
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Administración de Empresas
+      degree: Maestría
+      location: Costa Rica
+      end_date: 2001-01
+    Carrera profesional: []
+locale:
+  language: es
+  phone_number_format: national
+  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: 'Última actualización: 10/06/2025'
+  date_template: MONTH_ABBREVIATION YEAR
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: actualmente
+  abbreviations_for_months: !!set
+    Jun: null
+    Ene: null
+    Abr: null
+    Jul: null
+    Dic: null
+    Sep: null
+    Oct: null
+    May: null
+    Ago: null
+    Mar: null
+    Feb: null
+    Nov: null
+  full_names_of_months: !!set
+    Marzo: null
+    Diciembre: null
+    Abril: null
+    Mayo: null
+    Enero: null
+    Junio: null
+    Agosto: null
+    Julio: null
+    Febrero: null
+    Octubre: null
+    Septiembre: null
+    Noviembre: null
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    pdf_path: CVs/OMR0.pdf
+    typst_path: CVs/OMR0.typ
+    html_path: CVs/OMR0.html
+    markdown_path: CVs/OMR0.md
+    dont_generate_html: true
+    dont_generate_markdown: false
+    dont_generate_png: false
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      degree_column_width: 2.5cm
