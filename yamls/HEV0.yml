@@ -1,5 +1,5 @@
 cv:
-  name: Herson Esquivel Vargas
+  name: Herson Esquivel Vargas, Ph.D.
   email: h.esquivelvargas@itcr.ac.cr
   phone: +506-88131925
   sections:
@@ -18,13 +18,30 @@ cv:
       details: h.esquivelvargas@itcr.ac.cr
     - label: ORCID
       details: 0009-0009-9828-6775
-    Educación: []
-    Carrera profesional: []
+    Educación:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Computación
+      degree: Bachillerato
+      location: Costa Rica
+      end_date: '2008'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ciencias de la Computación con énfasis en Telemática
+      degree: Maestría
+      location: Costa Rica
+      end_date: '2012'
+    - institution: Instituto Kerckhoffs - Universidades de Twente, Eindhoven y Nijmegen
+      area: Ciencias de la Computación con énfasis en Ciberseguridad
+      degree: Maestría
+      location: Holanda
+      end_date: '2016'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/02/2012
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 11/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -32,42 +49,38 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
+    Nov: null
     Ene: null
+    Jun: null
     Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
+    Feb: null
     Oct: null
     May: null
-    Ago: null
     Mar: null
-    Feb: null
-    Nov: null
+    Jul: null
+    Ago: null
+    Sep: null
+    Dic: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
-    Junio: null
-    Agosto: null
-    Julio: null
     Febrero: null
-    Octubre: null
+    Junio: null
     Septiembre: null
+    Agosto: null
+    Abril: null
+    Octubre: null
+    Mayo: null
+    Julio: null
+    Marzo: null
+    Enero: null
     Noviembre: null
+    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/HEV0.pdf
-    typst_path: CVs/HEV0.typ
-    html_path: CVs/HEV0.html
-    markdown_path: CVs/HEV0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:

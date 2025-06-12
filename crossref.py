@@ -43,7 +43,7 @@ def get_ieee_metadata_from_crossref(doi):
         day = safe_get(data, "issued", "date-parts", 0, 2, default="")
         return {
             "titulo": data.get("title", [""])[0],
-            "revista": data.get("container-title", [""])[0],
+            "revista": data.get("container-title", [""])[0] if data.get("container-title") else "",
             "tipo": data.get("type", ""),
             "autores": ";".join(authors),
             "año": year,
@@ -78,12 +78,13 @@ def get_metadata_from_orcid_work(orcid_id, put_code):
         }
     return {}
 
-def procesar_orcid_desde_csv(input_csv="datos.csv", output_csv="publicaciones.csv"):
+def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicaciones.csv"):
     with open(input_csv, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         publicaciones = []
 
         for row in reader:
+            print(row["nombre"])
             codigo = row["codigo"]
             orcid = row["orcid"]
             print(f"Procesando ORCID {orcid}...")

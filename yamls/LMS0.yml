@@ -1,5 +1,5 @@
 cv:
-  name: Luis Diego Murillo Soto
+  name: M.Sc. Luis Diego Murillo Soto
   email: lmurillo@itcr.ac.cr
   phone: +506-25509347
   sections:
@@ -23,38 +23,48 @@ cv:
       area: Electrónica
       degree: Técnico
       location: Costa Rica
-      end_date: 1994-01
+      end_date: '1994'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Bachillerato
       location: Costa Rica
-      end_date: 1999-01
+      end_date: '1999'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Computación
       degree: Maestría
       location: Costa Rica
-      end_date: 2004-01
+      end_date: '2004'
     - institution: CNAD
       area: Robótica Industrial
       degree: Especialización
       location: México
-      end_date: 2004-01
+      end_date: '2004'
     - institution: Universidad de Costa Rica
       area: Ingeniería Electrica
       degree: Maestría
       location: Costa Rica
-      end_date: 2016-01
+      end_date: '2016'
     - institution: Instituto Tecnológico de Costa Rica
       area: Sistemas Fotovoltaicos
       degree: Doctorado
       location: Costa Rica
-      end_date: 2022-01
-    Carrera profesional: []
+      end_date: '2022'
+    Carrera profesional:
+    - name: Profesor Adjunto
+      date: 01/07/2007
+    - name: Profesor Asociado
+      date: 01/07/2012
+    - name: Profesor Catedrático
+      date: 01/07/2018
+    - name: Profesor Catedrático Paso1
+      date: 01/09/2021
+    - name: Profesor Catedrático Paso2
+      date: 01/07/2024
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 11/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -62,42 +72,38 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
+    Nov: null
     Ene: null
+    Jun: null
     Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
+    Feb: null
     Oct: null
     May: null
-    Ago: null
     Mar: null
-    Feb: null
-    Nov: null
+    Jul: null
+    Ago: null
+    Sep: null
+    Dic: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
-    Junio: null
-    Agosto: null
-    Julio: null
     Febrero: null
-    Octubre: null
+    Junio: null
     Septiembre: null
+    Agosto: null
+    Abril: null
+    Octubre: null
+    Mayo: null
+    Julio: null
+    Marzo: null
+    Enero: null
     Noviembre: null
+    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/LMS0.pdf
-    typst_path: CVs/LMS0.typ
-    html_path: CVs/LMS0.html
-    markdown_path: CVs/LMS0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:

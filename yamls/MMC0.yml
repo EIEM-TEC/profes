@@ -1,5 +1,5 @@
 cv:
-  name: Manuel Francisco Mata Coto
+  name: M.Sc. Manuel Francisco Mata Coto
   email: mfmata@itcr.ac.cr
   phone: +506-25509349
   sections:
@@ -17,29 +17,31 @@ cv:
     - label: Correo
       details: mfmata@itcr.ac.cr
     - label: ORCID
-      details: .nan
+      details: N/A
     Educación:
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Bachillerato
       location: Costa Rica
-      end_date: 1996-01
+      end_date: '1996'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 1998-01
+      end_date: '1998'
     - institution: Centro Nacional de Investigación y Desarrollo Tecnólogico
       area: Ingeniería Mecánica Especialidad en Diseño Mecánico
       degree: Maestría
       location: México
-      end_date: 2001-01
-    Carrera profesional: []
+      end_date: '2001'
+    Carrera profesional:
+    - name: Profesor Asociado
+      date: 01/09/2002
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 11/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,42 +49,38 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
+    Nov: null
     Ene: null
+    Jun: null
     Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
+    Feb: null
     Oct: null
     May: null
-    Ago: null
     Mar: null
-    Feb: null
-    Nov: null
+    Jul: null
+    Ago: null
+    Sep: null
+    Dic: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
-    Junio: null
-    Agosto: null
-    Julio: null
     Febrero: null
-    Octubre: null
+    Junio: null
     Septiembre: null
+    Agosto: null
+    Abril: null
+    Octubre: null
+    Mayo: null
+    Julio: null
+    Marzo: null
+    Enero: null
     Noviembre: null
+    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/MMC0.pdf
-    typst_path: CVs/MMC0.typ
-    html_path: CVs/MMC0.html
-    markdown_path: CVs/MMC0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:

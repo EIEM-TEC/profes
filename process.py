@@ -6,10 +6,11 @@ from datetime import date
 today = date.today()
 
 # === Cargar los csv con los datos de los profes ===
-datos = pd.read_csv("datos.csv")
-grados = pd.read_csv("grados.csv")
-carrera = pd.read_csv("carrera.csv")
-publicaciones = pd.read_csv("publicaciones.csv")
+datos = pd.read_csv("00_datos.csv")
+grados = pd.read_csv("01_grados.csv")
+publicaciones = pd.read_csv("05_publicaciones.csv")
+carrera = pd.read_csv("07_carrera.csv")
+
 
 # === Step 2: Create output folder ===
 output_dir = "yamls"
@@ -23,7 +24,7 @@ def make_education_entries(id,grados):
             "area": row["campo"],
             "degree": row["grado"],
             "location": row["pais"],
-            "end_date": f"{int(row['año'])}-{int(row.get("mes","01")):02}",
+            "end_date": f"{int(row['año'])}",
         }
         education_entries.append(entry)
     return education_entries
@@ -74,11 +75,17 @@ def normalizar_fecha(fecha, permitir_año=True):
 
 # === Step 3: Function to create a RenderCV-compatible YAML dict ===
 def make_rendercv_yaml(id,datos,grados):
+    print(datos.nombre)
+    match datos.titulo:
+            case "M.Sc." | "Lic." | "Ing." | "Máster" | "Dr.-Ing." | "Mag.":
+                nombre =  f"{datos.titulo} {datos.nombre}"
+            case "Ph.D.":
+                nombre = f"{datos.nombre}, {datos.titulo}"
     education = make_education_entries(id,grados[grados["codigo"]==id])
     career = make_career_entries(id,carrera[carrera["codigo"]==id])
     yaml_dict = {
         "cv": {
-            "name": datos["nombre"],
+            "name": nombre,
             "email": datos["correo"],
             "phone": f"+506-{datos["telefono"]}",
             "sections": {
@@ -109,7 +116,7 @@ def make_rendercv_yaml(id,datos,grados):
                     },
                     {
                         "label": "ORCID",
-                        "details": datos["orcid"]
+                        "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"
                     }
                 ],
                 "Educación": education,
@@ -160,13 +167,9 @@ def make_rendercv_yaml(id,datos,grados):
             "date": "2025-06-08",
             "render_command": {
                 "output_folder_name": "CVs",
-                "pdf_path": f"CVs/{id}.pdf",
-                "typst_path": f"CVs/{id}.typ",
-                "html_path": f"CVs/{id}.html",
-                "markdown_path": f"CVs/{id}.md",
                 "dont_generate_html": True,
-                "dont_generate_markdown": False,
-                "dont_generate_png": False
+                "dont_generate_markdown": True,
+                "dont_generate_png": True
             }
         },
         "design": {

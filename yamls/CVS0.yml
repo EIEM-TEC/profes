@@ -1,5 +1,5 @@
 cv:
-  name: Christopher Vega Sánchez
+  name: Christopher Vega Sánchez, Ph.D.
   email: cvega@itcr.ac.cr
   phone: +506-25509380
   sections:
@@ -23,23 +23,25 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2008-01
+      end_date: '2008'
     - institution: Albert Ludwing University Freiburg
       area: Ingeniería en Microsistemas Electromecánicos
       degree: Maestría
       location: Alemania
-      end_date: 2013-01
+      end_date: '2013'
     - institution: Universidad de Sídney
       area: Ingeniería de Superficies
       degree: Doctorado
       location: Australia
-      end_date: 2022-01
-    Carrera profesional: []
+      end_date: '2022'
+    Carrera profesional:
+    - name: Profesor Asociado
+      date: 08/03/2024
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 11/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,42 +49,38 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
+    Nov: null
     Ene: null
+    Jun: null
     Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
+    Feb: null
     Oct: null
     May: null
-    Ago: null
     Mar: null
-    Feb: null
-    Nov: null
+    Jul: null
+    Ago: null
+    Sep: null
+    Dic: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
-    Junio: null
-    Agosto: null
-    Julio: null
     Febrero: null
-    Octubre: null
+    Junio: null
     Septiembre: null
+    Agosto: null
+    Abril: null
+    Octubre: null
+    Mayo: null
+    Julio: null
+    Marzo: null
+    Enero: null
     Noviembre: null
+    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/CVS0.pdf
-    typst_path: CVs/CVS0.typ
-    html_path: CVs/CVS0.html
-    markdown_path: CVs/CVS0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
