@@ -10,6 +10,13 @@ def safe_get(d, *keys, default=""):
             return default
     return d if d is not None else default
 
+def get_first_date(data, keys=("published", "published-online", "published-print")):
+    for key in keys:
+        parts = safe_get(data, key, "date-parts", default=[])
+        if isinstance(parts, list) and len(parts) > 0 and isinstance(parts[0], list):
+            return parts[0]  # [year, month, day...]
+    return ["", "", ""]
+
 def get_orcid_dois_with_paths(orcid_id):
     url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
     headers = {"Accept": "application/json"}
@@ -38,9 +45,10 @@ def get_ieee_metadata_from_crossref(doi):
         data = response.json().get("message", {})
         authors = ["{} {}".format(a.get("given", ""), a.get("family", "")).strip()
                    for a in data.get("author", [])]
-        year = safe_get(data, "issued", "date-parts", 0, 0, default="")
-        month = safe_get(data, "issued", "date-parts", 0, 1, default="")
-        day = safe_get(data, "issued", "date-parts", 0, 2, default="")
+        date_parts = get_first_date(data)
+        year = date_parts[0] if len(date_parts) > 0 else ""
+        month = date_parts[1] if len(date_parts) > 1 else ""
+        day = date_parts[2] if len(date_parts) > 2 else ""
         return {
             "titulo": data.get("title", [""])[0],
             "revista": data.get("container-title", [""])[0] if data.get("container-title") else "",
@@ -105,7 +113,7 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
                     metadata["codigo"] = codigo
                     publicaciones.append(metadata)
 
-                time.sleep(1)  # Respetar límite de peticiones
+                time.sleep(0.2)  # Respetar límite de peticiones
 
     # Escribir el CSV de salida
     with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
