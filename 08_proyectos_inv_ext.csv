@@ -1,11 +1,18 @@
 codigo,numProy,proyecto,inicio,fin,tipo,nombre
-JRH0;CVS0,0000-0136-0036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,12/31/2019,Investigación,Ingeniería en Electrónica
-JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química
-JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica
-JRH0;JMJ0;LCG0,00-0134-1016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,06/30/2023,Extensión,Ingeniería Electromecánica
+JRH0;CVS0,1360036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,12/31/2019,Investigación,Ingeniería en Electrónica
+JRH0,17011001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,12/31/2012,Investigación,Química
+JRH0,1341019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,06/30/2024,Investigación,Ingeniería Electromecánica
+JRH0;JMJ0;LCG0,1341016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,06/30/2023,Extensión,Ingeniería Electromecánica
 JRH0;JMJ0,1341023,Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor aprovechamiento del recurso hídrico mediante la incorporación de sistemas IoT,05/15/2023,12/31/2023,Extensión,Ingeniería Electromecánica
-JRH0;JMJ0;GGR0,0000-0134-1025,Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico,01/01/2024,12/31/2025,Investigación,Ingeniería Electromecánica
+JRH0;JMJ0;GGR0;GRN0,1341025,Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico,01/01/2024,12/31/2025,Investigación,Ingeniería Electromecánica
 JRH0,1341029,Desarrollo de un sistema de monitoreo y alerta para la detección de la exposición al calor en labores agrícolas: Aplicación en la zafra de la caña de azúcar,01/01/2025,12/31/2027,Investigación, Ingeniería Electromecánica
 JRH0,1460108,Desarrollo de una plataforma tecnológica escalable y modular para el registro de variables físicas y químicas asociadas a la calidad y abundancia del agua potable,01/01/2025,13/31/2027,Investigación,Química
 JRH0;JMJ0,1340030,ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago,01/01/2025,12/31/2026,Extensión,Ingeniería Electromecánica
-JGF0;CVS0;JRG0,0000-0134-1024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,01/01/2024,12/31/2025,Investigación,Ingeniería Electromecánica
+JGF0;CVS0;JRG0,1341024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,01/01/2024,12/31/2025,Investigación,Ingeniería Electromecánica
+GRN0,1341012,I PLARE REACTOR 2: Optimización del diseño de un reactor de gasificación por plasma a través de simulaciones computacionales numéricas,01/01/2016,31/12/2017,Investigación,
+GRN0;NUS0;FMG0;COZ0,1341015,Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal para aplicaciones de pequeña escala en zonas boscosas,01/01/2018,04/02/2021,Investigación,
+GGR0;GRN0,13411801,Modelado de la futura penetración de Vehículos Eléctricos para realizar estudios eléctricos y ambientales para Costa Rica,01/01/2020,31/12/2022,Investigación,
+RMC0;GRN0;LMS0;JMJ0,1341021,Requerimientos para lograr la factibilidad de turbinas eólicas comerciales de pequeña escala en Costa Rica,01/07/2022,31/12/2024,Investigación,
+GRN0;MJC0;LMS0;JMJ0,1341020,Desempeño de turbinas eólicas de eje horizontal con dispositivos de control de flujo en condiciones de turbulencia,01/07/2022,31/12/2024,Investigación,
+GGR0,13411901,Estimación del Límite Técnico permisible para la penetración de energías renovables y generación distribuida en el Sistema Eléctrico Nacional,01/01/2023,31/12/2024,Investigación,
+GGR0,1341028,"Estrategias para la integración de vehículos eléctricos, generación distribuida y almacenamiento electroquímico en el Sistema Eléctrico Nacional",01/01/2025,31/12/2026,Investigación,
