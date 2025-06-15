@@ -32,11 +32,26 @@ cv:
     Carrera profesional:
     - name: Profesor Adjunto
       date: 01/01/2014
+    Publicaciones:
+    - title: Propuesta metodológica de caracterización del mercado de la biomasa para
+        fines energéticos, caso del arroz costarricense
+    - title: Influence of 3D printing settings on mechanical properties of ABS at
+        room temperature and 77 K
+    - title: Revisión de los perfiles aerodinámicos apropiados para turbinas eólicas
+        de eje horizontal y de pequeña escala en zonas boscosas
+    - title: Implementation of stellarator of Costa Rica 1 SCR-1
+    - title: Construction, Commissioning and first Results of the Costa Rican Stellarator
+        SCR-
+    - title: Engineering, fabrication, tests and status of the Costa Rican SCR-1 stellarator
+    - title: Constructing a small modular stellarator in Latin America
+    - title: 'Engineering of the Stellarator of Costa Rica: SCR-1'
+    - title: Progress on small modular stellarator SCR-1
+    - title: Engineering issues to the stellerator of Costa Rica 1
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 11/06/2025'
+  last_updated_date_template: 'Última actualización: 14/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -44,31 +59,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
+    Ago: null
     Nov: null
-    Ene: null
-    Jun: null
-    Abr: null
-    Feb: null
+    Sep: null
     Oct: null
-    May: null
+    Abr: null
+    Jun: null
     Mar: null
     Jul: null
-    Ago: null
-    Sep: null
+    May: null
+    Ene: null
+    Feb: null
     Dic: null
   full_names_of_months: !!set
-    Febrero: null
     Junio: null
+    Febrero: null
+    Abril: null
+    Marzo: null
+    Octubre: null
+    Noviembre: null
+    Julio: null
+    Diciembre: null
+    Enero: null
     Septiembre: null
     Agosto: null
-    Abril: null
-    Octubre: null
     Mayo: null
-    Julio: null
-    Marzo: null
-    Enero: null
-    Noviembre: null
-    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:

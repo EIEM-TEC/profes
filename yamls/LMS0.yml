@@ -60,11 +60,53 @@ cv:
       date: 01/09/2021
     - name: Profesor Catedrático Paso2
       date: 01/07/2024
+    Publicaciones:
+    - title: Distributed Detection Algorithm for Photo-Voltaic Solar Arrays Based
+        on Least Significant Difference Test
+    - title: Low-Cost IoT System Prototype to Detect Supbotimal Conditions in PV Arrays
+    - title: Detection of Suboptimal Conditions in Photovoltaic Systems Integrating
+        Data from Several Domains
+    - title: Validation of an outdoor efficiency model for photovoltaic modules
+    - title: Evaluación de la producción energética para el sistema fotovoltaico con
+        microinversores instalado en el edificio de rectoría del Tecnológico de Costa
+        Rica
+    - title: 'Quantitative Comparison of Infrared Thermography, Visual Inspection,
+        and Electrical Analysis Techniques on Photovoltaic Modules: A Case Study'
+    - title: Detection Criterion for Progressive Faults in Photovoltaic Modules Based
+        on Differential Voltage Measurements
+    - title: 'Automated Fault Management System in a Photovoltaic Array: A Reconfiguration-Based
+        Approach'
+    - title: Detection of Suboptimal Conditions in Photovoltaic Installations for
+        Household-Prosumers
+    - title: Experimental Comparison of Visual Inspection and Infrared Thermography
+        for the Detection of Soling and Partial Shading in Photovoltaic Arrays
+    - title: Photovoltaic Array Fault Detection Algorithm Based on Least Significant
+        Difference Test
+    - title: Fault detection in solar arrays based on an efficiency threshold
+    - title: 'Diagnose Algorithm and Fault Characterization for Photovoltaic Arrays:
+        A Simulation Study'
+    - title: A Simple Temperature and Irradiance-Dependent Expression for the Efficiency
+        of Photovoltaic Cells and Modules
+    - title: Detección de faltas en motores eléctricos con base en índices de potencias
+        y redes neuronales
+    - title: Diseño e implementación del sistema de diagnóstico de fallos usando redes
+        de petri interpretadas y coloreadas
+    - title: Identification of the Internal Resistance in Solar Modules Under Dark
+        Conditions Using Differential Evolution Algorithm
+    - title: Voltage measurement in a reconfigurable solar array with series-parallel
+        topology
+    - title: Sistema experto para motores asistido por temperatura (SEMAT)
+    - title: Automation of small-scale with Open Hardware
+    - title: Diseño del programa de control para una celda de manufactura flexible
+        didáctica
+    - title: Simulación de un sistema de manufactura flexible con redes de Petri coloreadas
+    - title: 'Redes de Petri: Modelado e implementación de algoritmos para autómatas
+        programables'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 11/06/2025'
+  last_updated_date_template: 'Última actualización: 14/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -72,31 +114,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
+    Ago: null
     Nov: null
-    Ene: null
-    Jun: null
-    Abr: null
-    Feb: null
+    Sep: null
     Oct: null
-    May: null
+    Abr: null
+    Jun: null
     Mar: null
     Jul: null
-    Ago: null
-    Sep: null
+    May: null
+    Ene: null
+    Feb: null
     Dic: null
   full_names_of_months: !!set
-    Febrero: null
     Junio: null
+    Febrero: null
+    Abril: null
+    Marzo: null
+    Octubre: null
+    Noviembre: null
+    Julio: null
+    Diciembre: null
+    Enero: null
     Septiembre: null
     Agosto: null
-    Abril: null
-    Octubre: null
     Mayo: null
-    Julio: null
-    Marzo: null
-    Enero: null
-    Noviembre: null
-    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:

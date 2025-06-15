@@ -55,11 +55,61 @@ cv:
       date: 16/02/2022
     - name: Profesor Catedrático Paso1
       date: 16/02/2025
+    Publicaciones:
+    - title: Modelado de Redes de Distribución usando ETAP
+    - title: Evaluación del comportamiento de la demanda en el modelado de las redes
+        de distribución
+    - title: 'Electrochemical Storage and Flexibility in Transfer Capacities: Strategies
+        and Uses for Vulnerable Power Grids'
+    - title: Increasing flexibility in vulnerable power grids using electrochemical
+        storage
+    - title: 'Hacia el mejoramiento de la gestión de activos de equipos críticos en
+        Pymes: propuesta de metodología e implementación'
+    - title: Impact of electric vechicles on power transmission grids
+    - title: 'The Central American Power System: Achievements, Challenges, and Opportunities
+        for a Green Transition'
+    - title: Simulación del sistema de interconexión eléctrica de los países de América
+        Central usando ETAP
+    - title: Metodología para la implementación de sistemas fotovoltaicos con almacenamiento
+        para pequeñas industrias
+    - title: Metodología para Evaluar la Condición de Transformadores Eléctricos de
+        Potencia Basada en un Índice de Salud Compuesto
+    - title: Motor bearing failures detection by using vibration data
+    - title: 'Increasing Distribution Network Capacity through Storage in Central
+        American Countries: A Case Study'
+    - title: Índice de estimación de la vida residual en transformadores eléctricos
+        de potencia basado en condición
+    - title: Challenges of Storage in  Large Power Systems
+    - title: 'Demand Response Improvement using Storage Power Systems: Case study
+        of Honduras'
+    - title: Electric Vehicle Penetration Modelling for Costa Rica Power System
+    - title: Oportunidades y desafíos para la integración de almacenamiento electroquímico
+        en las redes eléctricas centroamericanas
+    - title: Assessment of Power Transformers using a Methodology Based on Health
+        Indices
+    - title: Metodología indirecta para la estimación de vida útil residual de transformadores
+        de potencia a partir de la evaluación de los materiales dieléctricos
+    - title: 'Potencia Reactiva: del despacho óptimo al cobro de tarifas - PARTE
+        B'
+    - title: 'Potencia Reactiva: Despacho Óptimo con una programación lineal-PARTE
+        A'
+    - title: New Proposal of Electric Rates in Costa Rica
+    - title: Medición de Descargas Parciales en Transformadores de Potencia bajo los
+        estándares internacionales IEC e IEEE
+    - title: Comportamiento de los aislamientos sólidos de transformadores de potencia
+        en condiciones ambientales no controladas
+    - title: Evolución y tendencias de ́ındices de confiabilidad en sistemas eléctricos
+        de potencia
+    - title: Introducing saturation characteristic fitting techniques for power transformers
+        in the Costa Rican Electrical Network
+    - title: 'Metodoloǵıa para el análisis y retiro de activos: transformadores de
+        potencia'
+    - title: MEDICIÓN DE IMPEDANCIA DE SECUENCIA CERO EN TRANSFORMADORES DE POTENCIA
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 11/06/2025'
+  last_updated_date_template: 'Última actualización: 14/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -67,31 +117,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
+    Ago: null
     Nov: null
-    Ene: null
-    Jun: null
-    Abr: null
-    Feb: null
+    Sep: null
     Oct: null
-    May: null
+    Abr: null
+    Jun: null
     Mar: null
     Jul: null
-    Ago: null
-    Sep: null
+    May: null
+    Ene: null
+    Feb: null
     Dic: null
   full_names_of_months: !!set
-    Febrero: null
     Junio: null
+    Febrero: null
+    Abril: null
+    Marzo: null
+    Octubre: null
+    Noviembre: null
+    Julio: null
+    Diciembre: null
+    Enero: null
     Septiembre: null
     Agosto: null
-    Abril: null
-    Octubre: null
     Mayo: null
-    Julio: null
-    Marzo: null
-    Enero: null
-    Noviembre: null
-    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:

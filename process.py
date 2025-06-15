@@ -8,9 +8,16 @@ today = date.today()
 # === Cargar los csv con los datos de los profes ===
 datos = pd.read_csv("00_datos.csv")
 grados = pd.read_csv("01_grados.csv")
+experencia = pd.read_csv("02_experiencia_industria.csv")
+idiomas = pd.read_csv("03_idiomas.csv")
+areas = pd.read_csv("04_areas_interes.csv")
 publicaciones = pd.read_csv("05_publicaciones.csv")
+cursos = pd.read_csv("06_cursos.csv")
 carrera = pd.read_csv("07_carrera.csv")
-
+proyect = pd.read_csv("08_proyectos_inv_ext.csv")
+habilil = pd.read_csv("09_habilidades.csv")
+membres = pd.read_csv("10_membresias.csv")
+                
 
 # === Step 2: Create output folder ===
 output_dir = "yamls"
@@ -42,38 +49,15 @@ def make_career_entries(id,carrera):
 def make_publication_entries(id,publicaciones):
     publication_entries = []
     for _, row in publicaciones.iterrows():
-        #print(row.get("autores","").split(";"))
+        autoresd = row.get("autores","").split(";")
+        autores = [x.strip() for x in autoresd]
         entry = {
-            "title": row["titulo"]   
+            "title": row["titulo"],
+            "authors": autores
         }
         publication_entries.append(entry)
     return publication_entries
 
-id = "JRH0"
-make_publication_entries(id,publicaciones)
-
-# Normalizar fecha (si viene como dd/mm/yyyy)
-def normalizar_fecha(fecha, permitir_año=True):
-    try:
-        if isinstance(fecha, float):
-            return str(int(fecha))
-        if "/" in fecha:
-            partes = fecha.strip().split("/")
-            if len(partes) == 3:
-                return f"{partes[2]}-{partes[1].zfill(2)}-{partes[0].zfill(2)}"
-            elif len(partes) == 2:
-                return f"{partes[1]}-{partes[0].zfill(2)}"
-            elif len(partes) == 1:
-                return partes[0] if permitir_año else ""
-        if "-" in fecha:
-            return fecha  # ya tiene formato válido
-        if len(fecha) == 4 and fecha.isdigit():
-            return fecha
-    except:
-        pass
-    return
-
-# === Step 3: Function to create a RenderCV-compatible YAML dict ===
 def make_rendercv_yaml(id,datos,grados):
     print(datos.nombre)
     match datos.titulo:
@@ -83,6 +67,7 @@ def make_rendercv_yaml(id,datos,grados):
                 nombre = f"{datos.nombre}, {datos.titulo}"
     education = make_education_entries(id,grados[grados["codigo"]==id])
     career = make_career_entries(id,carrera[carrera["codigo"]==id])
+    public = make_publication_entries(id,publicaciones[publicaciones["codigo"]==id])
     yaml_dict = {
         "cv": {
             "name": nombre,
@@ -120,7 +105,8 @@ def make_rendercv_yaml(id,datos,grados):
                     }
                 ],
                 "Educación": education,
-                "Carrera profesional": career,                
+                "Carrera profesional": career,
+                "Publicaciones": public,                
             },
         },
         "locale": {

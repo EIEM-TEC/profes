@@ -52,11 +52,39 @@ cv:
       date: 02/02/2022
     - name: Intermedio Profesor Catedrático
       date: 03/03/2025
+    Publicaciones:
+    - title: Diseño de un sistema embebido para el control  y regulación del proceso
+        dinámico de carga y descarga de celdas electroquímicas y su posterior validación
+        para satélites CubeSat 1U.
+    - title: Desarrollo y prueba de un sistema para sensar de manera remota la velocidad
+        del viento
+    - title: Evolución vertical de la intensidad de turbulencia del viento en terreno
+        complejo con obstáculos
+    - title: Integración de un sistema de almacenamiento de energía en un parque eólico,
+        estudio de caso
+    - title: Presentación
+    - title: A Lean Satellite Electrical Power System with Direct Energy Transfer
+        and Bus Voltage Regulation Based on a Bi-Directional Buck Converter
+    - title: Design, Implementation, and Operation of a Small Satellite Mission to
+        Explore the Space Weather Effects in LEO
+    - title: A Digitally Controlled Bi-Directional DC-DC Converter for Nanosatellite
+        Power Systems
+    - title: Development of a charger/discharger system for electrochemical cell screening
+        and testing
+    - title: Proposal for a Modular Electrical Power System for Nanosatellites
+    - title: 'Jaguar Monitoring Store-and-Forward Satellite: JaguarSAT'
+    - title: Proposal for a Modular Electrical Power System For Nanosatellites
+    - title: Testing and operations of a store and forward CubeSat for environmental
+        monitoring of Costa Rica
+    - title: 'Project Irazú: Advances of a store &amp; forward CubeSat mission for
+        environmental monitoring in Costa Rica'
+    - title: Low Cost Fabrication of a Piezoelectric Actuated Valveless Micropump
+    - title: Design and Simulation of a Piezoelectric Actuated Valveless Micropump
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 11/06/2025'
+  last_updated_date_template: 'Última actualización: 14/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -64,31 +92,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
+    Ago: null
     Nov: null
-    Ene: null
-    Jun: null
-    Abr: null
-    Feb: null
+    Sep: null
     Oct: null
-    May: null
+    Abr: null
+    Jun: null
     Mar: null
     Jul: null
-    Ago: null
-    Sep: null
+    May: null
+    Ene: null
+    Feb: null
     Dic: null
   full_names_of_months: !!set
-    Febrero: null
     Junio: null
+    Febrero: null
+    Abril: null
+    Marzo: null
+    Octubre: null
+    Noviembre: null
+    Julio: null
+    Diciembre: null
+    Enero: null
     Septiembre: null
     Agosto: null
-    Abril: null
-    Octubre: null
     Mayo: null
-    Julio: null
-    Marzo: null
-    Enero: null
-    Noviembre: null
-    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:

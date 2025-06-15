@@ -52,11 +52,42 @@ cv:
       date: 12/05/2021
     - name: Profesor Catedrático
       date: 16/10/2023
+    Publicaciones:
+    - title: Roughness sub-layer wind speed model for tropical wooded areas
+    - title: Shrouded wind turbine performance in yawed turbulent flow conditions
+    - title: Aerodynamic performance simulation of three selected airfoils
+    - title: 'Generalidades del recurso eólico en Costa Rica: caso de estudio de la
+        provincia de Cartago'
+    - title: Efecto de un difusor tipo wind lens en flujo turbulento
+    - title: Revisión de los perfiles aerodinámicos apropiados para turbinas eólicas
+        de eje horizontal y de pequeña escala en zonas boscosas
+    - title: Research Opportunities for Renewable Energy Electrification in Remote
+        Areas of Costa Rica
+    - title: Safety design of a hybrid wind-solar energy system for rural remote areas
+        in Costa Rica
+    - title: Dimensionamiento de sistemas fotovoltaicos mediante una interfaz gráfica
+    - title: Estado actual de la investigación sobre turbinas eólicas en Costa Rica
+    - title: CFD Modeling of Plasma Gasification Reactor for Municipal Solid Waste
+    - title: High correlation models for small scale Magnus wind turbines
+    - title: A Magnus Wind Turbine Power Model Based on Direct Solutions Using the
+        Blade Element Momentum Theory and Symbolic Regression
+    - title: Three-dimensional interpolation on scalar fields
+    - title: Desempeño de turbinas eólicas Magnus de eje horizontal en función de
+        sus variables geométricas y cinemáticas
+    - title: Optimización y análisis de sensibilidad de turbinas eólicas Magnus de
+        pequeña escala
+    - title: Aerodinámica de turbinas eólicas magnus de eje horizontal y su potencial
+        uso en ambientes urbanos
+    - title: Modelo de evaluación directa para predecir el rendimiento de turbinas
+        eólicas de eje horizontal
+    - title: Programa de mantenimiento preventivo para sistemas de generación de aire
+        medicado y vaćıo grado médico. Especificaciones técnicas de un cartel de
+        licitación para compra de sistema de generación de vaćıo grado médico
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 11/06/2025'
+  last_updated_date_template: 'Última actualización: 14/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -64,31 +95,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
+    Ago: null
     Nov: null
-    Ene: null
-    Jun: null
-    Abr: null
-    Feb: null
+    Sep: null
     Oct: null
-    May: null
+    Abr: null
+    Jun: null
     Mar: null
     Jul: null
-    Ago: null
-    Sep: null
+    May: null
+    Ene: null
+    Feb: null
     Dic: null
   full_names_of_months: !!set
-    Febrero: null
     Junio: null
+    Febrero: null
+    Abril: null
+    Marzo: null
+    Octubre: null
+    Noviembre: null
+    Julio: null
+    Diciembre: null
+    Enero: null
     Septiembre: null
     Agosto: null
-    Abril: null
-    Octubre: null
     Mayo: null
-    Julio: null
-    Marzo: null
-    Enero: null
-    Noviembre: null
-    Diciembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
