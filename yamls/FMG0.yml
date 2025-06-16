@@ -47,9 +47,10 @@ cv:
         para aplicaciones de pequeña escala en zonas boscosas
       start_date: '2018-01-01'
       end_date: '2021-02-04'
-      NUMPRO: 1341015
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 1341015'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
 locale:
   language: es
   phone_number_format: national
@@ -62,31 +63,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    May: null
-    Jun: null
-    Sep: null
-    Dic: null
-    Abr: null
-    Nov: null
-    Mar: null
     Jul: null
-    Feb: null
-    Ago: null
+    Sep: null
+    Abr: null
     Oct: null
+    Mar: null
+    May: null
+    Ago: null
+    Ene: null
+    Feb: null
+    Dic: null
+    Nov: null
+    Jun: null
   full_names_of_months: !!set
-    Junio: null
-    Mayo: null
-    Octubre: null
-    Marzo: null
-    Agosto: null
-    Diciembre: null
-    Enero: null
-    Abril: null
     Noviembre: null
-    Septiembre: null
+    Agosto: null
+    Junio: null
     Febrero: null
+    Marzo: null
     Julio: null
+    Septiembre: null
+    Mayo: null
+    Abril: null
+    Diciembre: null
+    Octubre: null
+    Enero: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -99,5 +100,3 @@ design:
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
-    normal_entry:
-      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
