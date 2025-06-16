@@ -143,6 +143,71 @@ cv:
       - Kei-ichi Okuyama
       date: 27/9/2019
       doi: 10.3390/aerospace6100108
+    Proyectos de investigación y extensión:
+    - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
+        eléctrica para aplicaciones en Bioingeniería
+      start_date: 01/01/2016
+      end_date: 12/31/2019
+      numProy: 1360036
+      tipo: Investigación
+      escuela: Ingeniería en Electrónica
+    - name: Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC)
+      start_date: 01/01/2010
+      end_date: 12/31/2012
+      numProy: 17011001
+      tipo: Investigación
+      escuela: Química
+    - name: Desarrollo de un sistema integrado para la prueba de sistemas de potencian
+        CubeSats
+      start_date: 01/01/2022
+      end_date: 06/30/2024
+      numProy: 1341019
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
+    - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
+        Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
+      start_date: 01/01/2022
+      end_date: 06/30/2023
+      numProy: 1341016
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
+    - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
+        aprovechamiento del recurso hídrico mediante la incorporación de sistemas
+        IoT'
+      start_date: 05/15/2023
+      end_date: 12/31/2023
+      numProy: 1341023
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: 01/01/2024
+      end_date: 12/31/2025
+      numProy: 1341025
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
+    - name: 'Desarrollo de un sistema de monitoreo y alerta para la detección de la
+        exposición al calor en labores agrícolas: Aplicación en la zafra de la caña
+        de azúcar'
+      start_date: 01/01/2025
+      end_date: 12/31/2027
+      numProy: 1341029
+      tipo: Investigación
+      escuela: ' Ingeniería Electromecánica'
+    - name: Desarrollo de una plataforma tecnológica escalable y modular para el registro
+        de variables físicas y químicas asociadas a la calidad y abundancia del agua
+        potable
+      start_date: 01/01/2025
+      end_date: 13/31/2027
+      numProy: 1460108
+      tipo: Investigación
+      escuela: Química
+    - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
+        escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago'
+      start_date: 01/01/2025
+      end_date: 12/31/2026
+      numProy: 1340030
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
@@ -155,29 +220,29 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    Oct: null
-    Abr: null
-    Jun: null
-    Feb: null
-    Sep: null
     May: null
+    Nov: null
+    Sep: null
+    Feb: null
     Jul: null
+    Jun: null
+    Oct: null
+    Ene: null
     Dic: null
+    Abr: null
     Ago: null
     Mar: null
-    Nov: null
   full_names_of_months: !!set
+    Abril: null
+    Agosto: null
+    Enero: null
+    Noviembre: null
+    Marzo: null
+    Diciembre: null
     Septiembre: null
     Octubre: null
-    Agosto: null
-    Marzo: null
-    Enero: null
-    Abril: null
-    Diciembre: null
-    Febrero: null
-    Noviembre: null
     Julio: null
+    Febrero: null
     Junio: null
     Mayo: null
 rendercv_settings:

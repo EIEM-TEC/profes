@@ -16,6 +16,8 @@ publicaciones.fillna("0",inplace=True)
 cursos = pd.read_csv("06_cursos.csv")
 carrera = pd.read_csv("07_carrera.csv")
 proyect = pd.read_csv("08_proyectos_inv_ext.csv")
+proyect["codigo"] = proyect["codigo"].str.split(";",expand=False)
+proyect = proyect.explode("codigo")
 habilil = pd.read_csv("09_habilidades.csv")
 membres = pd.read_csv("10_membresias.csv")
                 
@@ -24,7 +26,7 @@ membres = pd.read_csv("10_membresias.csv")
 output_dir = "yamls"
 os.makedirs(output_dir, exist_ok=True)
 
-def make_education_entries(id,grados):
+def make_education_entries(grados):
     education_entries = []
     for _, row in grados.iterrows():
         entry = {
@@ -37,7 +39,7 @@ def make_education_entries(id,grados):
         education_entries.append(entry)
     return education_entries
 
-def make_career_entries(id,carrera):
+def make_career_entries(carrera):
     career_entries = []
     for _, row in carrera.iterrows():
         entry = {
@@ -47,7 +49,7 @@ def make_career_entries(id,carrera):
         career_entries.append(entry)
     return career_entries
 
-def make_publication_entries(id,publicaciones):
+def make_publication_entries(publicaciones):
     publication_entries = []
     for _, row in publicaciones.iterrows():
         autoresd = row.get("autores","").split(";")
@@ -67,6 +69,20 @@ def make_publication_entries(id,publicaciones):
         publication_entries.append(entry)
     return publication_entries
 
+def make_research_entries(proyect):
+    research_entries = []
+    for _, row in proyect.iterrows():
+        entry = {
+            "name": row["proyecto"],
+            "start_date": row["inicio"],
+            "end_date": row["fin"],
+            "numProy": row["numProy"],
+            "tipo": row["tipo"],
+            "escuela": row["nombre"]
+        }
+        research_entries.append(entry)
+    return research_entries
+
 def make_rendercv_yaml(id,datos,grados):
     print(datos.nombre)
     match datos.titulo:
@@ -74,9 +90,10 @@ def make_rendercv_yaml(id,datos,grados):
                 nombre =  f"{datos.titulo} {datos.nombre}"
             case "Ph.D.":
                 nombre = f"{datos.nombre}, {datos.titulo}"
-    education = make_education_entries(id,grados[grados["codigo"]==id])
-    career = make_career_entries(id,carrera[carrera["codigo"]==id])
-    public = make_publication_entries(id,publicaciones[publicaciones["codigo"]==id])
+    education = make_education_entries(grados[grados["codigo"]==id])
+    career = make_career_entries(carrera[carrera["codigo"]==id])
+    public = make_publication_entries(publicaciones[publicaciones["codigo"]==id])
+    research = make_research_entries(proyect[proyect["codigo"]==id])
     sections = {
     "Información laboral": [
         {"label": "Cédula", "details": str(datos["cedula"])},
@@ -93,6 +110,8 @@ def make_rendercv_yaml(id,datos,grados):
 
     if public:
         sections["Publicaciones"] = public
+    if research:
+        sections["Proyectos de investigación y extensión"] = research
 
     yaml_dict = {
         "cv": {

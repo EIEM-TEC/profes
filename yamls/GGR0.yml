@@ -295,6 +295,34 @@ cv:
       - Gustavo Adolfo Gómez-Ramírez
       date: 1/9/2015
       doi: 10.18845/tm.v28i3.2416
+    Proyectos de investigación y extensión:
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: 01/01/2024
+      end_date: 12/31/2025
+      numProy: 1341025
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
+    - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
+        estudios eléctricos y ambientales para Costa Rica
+      start_date: 01/01/2020
+      end_date: 31/12/2022
+      numProy: 13411801
+      tipo: Investigación
+      escuela: .nan
+    - name: Estimación del Límite Técnico permisible para la penetración de energías
+        renovables y generación distribuida en el Sistema Eléctrico Nacional
+      start_date: 01/01/2023
+      end_date: 31/12/2024
+      numProy: 13411901
+      tipo: Investigación
+      escuela: .nan
+    - name: Estrategias para la integración de vehículos eléctricos, generación distribuida
+        y almacenamiento electroquímico en el Sistema Eléctrico Nacional
+      start_date: 01/01/2025
+      end_date: 31/12/2026
+      numProy: 1341028
+      tipo: Investigación
+      escuela: .nan
 locale:
   language: es
   phone_number_format: national
@@ -307,29 +335,29 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    Oct: null
-    Abr: null
-    Jun: null
-    Feb: null
-    Sep: null
     May: null
+    Nov: null
+    Sep: null
+    Feb: null
     Jul: null
+    Jun: null
+    Oct: null
+    Ene: null
     Dic: null
+    Abr: null
     Ago: null
     Mar: null
-    Nov: null
   full_names_of_months: !!set
+    Abril: null
+    Agosto: null
+    Enero: null
+    Noviembre: null
+    Marzo: null
+    Diciembre: null
     Septiembre: null
     Octubre: null
-    Agosto: null
-    Marzo: null
-    Enero: null
-    Abril: null
-    Diciembre: null
-    Febrero: null
-    Noviembre: null
     Julio: null
+    Febrero: null
     Junio: null
     Mayo: null
 rendercv_settings:

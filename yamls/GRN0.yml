@@ -167,6 +167,48 @@ cv:
       - Gustavo Richmond Navarro
       date: '2016'
       doi: 10.18687/laccei2016.1.1.027
+    Proyectos de investigación y extensión:
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: 01/01/2024
+      end_date: 12/31/2025
+      numProy: 1341025
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
+    - name: 'I PLARE REACTOR 2: Optimización del diseño de un reactor de gasificación
+        por plasma a través de simulaciones computacionales numéricas'
+      start_date: 01/01/2016
+      end_date: 31/12/2017
+      numProy: 1341012
+      tipo: Investigación
+      escuela: .nan
+    - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
+        para aplicaciones de pequeña escala en zonas boscosas
+      start_date: 01/01/2018
+      end_date: 04/02/2021
+      numProy: 1341015
+      tipo: Investigación
+      escuela: .nan
+    - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
+        estudios eléctricos y ambientales para Costa Rica
+      start_date: 01/01/2020
+      end_date: 31/12/2022
+      numProy: 13411801
+      tipo: Investigación
+      escuela: .nan
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: 01/07/2022
+      end_date: 31/12/2024
+      numProy: 1341021
+      tipo: Investigación
+      escuela: .nan
+    - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
+        de flujo en condiciones de turbulencia
+      start_date: 01/07/2022
+      end_date: 31/12/2024
+      numProy: 1341020
+      tipo: Investigación
+      escuela: .nan
 locale:
   language: es
   phone_number_format: national
@@ -179,29 +221,29 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    Oct: null
-    Abr: null
-    Jun: null
-    Feb: null
-    Sep: null
     May: null
+    Nov: null
+    Sep: null
+    Feb: null
     Jul: null
+    Jun: null
+    Oct: null
+    Ene: null
     Dic: null
+    Abr: null
     Ago: null
     Mar: null
-    Nov: null
   full_names_of_months: !!set
+    Abril: null
+    Agosto: null
+    Enero: null
+    Noviembre: null
+    Marzo: null
+    Diciembre: null
     Septiembre: null
     Octubre: null
-    Agosto: null
-    Marzo: null
-    Enero: null
-    Abril: null
-    Diciembre: null
-    Febrero: null
-    Noviembre: null
     Julio: null
+    Febrero: null
     Junio: null
     Mayo: null
 rendercv_settings:

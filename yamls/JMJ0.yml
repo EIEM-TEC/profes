@@ -98,6 +98,49 @@ cv:
       - Rob Vingerhoeds
       date: 10/2019
       doi: 10.1109/ISSE46696.2019.8984559
+    Proyectos de investigación y extensión:
+    - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
+        Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
+      start_date: 01/01/2022
+      end_date: 06/30/2023
+      numProy: 1341016
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
+    - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
+        aprovechamiento del recurso hídrico mediante la incorporación de sistemas
+        IoT'
+      start_date: 05/15/2023
+      end_date: 12/31/2023
+      numProy: 1341023
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: 01/01/2024
+      end_date: 12/31/2025
+      numProy: 1341025
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
+    - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
+        escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago'
+      start_date: 01/01/2025
+      end_date: 12/31/2026
+      numProy: 1340030
+      tipo: Extensión
+      escuela: Ingeniería Electromecánica
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: 01/07/2022
+      end_date: 31/12/2024
+      numProy: 1341021
+      tipo: Investigación
+      escuela: .nan
+    - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
+        de flujo en condiciones de turbulencia
+      start_date: 01/07/2022
+      end_date: 31/12/2024
+      numProy: 1341020
+      tipo: Investigación
+      escuela: .nan
 locale:
   language: es
   phone_number_format: national
@@ -110,29 +153,29 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    Oct: null
-    Abr: null
-    Jun: null
-    Feb: null
-    Sep: null
     May: null
+    Nov: null
+    Sep: null
+    Feb: null
     Jul: null
+    Jun: null
+    Oct: null
+    Ene: null
     Dic: null
+    Abr: null
     Ago: null
     Mar: null
-    Nov: null
   full_names_of_months: !!set
+    Abril: null
+    Agosto: null
+    Enero: null
+    Noviembre: null
+    Marzo: null
+    Diciembre: null
     Septiembre: null
     Octubre: null
-    Agosto: null
-    Marzo: null
-    Enero: null
-    Abril: null
-    Diciembre: null
-    Febrero: null
-    Noviembre: null
     Julio: null
+    Febrero: null
     Junio: null
     Mayo: null
 rendercv_settings:

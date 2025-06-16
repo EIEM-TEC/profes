@@ -87,6 +87,22 @@ cv:
       - Chiara Neto
       date: 17/1/2022
       doi: 10.1038/s41467-022-28016-1
+    Proyectos de investigación y extensión:
+    - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
+        eléctrica para aplicaciones en Bioingeniería
+      start_date: 01/01/2016
+      end_date: 12/31/2019
+      numProy: 1360036
+      tipo: Investigación
+      escuela: Ingeniería en Electrónica
+    - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
+        para un sistema de conversión de la energía de las olas para maximizar el
+        aprovechamiento de la energía oceánica'
+      start_date: 01/01/2024
+      end_date: 12/31/2025
+      numProy: 1341024
+      tipo: Investigación
+      escuela: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
@@ -99,29 +115,29 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    Oct: null
-    Abr: null
-    Jun: null
-    Feb: null
-    Sep: null
     May: null
+    Nov: null
+    Sep: null
+    Feb: null
     Jul: null
+    Jun: null
+    Oct: null
+    Ene: null
     Dic: null
+    Abr: null
     Ago: null
     Mar: null
-    Nov: null
   full_names_of_months: !!set
+    Abril: null
+    Agosto: null
+    Enero: null
+    Noviembre: null
+    Marzo: null
+    Diciembre: null
     Septiembre: null
     Octubre: null
-    Agosto: null
-    Marzo: null
-    Enero: null
-    Abril: null
-    Diciembre: null
-    Febrero: null
-    Noviembre: null
     Julio: null
+    Febrero: null
     Junio: null
     Mayo: null
 rendercv_settings:
