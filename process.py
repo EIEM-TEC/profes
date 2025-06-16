@@ -179,7 +179,7 @@ def make_rendercv_yaml(id,datos,grados):
                     "degree_column_width": "2.5cm"
                 },
                 "normal_entry": {
-                    "main_column_second_row_template": "\nTIPO"
+                    "main_column_first_row_template": "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
                 }            
             }
         }

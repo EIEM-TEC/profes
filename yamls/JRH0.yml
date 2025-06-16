@@ -220,31 +220,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Nov: null
-    Sep: null
-    Abr: null
-    Ago: null
+    Ene: null
     May: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
+    Nov: null
+    Mar: null
     Jul: null
     Feb: null
-    Mar: null
+    Ago: null
     Oct: null
-    Jun: null
-    Ene: null
-    Dic: null
   full_names_of_months: !!set
+    Junio: null
+    Mayo: null
+    Octubre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
     Enero: null
     Abril: null
     Noviembre: null
     Septiembre: null
-    Mayo: null
-    Junio: null
-    Julio: null
-    Agosto: null
-    Marzo: null
-    Octubre: null
-    Diciembre: null
     Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -258,6 +258,4 @@ design:
     education_entry:
       degree_column_width: 2.5cm
     normal_entry:
-      main_column_second_row_template: '
-
-        TIPO'
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
