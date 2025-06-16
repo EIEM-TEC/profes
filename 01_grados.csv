@@ -6,7 +6,7 @@ JRH0,Especialización,Ciencia de los datos,Instituto Tecnológico de Costa Rica,
 HEV0,Bachillerato,Ingeniería en Computación,Instituto Tecnológico de Costa Rica,Costa Rica,2008
 HEV0,Maestría,Ciencias de la Computación con énfasis en Telemática,Instituto Tecnológico de Costa Rica,Costa Rica,2012
 HEV0,Maestría,Ciencias de la Computación con énfasis en Ciberseguridad,"Instituto Kerckhoffs - Universidades de Twente, Eindhoven y Nijmegen",Holanda,2016
-HEVO,Doctorado,Ciberseguridad,Universidad de Twente,Holanda,2022
+HEV0,Doctorado,Ciberseguridad,Universidad de Twente,Holanda,2022
 AGZ0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2001
 AGZ0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2002
 LCR0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2016
@@ -37,7 +37,7 @@ OGC0,Maestría,Ingeniería Electromecánica,Instituto Tecnológico de Costa Rica
 LMS0,Técnico,Electrónica,COVAO,Costa Rica,1994
 LMS0,Bachillerato,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,1999
 LMS0,Maestría,Ingeniería en Computación,Instituto Tecnológico de Costa Rica,Costa Rica,2004
-LMS0,Especialización,Robótica Industrial,CNAD,México,2004
+LMS0,Especialización,Robótica Industrial,CNAD,México,2006
 LMS0,Maestría,Ingeniería Electrica,Universidad de Costa Rica,Costa Rica,2016
 LMS0,Doctorado,Sistemas Fotovoltaicos,Instituto Tecnológico de Costa Rica,Costa Rica,2022
 SMO0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2011

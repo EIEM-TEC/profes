@@ -1,7 +1,7 @@
 import pandas as pd
 import yaml
 import os
-from datetime import date
+from datetime import date, datetime
 
 today = date.today()
 
@@ -25,6 +25,9 @@ membres = pd.read_csv("10_membresias.csv")
 # === Step 2: Create output folder ===
 output_dir = "yamls"
 os.makedirs(output_dir, exist_ok=True)
+
+def convert_cr_to_iso(date_cr):
+    return datetime.strptime(date_cr, "%d/%m/%Y").strftime("%Y-%m-%d")
 
 def make_education_entries(grados):
     education_entries = []
@@ -74,11 +77,11 @@ def make_research_entries(proyect):
     for _, row in proyect.iterrows():
         entry = {
             "name": row["proyecto"],
-            "start_date": row["inicio"],
-            "end_date": row["fin"],
-            "numProy": row["numProy"],
-            "tipo": row["tipo"],
-            "escuela": row["nombre"]
+            "start_date": convert_cr_to_iso(row["inicio"]),
+            "end_date": convert_cr_to_iso(row["fin"]),
+            "NUMPRO": row["numProy"],
+            "TIPO": row["tipo"],
+            "ESCUELA": row["nombre"]
         }
         research_entries.append(entry)
     return research_entries
@@ -174,9 +177,11 @@ def make_rendercv_yaml(id,datos,grados):
             "entry_types": {
                 "education_entry": {
                     "degree_column_width": "2.5cm"
-                }
+                },
+                "normal_entry": {
+                    "main_column_second_row_template": "\nTIPO"
+                }            
             }
-
         }
     }
     return yaml_dict, f"{id}.yml"

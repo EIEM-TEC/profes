@@ -146,73 +146,73 @@ cv:
     Proyectos de investigación y extensión:
     - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
         eléctrica para aplicaciones en Bioingeniería
-      start_date: 01/01/2016
-      end_date: 12/31/2019
-      numProy: 1360036
-      tipo: Investigación
-      escuela: Ingeniería en Electrónica
+      start_date: '2016-01-01'
+      end_date: '2019-12-31'
+      NUMPRO: 1360036
+      TIPO: Investigación
+      ESCUELA: Ingeniería en Electrónica
     - name: Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC)
-      start_date: 01/01/2010
-      end_date: 12/31/2012
-      numProy: 17011001
-      tipo: Investigación
-      escuela: Química
+      start_date: '2010-01-01'
+      end_date: '2012-12-31'
+      NUMPRO: 17011001
+      TIPO: Investigación
+      ESCUELA: Química
     - name: Desarrollo de un sistema integrado para la prueba de sistemas de potencian
         CubeSats
-      start_date: 01/01/2022
-      end_date: 06/30/2024
-      numProy: 1341019
-      tipo: Investigación
-      escuela: Ingeniería Electromecánica
+      start_date: '2022-01-01'
+      end_date: '2024-06-30'
+      NUMPRO: 1341019
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
     - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
         Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
-      start_date: 01/01/2022
-      end_date: 06/30/2023
-      numProy: 1341016
-      tipo: Extensión
-      escuela: Ingeniería Electromecánica
+      start_date: '2022-01-01'
+      end_date: '2023-06-30'
+      NUMPRO: 1341016
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
     - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
         aprovechamiento del recurso hídrico mediante la incorporación de sistemas
         IoT'
-      start_date: 05/15/2023
-      end_date: 12/31/2023
-      numProy: 1341023
-      tipo: Extensión
-      escuela: Ingeniería Electromecánica
+      start_date: '2023-05-15'
+      end_date: '2023-12-31'
+      NUMPRO: 1341023
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
     - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
-      start_date: 01/01/2024
-      end_date: 12/31/2025
-      numProy: 1341025
-      tipo: Investigación
-      escuela: Ingeniería Electromecánica
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341025
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
     - name: 'Desarrollo de un sistema de monitoreo y alerta para la detección de la
         exposición al calor en labores agrícolas: Aplicación en la zafra de la caña
         de azúcar'
-      start_date: 01/01/2025
-      end_date: 12/31/2027
-      numProy: 1341029
-      tipo: Investigación
-      escuela: ' Ingeniería Electromecánica'
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      NUMPRO: 1341029
+      TIPO: Investigación
+      ESCUELA: ' Ingeniería Electromecánica'
     - name: Desarrollo de una plataforma tecnológica escalable y modular para el registro
         de variables físicas y químicas asociadas a la calidad y abundancia del agua
         potable
-      start_date: 01/01/2025
-      end_date: 13/31/2027
-      numProy: 1460108
-      tipo: Investigación
-      escuela: Química
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      NUMPRO: 1460108
+      TIPO: Investigación
+      ESCUELA: Química
     - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
         escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago'
-      start_date: 01/01/2025
-      end_date: 12/31/2026
-      numProy: 1340030
-      tipo: Extensión
-      escuela: Ingeniería Electromecánica
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+      NUMPRO: 1340030
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 15/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -220,31 +220,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    May: null
     Nov: null
     Sep: null
-    Feb: null
-    Jul: null
-    Jun: null
-    Oct: null
-    Ene: null
-    Dic: null
     Abr: null
     Ago: null
+    May: null
+    Jul: null
+    Feb: null
     Mar: null
+    Oct: null
+    Jun: null
+    Ene: null
+    Dic: null
   full_names_of_months: !!set
-    Abril: null
-    Agosto: null
     Enero: null
+    Abril: null
     Noviembre: null
-    Marzo: null
-    Diciembre: null
     Septiembre: null
-    Octubre: null
-    Julio: null
-    Febrero: null
-    Junio: null
     Mayo: null
+    Junio: null
+    Julio: null
+    Agosto: null
+    Marzo: null
+    Octubre: null
+    Diciembre: null
+    Febrero: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -257,3 +257,7 @@ design:
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_second_row_template: '
+
+        TIPO'

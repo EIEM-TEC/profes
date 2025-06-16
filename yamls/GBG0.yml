@@ -45,7 +45,7 @@ locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 15/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -53,31 +53,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    May: null
     Nov: null
     Sep: null
-    Feb: null
-    Jul: null
-    Jun: null
-    Oct: null
-    Ene: null
-    Dic: null
     Abr: null
     Ago: null
+    May: null
+    Jul: null
+    Feb: null
     Mar: null
+    Oct: null
+    Jun: null
+    Ene: null
+    Dic: null
   full_names_of_months: !!set
-    Abril: null
-    Agosto: null
     Enero: null
+    Abril: null
     Noviembre: null
-    Marzo: null
-    Diciembre: null
     Septiembre: null
-    Octubre: null
-    Julio: null
-    Febrero: null
-    Junio: null
     Mayo: null
+    Junio: null
+    Julio: null
+    Agosto: null
+    Marzo: null
+    Octubre: null
+    Diciembre: null
+    Febrero: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -90,3 +90,7 @@ design:
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_second_row_template: '
+
+        TIPO'
