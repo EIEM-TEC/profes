@@ -43,22 +43,66 @@ cv:
       date: 23/10/2O23
     Publicaciones:
     - title: An ontology model for maintenance strategy selection and assessment
+      journal: Journal of Intelligent Manufacturing
+      authors:
+      - Juan José Montero Jiménez
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      - Sébastien Schwartz
+      date: 29/11/2021
+      doi: 10.1007/s10845-021-01855-3
     - title: An unsupervised approach for health index building and for similarity-based
         remaining useful life estimation
+      journal: Computers in Industry
+      authors:
+      - Sébastien Schwartz
+      - Juan José Montero Jiménez
+      - Rob Vingerhoeds
+      - Michel Salaün
+      date: 10/2022
+      doi: 10.1016/J.COMPIND.2022.103716
     - title: Enhancing predictive maintenance architecture process by using ontology-enabled
         Case-Based Reasoning
-    - title: INTEGRATING ONTOLOGIES AND CASE-BASED REASONING FOR THE DEVELOPMENT OF
-        KNOWLEDGE-INTENSIVE INTELLIGENT SYSTEMS
+      journal: 2021 IEEE International Symposium on Systems Engineering (ISSE)
+      authors:
+      - Juan Jose Montero-Jimenez
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      date: 13/9/2021
+      doi: 10.1109/ISSE51541.2021.9582535
     - title: 'Towards multi-model approaches to predictive maintenance: A systematic
         literature survey on diagnostics and prognostics'
+      journal: Journal of Manufacturing Systems
+      authors:
+      - Juan José Montero Jimenez
+      - Sébastien Schwartz
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      - Michel Salaün
+      date: 7/2020
+      doi: 10.1016/j.jmsy.2020.07.008
     - title: A fault mode identification methodology based on self-organizing map
+      journal: Neural Computing and Applications
+      authors:
+      - Sébastien Schwartz
+      - Juan José Montero Jimenez
+      - Michel Salaün
+      - Rob Vingerhoeds
+      date: 1/1/2020
+      doi: 10.1007/S00521-019-04692-X
     - title: 'A System Engineering Approach to Predictive Maintenance Systems: from
         needs and desires to logical architecture'
+      journal: 2019 International Symposium on Systems Engineering (ISSE)
+      authors:
+      - Juan Jose Montero Jimenez
+      - Rob Vingerhoeds
+      date: 10/2019
+      doi: 10.1109/ISSE46696.2019.8984559
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -66,30 +110,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

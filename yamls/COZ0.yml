@@ -35,23 +35,100 @@ cv:
     Publicaciones:
     - title: Propuesta metodológica de caracterización del mercado de la biomasa para
         fines energéticos, caso del arroz costarricense
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Laura Patricia Brenes-Peralta
+      - María Fernanda Jiménez-Morales
+      - Dagoberto Arias-Aguilar
+      - Juan Carlos Valverde-Otárola
+      - Manuel Masís-Jiménez
+      - Daniela Valverde-Rodríguez
+      - Rooel Campos-Rodríguez
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6337
     - title: Influence of 3D printing settings on mechanical properties of ABS at
         room temperature and 77 K
+      journal: Additive Manufacturing
+      authors:
+      - F. Saenz
+      - C. Otarola
+      - K. Valladares
+      - J. Rojas
+      date: 3/2021
+      doi: 10.1016/j.addma.2021.101841
     - title: Revisión de los perfiles aerodinámicos apropiados para turbinas eólicas
         de eje horizontal y de pequeña escala en zonas boscosas
+      journal: Revista Lasallista de Investigación
+      authors:
+      - Gustavo Richmond-Navarro
+      - Mariana Montenegro-Montero
+      - Carlos Otárola
+      date: 7/9/2020
+      doi: 10.22507/rli.v17n1a22
     - title: Implementation of stellarator of Costa Rica 1 SCR-1
-    - title: Construction, Commissioning and first Results of the Costa Rican Stellarator
-        SCR-
-    - title: Engineering, fabrication, tests and status of the Costa Rican SCR-1 stellarator
+      journal: 2015 IEEE 26th Symposium on Fusion Engineering (SOFE)
+      authors:
+      - V.I. Vargas
+      - J. Mora
+      - C. Otarola
+      - E. Zamora
+      - J. Asenjo
+      - A. Mora
+      - E. Villalobos
+      date: 5/2015
+      doi: 10.1109/SOFE.2015.7482321
     - title: Constructing a small modular stellarator in Latin America
+      journal: 'Journal of Physics: Conference Series'
+      authors:
+      - V I Vargas
+      - J Mora
+      - J Asenjo
+      - E Zamora
+      - C Otárola
+      - L Barillas
+      - J Carvajal-Godínez
+      - J González-Gómez
+      - C Soto-Soto
+      - C Piedras
+      date: 24/3/2015
+      doi: 10.1088/1742-6596/591/1/012016
     - title: 'Engineering of the Stellarator of Costa Rica: SCR-1'
-    - title: Progress on small modular stellarator SCR-1
+      journal: 'Journal of Physics: Conference Series'
+      authors:
+      - J Mora
+      - V I Vargas
+      - C Otarola
+      - C Piedra
+      - W Jimenez
+      - L Esquivel
+      - R Esquivel
+      - K Sanchez
+      - J Gonzalez
+      - J Asenjo
+      - L Fonseca
+      date: 24/3/2015
+      doi: 10.1088/1742-6596/591/1/012017
     - title: Engineering issues to the stellerator of Costa Rica 1
+      journal: 2013 IEEE 25th Symposium on Fusion Engineering (SOFE)
+      authors:
+      - V. I. Vargas
+      - J. Mora
+      - J. Asenjo
+      - E. Zamora
+      - C. Otarola
+      - J. Carvajal-Godinez
+      - J. Gonzalez-Gomez
+      - C. Soto-Soto
+      - C. Piedras
+      - L. Barillas
+      - C. Ribeiro
+      date: 6/2013
+      doi: 10.1109/sofe.2013.6635443
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -59,30 +136,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

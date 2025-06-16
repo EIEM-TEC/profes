@@ -61,52 +61,178 @@ cv:
     - name: Profesor Catedrático Paso2
       date: 01/07/2024
     Publicaciones:
-    - title: Distributed Detection Algorithm for Photo-Voltaic Solar Arrays Based
-        on Least Significant Difference Test
-    - title: Low-Cost IoT System Prototype to Detect Supbotimal Conditions in PV Arrays
-    - title: Detection of Suboptimal Conditions in Photovoltaic Systems Integrating
-        Data from Several Domains
+    - title: Distributed Detection Algorithm for Photo-Voltaic Solar Arrays Based
+        on Least Significant Difference Test
+      journal: Communications in Computer and Information Science
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      - Cindy Calderón-Arce
+      date: '2025'
+      doi: 10.1007/978-3-031-85324-1_3
+    - title: Low-Cost IoT System Prototype to Detect Supbotimal Conditions in PV Arrays
+      journal: Communications in Computer and Information Science
+      authors:
+      - Leonardo Cardinale-Villalobos
+      - Luis D. Murillo-Soto
+      - Rubén Brenes
+      date: '2025'
+      doi: 10.1007/978-3-031-85324-1_1
+    - title: Detection of Suboptimal Conditions in Photovoltaic Systems Integrating
+        Data from Several Domains
+      journal: Communications in Computer and Information Science
+      authors:
+      - Leonardo Cardinale-Villalobos
+      - Luis D. Murillo-Soto
+      - Efrén Jimenez-Delgado
+      - Jose Andrey Sequeira
+      date: '2024'
+      doi: 10.1007/978-3-031-52517-9_2
     - title: Validation of an outdoor efficiency model for photovoltaic modules
+      journal: Revista Facultad de Ingeniería Universidad de Antioquia
+      authors:
+      - Luis Diego Murillo-Soto
+      - Carlos Meza-Benavides
+      date: 12/9/2022
+      doi: 10.17533/udea.redin.20220991
     - title: Evaluación de la producción energética para el sistema fotovoltaico con
         microinversores instalado en el edificio de rectoría del Tecnológico de Costa
         Rica
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Murillo-Soto
+      - Hugo Sánchez-Ortiz
+      - Carlos Meza
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6334
     - title: 'Quantitative Comparison of Infrared Thermography, Visual Inspection,
         and Electrical Analysis Techniques on Photovoltaic Modules: A Case Study'
+      journal: Energies
+      authors:
+      - Leonardo Cardinale-Villalobos
+      - Carlos Meza
+      - Abel Méndez-Porras
+      - Luis D. Murillo-Soto
+      date: 2/3/2022
+      doi: 10.3390/en15051841
     - title: Detection Criterion for Progressive Faults in Photovoltaic Modules Based
         on Differential Voltage Measurements
+      journal: Applied Sciences
+      authors:
+      - Luis Diego Murillo-Soto
+      - Carlos Meza
+      date: 1/3/2022
+      doi: 10.3390/app12052565
     - title: 'Automated Fault Management System in a Photovoltaic Array: A Reconfiguration-Based
         Approach'
+      journal: Energies
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      date: 23/4/2021
+      doi: 10.3390/en14092397
     - title: Detection of Suboptimal Conditions in Photovoltaic Installations for
         Household-Prosumers
+      journal: Lecture Notes in Networks and Systems
+      authors:
+      - Dalberth Corrales
+      - Leonardo Cardinale-Villalobos
+      - Carlos Meza
+      - Luis Diego Murillo-Soto
+      date: '2022'
+      doi: 10.1007/978-3-030-78901-5_3
     - title: Experimental Comparison of Visual Inspection and Infrared Thermography
         for the Detection of Soling and Partial Shading in Photovoltaic Arrays
+      journal: Communications in Computer and Information Science
+      authors:
+      - Leonardo Cardinale-Villalobos
+      - Carlos Meza
+      - Luis D. Murillo-Soto
+      date: '2021'
+      doi: 10.1007/978-3-030-69136-3_21
     - title: Photovoltaic Array Fault Detection Algorithm Based on Least Significant
         Difference Test
+      journal: Communications in Computer and Information Science
+      authors:
+      - Luis Diego Murillo-Soto
+      - Carlos Meza
+      date: '2020'
+      doi: 10.1007/978-3-030-61834-6_43
     - title: Fault detection in solar arrays based on an efficiency threshold
+      journal: 2020 IEEE 11th Latin American Symposium on Circuits &amp; Systems (LASCAS)
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      date: 2/2020
+      doi: 10.1109/lascas45839.2020.9069046
     - title: 'Diagnose Algorithm and Fault Characterization for Photovoltaic Arrays:
         A Simulation Study'
+      journal: Lecture Notes in Electrical Engineering
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      date: '2020'
+      doi: 10.1007/978-3-030-37161-6_43
     - title: A Simple Temperature and Irradiance-Dependent Expression for the Efficiency
         of Photovoltaic Cells and Modules
+      journal: 2018 IEEE 38th Central America and Panama Convention (CONCAPAN XXXVIII)
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      date: 11/2018
+      doi: 10.1109/CONCAPAN.2018.8596458
     - title: Detección de faltas en motores eléctricos con base en índices de potencias
         y redes neuronales
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Murillo-Soto
+      - Cindy Calderón-Arce
+      - Geovanni Figueroa-Mata
+      date: 22/3/2018
+      doi: 10.18845/tm.v31i1.3499
     - title: Diseño e implementación del sistema de diagnóstico de fallos usando redes
         de petri interpretadas y coloreadas
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Murillo-Soto
+      date: 22/3/2018
+      doi: 10.18845/tm.v31i1.3493
     - title: Identification of the Internal Resistance in Solar Modules Under Dark
         Conditions Using Differential Evolution Algorithm
+      journal: 2018 IEEE International Work Conference on Bioinspired Intelligence
+        (IWOBI)
+      authors:
+      - Luis D. Murillo-Soto
+      - Geovanni Figueroa-Mata
+      - Carlos Meza
+      date: 7/2018
+      doi: 10.1109/IWOBI.2018.8464197
     - title: Voltage measurement in a reconfigurable solar array with series-parallel
         topology
-    - title: Sistema experto para motores asistido por temperatura (SEMAT)
+      journal: 2017 IEEE 37th Central America and Panama Convention (CONCAPAN XXXVII)
+      authors:
+      - Luis D. Murillo-Soto
+      - Carlos Meza
+      date: 11/2017
+      doi: 10.1109/CONCAPAN.2017.8278484
     - title: Automation of small-scale with Open Hardware
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Murillo-Soto
+      date: 3/3/2015
+      doi: 10.18845/tm.v28i1.2188
     - title: Diseño del programa de control para una celda de manufactura flexible
         didáctica
-    - title: Simulación de un sistema de manufactura flexible con redes de Petri coloreadas
-    - title: 'Redes de Petri: Modelado e implementación de algoritmos para autómatas
-        programables'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Murillo-Soto
+      date: 1/9/2014
+      doi: 10.18845/tm.v27i3.2065
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -114,30 +240,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

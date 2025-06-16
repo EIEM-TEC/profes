@@ -37,12 +37,11 @@ cv:
     Carrera profesional:
     - name: Profesor Asociado
       date: 01/01/2025
-    Publicaciones: []
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -50,30 +49,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

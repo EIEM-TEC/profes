@@ -12,6 +12,7 @@ experencia = pd.read_csv("02_experiencia_industria.csv")
 idiomas = pd.read_csv("03_idiomas.csv")
 areas = pd.read_csv("04_areas_interes.csv")
 publicaciones = pd.read_csv("05_publicaciones.csv")
+publicaciones.fillna("0",inplace=True)
 cursos = pd.read_csv("06_cursos.csv")
 carrera = pd.read_csv("07_carrera.csv")
 proyect = pd.read_csv("08_proyectos_inv_ext.csv")
@@ -51,9 +52,17 @@ def make_publication_entries(id,publicaciones):
     for _, row in publicaciones.iterrows():
         autoresd = row.get("autores","").split(";")
         autores = [x.strip() for x in autoresd]
+        date = f"{int(row["dia"])}/{int(row["mes"])}/{int(row["año"])}"
+        if row["dia"] == "0": 
+            date = f"{int(row["mes"])}/{int(row["año"])}"
+        if row["mes"] == "0":
+            date = f"{int(row["año"])}"
         entry = {
             "title": row["titulo"],
-            "authors": autores
+            "journal": row["revista"],
+            "authors": autores,
+            "date": date,
+            "doi": row["doi"]
         }
         publication_entries.append(entry)
     return publication_entries
@@ -68,46 +77,29 @@ def make_rendercv_yaml(id,datos,grados):
     education = make_education_entries(id,grados[grados["codigo"]==id])
     career = make_career_entries(id,carrera[carrera["codigo"]==id])
     public = make_publication_entries(id,publicaciones[publicaciones["codigo"]==id])
+    sections = {
+    "Información laboral": [
+        {"label": "Cédula", "details": str(datos["cedula"])},
+        {"label": "Tipo de nombramiento", "details": datos["tipoNom"]},
+        {"label": "Fecha de contratación", "details": datos["fechaCon"]},
+        {"label": "Sede", "details": datos["sede"]},
+        {"label": "Escuela", "details": datos["escuela"]},
+        {"label": "Correo", "details": datos["correo"]},
+        {"label": "ORCID", "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"},
+    ],
+    "Educación": education,
+    "Carrera profesional": career,
+    }
+
+    if public:
+        sections["Publicaciones"] = public
+
     yaml_dict = {
         "cv": {
             "name": nombre,
             "email": datos["correo"],
             "phone": f"+506-{datos["telefono"]}",
-            "sections": {
-                "Información laboral": [
-                    {
-                        "label": "Cédula",
-                        "details": str(datos["cedula"])
-                    },
-                    {
-                        "label": "Tipo de nombramiento",
-                        "details": datos["tipoNom"]
-                    },
-                    {
-                        "label": "Fecha de contratación",
-                        "details": datos["fechaCon"]
-                    },
-                    {
-                        "label": "Sede",
-                        "details": datos["sede"]
-                    },
-                    {
-                        "label": "Escuela",
-                        "details": datos["escuela"]
-                    },
-                    {
-                        "label": "Correo",
-                        "details": datos["correo"]
-                    },
-                    {
-                        "label": "ORCID",
-                        "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"
-                    }
-                ],
-                "Educación": education,
-                "Carrera profesional": career,
-                "Publicaciones": public,                
-            },
+            "sections": sections,         
         },
         "locale": {
             "language": "es",

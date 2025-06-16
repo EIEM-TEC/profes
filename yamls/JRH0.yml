@@ -56,35 +56,98 @@ cv:
     - title: Diseño de un sistema embebido para el control  y regulación del proceso
         dinámico de carga y descarga de celdas electroquímicas y su posterior validación
         para satélites CubeSat 1U.
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Kevin Gómez-Villagra
+      - Juan José Rojas-Hernandez
+      date: 28/6/2024
+      doi: 10.18845/tm.v37i3.6833
     - title: Desarrollo y prueba de un sistema para sensar de manera remota la velocidad
         del viento
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Nestor Martínez-Soto
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6331
     - title: Evolución vertical de la intensidad de turbulencia del viento en terreno
         complejo con obstáculos
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Richmond-Navarro
+      - Raziel Farid Sanabria-Sandí
+      - Luis Enrique Castro-Rodríguez
+      - Juan J. Rojas
+      - Williams R. Calderón-Muñoz
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6332
     - title: Integración de un sistema de almacenamiento de energía en un parque eólico,
         estudio de caso
-    - title: Presentación
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Jorge David Araya Rodríguez
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6333
+    - title: Diseño y desarrollo de una plataforma microfluídica con electrodos interdigitados
+        para espectroscopía por impedancia eléctrica
+      journal: Revista Tecnología en Marcha
+      authors:
+      - José Miguel Barboza-Retana
+      - Cristopher Vega Sánchez
+      - Juan J. Rojas
+      - Steven Quiel Hidalgo
+      - Sofía Madrigal Gamboa
+      - Paola Vega Castillo
+      - Renato Rimolo Donadio
+      date: 15/12/2021
+      doi: 10.18845/tm.v35i1.5389
     - title: A Lean Satellite Electrical Power System with Direct Energy Transfer
         and Bus Voltage Regulation Based on a Bi-Directional Buck Converter
+      journal: Aerospace
+      authors:
+      - Juan J. Rojas
+      - Yamauchi Takashi
+      - Mengu Cho
+      date: 5/7/2020
+      doi: 10.3390/aerospace7070094
     - title: Design, Implementation, and Operation of a Small Satellite Mission to
         Explore the Space Weather Effects in LEO
-    - title: A Digitally Controlled Bi-Directional DC-DC Converter for Nanosatellite
-        Power Systems
-    - title: Development of a charger/discharger system for electrochemical cell screening
-        and testing
-    - title: Proposal for a Modular Electrical Power System for Nanosatellites
-    - title: 'Jaguar Monitoring Store-and-Forward Satellite: JaguarSAT'
-    - title: Proposal for a Modular Electrical Power System For Nanosatellites
-    - title: Testing and operations of a store and forward CubeSat for environmental
-        monitoring of Costa Rica
-    - title: 'Project Irazú: Advances of a store &amp; forward CubeSat mission for
-        environmental monitoring in Costa Rica'
-    - title: Low Cost Fabrication of a Piezoelectric Actuated Valveless Micropump
-    - title: Design and Simulation of a Piezoelectric Actuated Valveless Micropump
+      journal: Aerospace
+      authors:
+      - Isai Fajardo
+      - Aleksander Lidtke
+      - Sidi Bendoukha
+      - Jesus Gonzalez-Llorente
+      - Rafael Rodríguez
+      - Rigoberto Morales
+      - Dmytro Faizullin
+      - Misuzu Matsuoka
+      - Naoya Urakami
+      - Ryo Kawauchi
+      - Masayuki Miyazaki
+      - Naofumi Yamagata
+      - Ken Hatanaka
+      - Farhan Abdullah
+      - Juan Rojas
+      - Mohamed Keshk
+      - Kiruki Cosmas
+      - Tuguldur Ulambayar
+      - Premkumar Saganti
+      - Doug Holland
+      - Tsvetan Dachev
+      - Sean Tuttle
+      - Roger Dudziak
+      - Kei-ichi Okuyama
+      date: 27/9/2019
+      doi: 10.3390/aerospace6100108
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -92,30 +155,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

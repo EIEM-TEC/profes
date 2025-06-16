@@ -40,19 +40,58 @@ cv:
     Publicaciones:
     - title: Synthesis of Anisotropic Gold Microparticles via L‐Glutathione‐Mediated
         Pathways in Droplet Microfluidics
+      journal: Particle &amp; Particle Systems Characterization
+      authors:
+      - Zhenxu Yang
+      - Qiankun Yin
+      - Mengfan He
+      - Shin‐Wei Chong
+      - Zhejun Xu
+      - Xiaochen Liu
+      - Christopher Vega‐Sánchez
+      - Arun Jaiswal
+      - Daniele Vigolo
+      - Ken‐Tye Yong
+      date: 7/6/2024
+      doi: 10.1002/ppsc.202400056
     - title: Slightly Depleted Lubricant-Infused Surfaces Are No Longer Slippery
+      journal: Langmuir
+      authors:
+      - Christopher Vega-Sánchez
+      - Chiara Neto
+      date: 16/8/2022
+      doi: 10.1021/acs.langmuir.2c01412
     - title: Detection of Nanobubbles on Lubricant-Infused Surfaces Using AFM Meniscus
         Force Measurements
+      journal: Langmuir
+      authors:
+      - Sam Peppou-Chapman
+      - Christopher Vega-Sánchez
+      - Chiara Neto
+      date: 12/8/2022
+      doi: 10.1021/acs.langmuir.2c01411
     - title: 'Pressure Drop Measurements in Microfluidic Devices: A Review on the
         Accurate Quantification of Interfacial Slip'
+      journal: Advanced Materials Interfaces
+      authors:
+      - Christopher Vega‐Sánchez
+      - Chiara Neto
+      date: 13/12/2021
+      doi: 10.1002/admi.202101641
     - title: Nanobubbles explain the large slip observed on lubricant-infused surfaces
-    - title: Diseño y desarrollo de una plataforma microfluídica con electrodos interdigitados
-        para espectroscopía por impedancia eléctrica
+      journal: Nature Communications
+      authors:
+      - Christopher Vega-Sánchez
+      - Sam Peppou-Chapman
+      - Liwen Zhu
+      - Chiara Neto
+      date: 17/1/2022
+      doi: 10.1038/s41467-022-28016-1
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 14/06/2025'
+  last_updated_date_template: 'Última actualización: 15/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -60,30 +99,30 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Sep: null
+    Ene: null
     Oct: null
     Abr: null
     Jun: null
-    Mar: null
-    Jul: null
-    May: null
-    Ene: null
     Feb: null
+    Sep: null
+    May: null
+    Jul: null
     Dic: null
+    Ago: null
+    Mar: null
+    Nov: null
   full_names_of_months: !!set
-    Junio: null
-    Febrero: null
-    Abril: null
-    Marzo: null
+    Septiembre: null
     Octubre: null
+    Agosto: null
+    Marzo: null
+    Enero: null
+    Abril: null
+    Diciembre: null
+    Febrero: null
     Noviembre: null
     Julio: null
-    Diciembre: null
-    Enero: null
-    Septiembre: null
-    Agosto: null
+    Junio: null
     Mayo: null
 rendercv_settings:
   date: '2025-06-08'

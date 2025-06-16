@@ -3,19 +3,115 @@ import requests
 import time
 import urllib.parse
 from rapidfuzz import fuzz
-import unicodedata
+import traceback
+from pybliometrics.scopus import ScopusSearch, AbstractRetrieval
 
-def limpiar_texto(texto):
-    if not texto:
-        return ""
-    texto = unicodedata.normalize("NFKC", texto)
-    texto = texto.replace("´a", "á").replace("´e", "é").replace("´i", "í").replace("´o", "ó").replace("´u", "ú")
-    texto = texto.replace("`a", "á").replace("`e", "é").replace("`i", "í").replace("`o", "ó").replace("`u", "ú")
-    texto = texto.replace("´A", "Á").replace("´E", "É").replace("´I", "Í").replace("´O", "Ó").replace("´U", "Ú")
-    texto = texto.replace("`A", "Á").replace("`E", "É").replace("`I", "Í").replace("`O", "Ó").replace("`U", "Ú")
-    texto = texto.replace("´n", "ñ").replace("´N", "Ñ")
-    texto = texto.replace("´", "")  # elimina comillas sueltas si quedan
-    return texto
+import csv
+import requests
+import time
+import urllib.parse
+from rapidfuzz import fuzz
+import os
+import traceback
+from configparser import ConfigParser
+
+
+# Asegurar imports disponibles si pybliometrics falla
+try:
+    from pybliometrics.scopus import ScopusSearch, AbstractRetrieval
+    PYBLIOMETRICS_AVAILABLE = True
+except ImportError:
+    PYBLIOMETRICS_AVAILABLE = False
+
+# === NUEVO fallback para Scopus vía requests ===
+def search_scopus_via_requests(api_key, query, count=5):
+    url = "https://api.elsevier.com/content/search/scopus"
+    params = {
+        "query": query,
+        "apiKey": api_key,
+        "count": count,
+        "view": "STANDARD"
+    }
+    headers = {"Accept": "application/json"}
+
+    resp = requests.get(url, headers=headers, params=params)
+
+    if resp.status_code == 200:
+        data = resp.json()
+        entries = data.get("search-results", {}).get("entry", [])
+        print(f"✅ Resultados encontrados: {len(entries)}")
+        publicaciones = []
+        for item in entries:
+            titulo = item.get("dc:title")
+            if not titulo:
+                continue  # Evita publicaciones sin título (clave requerida)
+            publicaciones.append({
+                "titulo": titulo,
+                "autores": item.get("dc:creator"),
+                "año": item.get("prism:coverDate", "").split("-")[0],
+                "mes": item.get("prism:coverDate", "").split("-")[1] if '-' in item.get("prism:coverDate", "") else "",
+                "dia": item.get("prism:coverDate", "").split("-")[2] if '-' in item.get("prism:coverDate", "") else "",
+                "revista": item.get("prism:publicationName", ""),
+                "doi": item.get("prism:doi", ""),
+                "tipo": "article",
+                "fuente": "scopus_requests"
+            })
+        return publicaciones
+    else:
+        print(f"❌ Error {resp.status_code}: {resp.text}")
+        return []
+
+def get_scopus_publications_by_orcid(orcid_id, api_key):
+    query = f"AU-ID({orcid_id})"
+
+    if PYBLIOMETRICS_AVAILABLE:
+        try:
+            search = ScopusSearch(query, refresh=True)
+            if not search.get_eids():
+                raise RuntimeError("No EIDs returned")
+        except Exception as e:
+            print(f"⚠️ Error buscando Scopus para {orcid_id}, usando fallback con requests: {e}")
+            try:
+                results = search_scopus_via_requests(api_key, query)
+                if isinstance(results, list):
+                    return [r for r in results if r and isinstance(r, dict) and r.get("titulo")]
+                else:
+                    print("❌ Fallback devolvió un valor inesperado (no es lista).")
+                    return []
+            except Exception as e2:
+                print(f"❌ Fallback con requests también falló: {e2}")
+                return []
+
+        publications = []
+        for eid in search.get_eids():
+            try:
+                abstract = AbstractRetrieval(eid, view="FULL")
+                authors = ["{} {}".format(a.given_name, a.surname).strip() for a in abstract.authors or []]
+
+                pub = {
+                    "titulo": abstract.title or "",
+                    "revista": abstract.publicationName or "",
+                    "tipo": abstract.subtypeDescription or "",
+                    "autores": ";".join(authors),
+                    "año": abstract.coverDate.split("-")[0] if abstract.coverDate else "",
+                    "mes": abstract.coverDate.split("-")[1] if abstract.coverDate else "",
+                    "dia": abstract.coverDate.split("-")[2] if abstract.coverDate else "",
+                    "doi": abstract.doi or "",
+                    "fuente": "scopus"
+                }
+                publications.append(pub)
+            except Exception as e:
+                print(f"  ❌ Error al recuperar {eid}: {e}")
+                traceback.print_exc()
+        return publications
+    else:
+        print(f"⚠️ pybliometrics no está disponible. Usando fallback con requests para {orcid_id}.")
+        try:
+            results = search_scopus_via_requests(api_key, query)
+            return [r for r in results if r and r.get("titulo")]
+        except Exception as e:
+            print(f"❌ Fallback con requests también falló: {e}")
+            return []
 
 def safe_get(d, *keys, default=""):
     for key in keys:
@@ -132,12 +228,14 @@ def search_crossref_by_title(title, max_results=3, threshold=85, log_discards=No
             authors = ["{} {}".format(a.get("given", ""), a.get("family", "")).strip()
                        for a in data.get("author", []) if "given" in a or "family" in a]
 
+            # ❌ Filtrar si no hay autores
             if not authors:
                 print("    ❌ Match found but has no authors, skipping.")
                 if log_discards is not None:
                     log_discards.append({"codigo": "", "titulo": title, "motivo": "sin_autores"})
                 return {}
 
+            # ❌ Filtrar si falta título, año o revista
             title_final = data.get("title", [""])[0] if data.get("title") else ""
             revista = data.get("container-title", [""])[0] if data.get("container-title") else ""
             date_parts = get_first_date(data)
@@ -170,7 +268,7 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
         reader = csv.DictReader(csvfile)
         publicaciones = []
         descartados = []
-        seen_keys = set()
+        seen_keys = set()  # Para evitar duplicados
 
         for row in reader:
             print(row["nombre"])
@@ -181,6 +279,7 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
                 continue
             print(f"🔍 Procesando ORCID {orcid}...")
 
+            # === ORCID + CrossRef ===
             works = get_orcid_dois_with_paths(orcid)
             for work in works:
                 doi = work["doi"]
@@ -217,11 +316,16 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
 
                 time.sleep(0.1)
 
-    for pub in publicaciones:
-        for key in pub:
-            if isinstance(pub[key], str):
-                pub[key] = limpiar_texto(pub[key])
+            # === Scopus ===
+            scopus_pubs = get_scopus_publications_by_orcid(orcid,api_key)
+            for pub in scopus_pubs:
+                pub["codigo"] = codigo
+                key = normalize_pub_key(pub)
+                if key not in seen_keys:
+                    seen_keys.add(key)
+                    publicaciones.append(pub)
 
+    # Escribir publicaciones
     with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
         fieldnames = ["codigo", "titulo", "revista", "tipo", "autores", "año", "mes", "dia", "doi", "fuente"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -239,4 +343,7 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
     else:
         print("\n✅ No hubo publicaciones descartadas.")
 
+api_key = "cd8faa5492300e4e2edce53cfc63f1f8"  # usa tu clave real
+
 procesar_orcid_desde_csv()
+
