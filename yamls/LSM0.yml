@@ -1,7 +1,7 @@
 cv:
-  name: Laura Salas Moya
+  name: M.Sc. Laura Salas Moya
   email: lausalas@itcr.ac.cr
-  phone: +506-nan
+  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -9,7 +9,7 @@ cv:
     - label: Tipo de nombramiento
       details: Propiedad
     - label: Fecha de contratación
-      details: 08/2016
+      details: 01/08/2016
     - label: Sede
       details: Cartago
     - label: Escuela
@@ -17,24 +17,26 @@ cv:
     - label: Correo
       details: lausalas@itcr.ac.cr
     - label: ORCID
-      details: '00'
+      details: N/A
     Educación:
     - institution: Universidad de Costa Rica
       area: Ingeniería Mecánica
       degree: Licenciatura
       location: Costa Rica
-      end_date: 1998-01
+      end_date: '1998'
     - institution: Universidad de Costa Rica
       area: Administración de Proyectos de Construcción
       degree: Maestría
       location: Costa Rica
-      end_date: 2010-01
-    Carrera profesional: []
+      end_date: '2010'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/08/2016
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -42,44 +44,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/LSM0.pdf
-    typst_path: CVs/LSM0.typ
-    html_path: CVs/LSM0.html
-    markdown_path: CVs/LSM0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

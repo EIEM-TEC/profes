@@ -1,5 +1,5 @@
 cv:
-  name: Juan José Rojas Hernández
+  name: Dr.-Ing. Juan José Rojas Hernández
   email: juan.rojas@itcr.ac.cr
   phone: +506-88581419
   sections:
@@ -23,17 +23,22 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2008-01
+      end_date: '2008'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Electrónica con énfasis en microsistemas
       degree: Maestría
       location: Costa Rica
-      end_date: 2016-01
+      end_date: '2016'
     - institution: Instituto Tecnológico de Kyushu
       area: Ciencia aplicada a la integración de sistemas
       degree: Doctorado
       location: Japón
-      end_date: 2020-01
+      end_date: '2020'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ciencia de los datos
+      degree: Especialización
+      location: Costa Rica
+      end_date: '2023'
     Carrera profesional:
     - name: Profesor Instructor
       date: 03/02/2014
@@ -47,11 +52,167 @@ cv:
       date: 02/02/2022
     - name: Intermedio Profesor Catedrático
       date: 03/03/2025
+    Publicaciones:
+    - title: Diseño de un sistema embebido para el control  y regulación del proceso
+        dinámico de carga y descarga de celdas electroquímicas y su posterior validación
+        para satélites CubeSat 1U.
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Kevin Gómez-Villagra
+      - Juan José Rojas-Hernandez
+      date: 28/6/2024
+      doi: 10.18845/tm.v37i3.6833
+    - title: Desarrollo y prueba de un sistema para sensar de manera remota la velocidad
+        del viento
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Nestor Martínez-Soto
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6331
+    - title: Evolución vertical de la intensidad de turbulencia del viento en terreno
+        complejo con obstáculos
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Richmond-Navarro
+      - Raziel Farid Sanabria-Sandí
+      - Luis Enrique Castro-Rodríguez
+      - Juan J. Rojas
+      - Williams R. Calderón-Muñoz
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6332
+    - title: Integración de un sistema de almacenamiento de energía en un parque eólico,
+        estudio de caso
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Jorge David Araya Rodríguez
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6333
+    - title: Diseño y desarrollo de una plataforma microfluídica con electrodos interdigitados
+        para espectroscopía por impedancia eléctrica
+      journal: Revista Tecnología en Marcha
+      authors:
+      - José Miguel Barboza-Retana
+      - Cristopher Vega Sánchez
+      - Juan J. Rojas
+      - Steven Quiel Hidalgo
+      - Sofía Madrigal Gamboa
+      - Paola Vega Castillo
+      - Renato Rimolo Donadio
+      date: 15/12/2021
+      doi: 10.18845/tm.v35i1.5389
+    - title: A Lean Satellite Electrical Power System with Direct Energy Transfer
+        and Bus Voltage Regulation Based on a Bi-Directional Buck Converter
+      journal: Aerospace
+      authors:
+      - Juan J. Rojas
+      - Yamauchi Takashi
+      - Mengu Cho
+      date: 5/7/2020
+      doi: 10.3390/aerospace7070094
+    - title: Design, Implementation, and Operation of a Small Satellite Mission to
+        Explore the Space Weather Effects in LEO
+      journal: Aerospace
+      authors:
+      - Isai Fajardo
+      - Aleksander Lidtke
+      - Sidi Bendoukha
+      - Jesus Gonzalez-Llorente
+      - Rafael Rodríguez
+      - Rigoberto Morales
+      - Dmytro Faizullin
+      - Misuzu Matsuoka
+      - Naoya Urakami
+      - Ryo Kawauchi
+      - Masayuki Miyazaki
+      - Naofumi Yamagata
+      - Ken Hatanaka
+      - Farhan Abdullah
+      - Juan Rojas
+      - Mohamed Keshk
+      - Kiruki Cosmas
+      - Tuguldur Ulambayar
+      - Premkumar Saganti
+      - Doug Holland
+      - Tsvetan Dachev
+      - Sean Tuttle
+      - Roger Dudziak
+      - Kei-ichi Okuyama
+      date: 27/9/2019
+      doi: 10.3390/aerospace6100108
+    Proyectos de investigación y extensión:
+    - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
+        eléctrica para aplicaciones en Bioingeniería
+      start_date: '2016-01-01'
+      end_date: '2019-12-31'
+      NUMPRO: 1360036
+      TIPO: Investigación
+      ESCUELA: Ingeniería en Electrónica
+    - name: Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC)
+      start_date: '2010-01-01'
+      end_date: '2012-12-31'
+      NUMPRO: 17011001
+      TIPO: Investigación
+      ESCUELA: Química
+    - name: Desarrollo de un sistema integrado para la prueba de sistemas de potencian
+        CubeSats
+      start_date: '2022-01-01'
+      end_date: '2024-06-30'
+      NUMPRO: 1341019
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
+    - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
+        Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
+      start_date: '2022-01-01'
+      end_date: '2023-06-30'
+      NUMPRO: 1341016
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
+        aprovechamiento del recurso hídrico mediante la incorporación de sistemas
+        IoT'
+      start_date: '2023-05-15'
+      end_date: '2023-12-31'
+      NUMPRO: 1341023
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341025
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'Desarrollo de un sistema de monitoreo y alerta para la detección de la
+        exposición al calor en labores agrícolas: Aplicación en la zafra de la caña
+        de azúcar'
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      NUMPRO: 1341029
+      TIPO: Investigación
+      ESCUELA: ' Ingeniería Electromecánica'
+    - name: Desarrollo de una plataforma tecnológica escalable y modular para el registro
+        de variables físicas y químicas asociadas a la calidad y abundancia del agua
+        potable
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      NUMPRO: 1460108
+      TIPO: Investigación
+      ESCUELA: Química
+    - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
+        escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago'
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+      NUMPRO: 1340030
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -59,44 +220,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/JRH0.pdf
-    typst_path: CVs/JRH0.typ
-    html_path: CVs/JRH0.html
-    markdown_path: CVs/JRH0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

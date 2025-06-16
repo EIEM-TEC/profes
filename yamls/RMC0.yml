@@ -1,7 +1,7 @@
 cv:
-  name: Rosa Matarrita Chaves
+  name: M.Sc. Rosa Matarrita Chaves
   email: rmmatarrita@itcr.ac.cr
-  phone: +506-8722-6648
+  phone: +506-87226648
   sections:
     Información laboral:
     - label: Cédula
@@ -23,18 +23,49 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2008-01
+      end_date: '2008'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Maestría
       location: Costa Rica
-      end_date: 2013-01
-    Carrera profesional: []
+      end_date: '2013'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/01/2025
+    Publicaciones:
+    - title: Estimación de la rentabilidad de una turbina eólica comercial de pequeña
+        escala en Costa Rica
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Rosa Matarrita-Chaves
+      - Gustavo Richmond-Navarro
+      - Gustavo Murillo-Zumbado
+      - Maximino Jiménez-Ceciliano
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6329
+    - title: A Comprehensive Deep Learning Pipeline for Arrhythmia Multi-Classification
+        with Electrocardiography Data
+      journal: '0'
+      authors:
+      - Fabricio Quirós-Corella
+      - Randall Loaiza
+      - Rosa Matarrita
+      - Esteban Meneses
+      date: 13/11/2024
+      doi: 10.21203/rs.3.rs-5441195/v1
+    Proyectos de investigación y extensión:
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: '2022-07-01'
+      end_date: '2024-12-31'
+      NUMPRO: 1341021
+      TIPO: Investigación
+      ESCUELA: .nan
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -42,44 +73,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/RMC0.pdf
-    typst_path: CVs/RMC0.typ
-    html_path: CVs/RMC0.html
-    markdown_path: CVs/RMC0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

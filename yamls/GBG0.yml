@@ -1,5 +1,5 @@
 cv:
-  name: Greivin Barahona Guzmán
+  name: Mag. Greivin Barahona Guzmán
   email: gbarahona@itcr.ac.cr
   phone: +506-25509344
   sections:
@@ -17,29 +17,35 @@ cv:
     - label: Correo
       details: gbarahona@itcr.ac.cr
     - label: ORCID
-      details: '00'
+      details: N/A
     Educación:
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Bachillerato
       location: Costa Rica
-      end_date: 2002-01
+      end_date: '2002'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2003-01
+      end_date: '2003'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Maestría
       location: Costa Rica
-      end_date: 2017-01
-    Carrera profesional: []
+      end_date: '2017'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/01/2003
+    - name: Profesor Adjunto
+      date: 01/07/2006
+    - name: Profesor Asociado
+      date: 05/02/2014
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,44 +53,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/GBG0.pdf
-    typst_path: CVs/GBG0.typ
-    html_path: CVs/GBG0.html
-    markdown_path: CVs/GBG0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

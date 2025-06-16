@@ -1,5 +1,5 @@
 cv:
-  name: Juan Luis Guerrero Fernández
+  name: Juan Luis Guerrero Fernández, Ph.D.
   email: jguerrero@itcr.ac.cr
   phone: +506-25509354
   sections:
@@ -23,23 +23,63 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2008-01
+      end_date: '2008'
     - institution: University of Applied Sciences
       area: Ingeniería en Ciencias en Mecatrónica
       degree: Maestría
       location: Alemania
-      end_date: 2015-01
+      end_date: '2015'
     - institution: Universidad de Sherffield
       area: Sistemas de control
       degree: Doctorado
       location: Inglaterra
-      end_date: 2023-01
-    Carrera profesional: []
+      end_date: '2023'
+    Carrera profesional:
+    - name: Profesor Adjunto
+      date: 01/01/2017
+    Publicaciones:
+    - title: Efficiency-aware nonlinear model-predictive control with real-time iteration
+        scheme for wave energy converters
+      journal: International Journal of Control
+      authors:
+      - Juan L. Guerrero-Fernandez
+      - Oscar J. González-Villarreal
+      - John Anthony Rossiter
+      date: 26/5/2022
+      doi: 10.1080/00207179.2022.2078424
+    - title: Nonlinear Model Predictive Control Based on Real-Time Iteration Scheme
+        for Wave Energy Converters Using WEC-Sim
+      journal: 'Volume 8: Ocean Renewable Energy'
+      authors:
+      - Juan Luis Guerrero-Fernández
+      - Nathan Michael Tom
+      - John Anthony Rossiter
+      date: 5/6/2022
+      doi: 10.1115/OMAE2022-80972
+    - title: 'Model Predictive Control for Wave Energy Converters: A Moving Window
+        Blocking Approach'
+      journal: IFAC-PapersOnLine
+      authors:
+      - Juan Guerrero-Fernández
+      - Oscar J. González-Villarreal
+      - John Anthony Rossiter
+      - Bryn Jones
+      date: '2020'
+      doi: 10.1016/j.ifacol.2020.12.1960
+    Proyectos de investigación y extensión:
+    - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
+        para un sistema de conversión de la energía de las olas para maximizar el
+        aprovechamiento de la energía oceánica'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341024
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,44 +87,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/JGF0.pdf
-    typst_path: CVs/JGF0.typ
-    html_path: CVs/JGF0.html
-    markdown_path: CVs/JGF0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

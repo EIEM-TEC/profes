@@ -1,5 +1,5 @@
 cv:
-  name: Gustavo Gomez Ramirez
+  name: Dr.-Ing. Gustavo Gomez Ramirez
   email: ggomez@itcr.ac.cr
   phone: +506-25509354
   sections:
@@ -23,33 +23,311 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Bachillerato
       location: Costa Rica
-      end_date: 2001-01
+      end_date: '2001'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2002-01
+      end_date: '2002'
     - institution: Universidad de Costa Rica
       area: Ingeniería Eléctrica
       degree: Maestría
       location: Costa Rica
-      end_date: 2014-01
+      end_date: '2014'
     - institution: Universidad Estatal a Distancia
       area: Administración de Negocios
       degree: Maestría
       location: Costa Rica
-      end_date: 2018-01
+      end_date: '2018'
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería
       degree: Doctorado
       location: Costa Rica
-      end_date: 2024-01
-    Carrera profesional: []
+      end_date: '2024'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 30/01/2005
+    - name: Profesor Asociado
+      date: 30/11/2017
+    - name: Intermedio Profesor Catedrático
+      date: 30/01/2019
+    - name: Profesor Catedrático
+      date: 16/02/2022
+    - name: Profesor Catedrático Paso1
+      date: 16/02/2025
+    Publicaciones:
+    - title: Modelado de Redes de Distribución usando ETAP
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Rebeca Solis-Ortega
+      - Gustavo A. Gómez-Ramírez
+      - Dario Brenes-Fallas
+      - José Pablo Morales-Hern ́andez
+      - Marlon Umaña-Mondragón
+      date: 8/4/2025
+      doi: 10.18845/tm.v38i2.7104
+    - title: Evaluación del comportamiento de la demanda en el modelado de las redes
+        de distribución
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Rebeca Solis-Ortega
+      - Gustavo Adolfo Gómez Ramírez
+      - Kervyn Josué Sáenz-González
+      - Alfredo Josué Ellis-Rodríguez
+      - William Johan Navarro-Alpízar
+      date: 20/12/2024
+      doi: 10.18845/tm.v38i1.7050
+    - title: 'Electrochemical Storage and Flexibility in Transfer Capacities: Strategies
+        and Uses for Vulnerable Power Grids'
+      journal: Energies
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Luis García-Santander
+      - José Rodrigo Rojas-Morales
+      - Markel Lazkano-Zubiaga
+      - Carlos Meza
+      date: 23/11/2024
+      doi: 10.3390/en17235878
+    - title: Increasing flexibility in vulnerable power grids using electrochemical
+        storage
+      journal: Heliyon
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Luis García-Santander
+      - Markel Zubiaga Lazkano
+      - Carlos Meza
+      date: 8/2024
+      doi: 10.1016/j.heliyon.2024.e35710
+    - title: 'Hacia el mejoramiento de la gestión de activos de equipos críticos en
+        Pymes: propuesta de metodología e implementación'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Miguel Ángel Segura-Monge
+      - Gustavo Adolfo Gómez-Ramírez
+      - Greivin Barahona-Guzmán
+      - Juan José Montero-Jiménez
+      date: 9/4/2024
+      doi: 10.18845/tm.v37i2.6699
+    - title: Impact of electric vechicles on power transmission grids
+      journal: Heliyon
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Rebeca Solis-Ortega
+      - Luis Alberto Ross-Lépiz
+      date: 11/2023
+      doi: 10.1016/j.heliyon.2023.e22253
+    - title: 'The Central American Power System: Achievements, Challenges, and Opportunities
+        for a Green Transition'
+      journal: Energies
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Carlos Meza
+      - Gonzalo Mora-Jiménez
+      - José Rodrigo Rojas Morales
+      - Luis García-Santander
+      date: 25/5/2023
+      doi: 10.3390/en16114328
+    - title: Simulación del sistema de interconexión eléctrica de los países de América
+        Central usando ETAP
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Gonzalo Mora-Jiménez
+      - Carlos Meza
+      date: 6/3/2023
+      doi: 10.18845/tm.v36i2.6007
+    - title: Metodología para la implementación de sistemas fotovoltaicos con almacenamiento
+        para pequeñas industrias
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Carlos Alberto Bolaños-Jiménez
+      date: 14/12/2022
+      doi: 10.18845/tm.v36i1.5843
+    - title: Metodología para Evaluar la Condición de Transformadores Eléctricos de
+        Potencia Basada en un Índice de Salud Compuesto
+      journal: Ingeniería
+      authors:
+      - Oscar Nuñez Mata
+      - Gustavo Gómez-Ramírez
+      - Fauricio Acuña Rojas
+      - César González Solís
+      date: 29/11/2022
+      doi: 10.15517/ri.v33i1.50613
+    - title: Motor bearing failures detection by using vibration data
+      journal: 2022 IEEE 40th Central America and Panama Convention (CONCAPAN)
+      authors:
+      - Jose Ignacio Rodriguez-Rodriguez
+      - Oscar Nunez-Mata
+      - Gustavo Gomez-Ramirez
+      date: 9/11/2022
+      doi: 10.1109/concapan48024.2022.9997595
+    - title: 'Increasing Distribution Network Capacity through Storage in Central
+        American Countries: A Case Study'
+      journal: 2022 IEEE International Conference on Automation/XXV Congress of the
+        Chilean Association of Automatic Control (ICA-ACCA)
+      authors:
+      - Gustavo A. Gomez-Ramirez
+      - Isaac A. Luevano-Reyes
+      - Gonzalo Mora-Jimenez
+      - Luis Garcia-Santander
+      - Markel Zubiaga Laskano
+      - Carlos Meza
+      date: 24/10/2022
+      doi: 10.1109/ica-acca56767.2022.10006043
+    - title: Índice de estimación de la vida residual en transformadores eléctricos
+        de potencia basado en condición
+      journal: Revista Tecnología en Marcha
+      authors:
+      - José Manuel Castro-Meneses
+      - Gustavo A. Gómez-Ramírez
+      - Oscar Núñez-Mata
+      date: 30/9/2022
+      doi: 10.18845/tm.v35i4.5776
+    - title: Challenges of Storage in  Large Power Systems
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo A. Gómez-Ramírez
+      - Carlos Meza
+      date: 13/12/2021
+      doi: 10.18845/tm.v34i7.6016
+    - title: 'Demand Response Improvement using Storage Power Systems: Case study
+        of Honduras'
+      journal: 2021 IEEE CHILEAN Conference on Electrical, Electronics Engineering,
+        Information and Communication Technologies (CHILECON)
+      authors:
+      - Gustavo A. Gomez-Ramirez
+      - Isaac A. Luevano-Reyes
+      - Carlos Meza
+      - Luis Garcia-Santander
+      date: 6/12/2021
+      doi: 10.1109/chilecon54041.2021.9703062
+    - title: Electric Vehicle Penetration Modelling for Costa Rica Power System
+      journal: 2021 IEEE CHILEAN Conference on Electrical, Electronics Engineering,
+        Information and Communication Technologies (CHILECON)
+      authors:
+      - Gustavo A. Gomez-Ramirez
+      - Rebeca Solis-Ortega
+      date: 6/12/2021
+      doi: 10.1109/chilecon54041.2021.9703070
+    - title: Oportunidades y desafíos para la integración de almacenamiento electroquímico
+        en las redes eléctricas centroamericanas
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Carlos Meza
+      - Sergio Morales-Hernández
+      date: 29/6/2021
+      doi: 10.18845/tm.v34i3.5352
+    - title: Assessment of Power Transformers using a Methodology Based on Health
+        Indices
+      journal: 2021 IEEE International Conference on Automation/XXIV Congress of the
+        Chilean Association of Automatic Control (ICA-ACCA)
+      authors:
+      - Oscar Nunez-Mata
+      - Fauricio Acuna-Rojas
+      - Cesar Gonzalez-Solis
+      - Gustavo Gomez-Ramirez
+      date: 22/3/2021
+      doi: 10.1109/icaacca51523.2021.9465245
+    - title: Metodología indirecta para la estimación de vida útil residual de transformadores
+        de potencia a partir de la evaluación de los materiales dieléctricos
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Luis Diego Acuña-Barrantes
+      - Gustavo Adolfo Gómez Ramírez
+      date: 23/7/2020
+      doi: 10.18845/tm.v33i3.4485
+    - title: 'Potencia Reactiva: del despacho óptimo al cobro de tarifas - PARTE B'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 16/5/2019
+      doi: 10.18845/tm.v32i2.4347
+    - title: 'Potencia Reactiva: Despacho Óptimo con una programación lineal-PARTE
+        A'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 1/3/2019
+      doi: 10.18845/tm.v32i1.4116
+    - title: New Proposal of Electric Rates in Costa Rica
+      journal: 2018 IEEE 38th Central America and Panama Convention (CONCAPAN XXXVIII)
+      authors:
+      - Gustavo Adolfo Gomez Ramirez
+      date: 11/2018
+      doi: 10.1109/concapan.2018.8596324
+    - title: Medición de Descargas Parciales en Transformadores de Potencia bajo los
+        estándares internacionales IEC e IEEE
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 22/3/2018
+      doi: 10.18845/tm.v31i1.3498
+    - title: Comportamiento de los aislamientos sólidos de transformadores de potencia
+        en condiciones ambientales no controladas
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Jiménez-Araya
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 11/11/2016
+      doi: 10.18845/tm.v29i3.2891
+    - title: Evolución y tendencias de índices de confiabilidad en sistemas eléctricos
+        de potencia
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 30/8/2016
+      doi: 10.18845/tm.v29i2.2687
+    - title: Introducing saturation characteristic fitting techniques for power transformers
+        in the Costa Rican Electrical Network
+      journal: 2016 IEEE 36th Central American and Panama Convention (CONCAPAN XXXVI)
+      authors:
+      - Jorge Navarro
+      - Leonardo Montealegre
+      - Gustavo Gomez
+      date: 11/2016
+      doi: 10.1109/CONCAPAN.2016.7942381
+    - title: 'Metodología para el análisis y retiro de activos: transformadores de
+        potencia'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      date: 1/9/2015
+      doi: 10.18845/tm.v28i3.2416
+    Proyectos de investigación y extensión:
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341025
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
+    - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
+        estudios eléctricos y ambientales para Costa Rica
+      start_date: '2020-01-01'
+      end_date: '2022-12-31'
+      NUMPRO: 13411801
+      TIPO: Investigación
+      ESCUELA: .nan
+    - name: Estimación del Límite Técnico permisible para la penetración de energías
+        renovables y generación distribuida en el Sistema Eléctrico Nacional
+      start_date: '2023-01-01'
+      end_date: '2024-12-31'
+      NUMPRO: 13411901
+      TIPO: Investigación
+      ESCUELA: .nan
+    - name: Estrategias para la integración de vehículos eléctricos, generación distribuida
+        y almacenamiento electroquímico en el Sistema Eléctrico Nacional
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+      NUMPRO: 1341028
+      TIPO: Investigación
+      ESCUELA: .nan
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -57,44 +335,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/GGR0.pdf
-    typst_path: CVs/GGR0.typ
-    html_path: CVs/GGR0.html
-    markdown_path: CVs/GGR0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

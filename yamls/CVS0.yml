@@ -1,5 +1,5 @@
 cv:
-  name: Christopher Vega Sánchez
+  name: Christopher Vega Sánchez, Ph.D.
   email: cvega@itcr.ac.cr
   phone: +506-25509380
   sections:
@@ -23,23 +23,91 @@ cv:
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2008-01
+      end_date: '2008'
     - institution: Albert Ludwing University Freiburg
       area: Ingeniería en Microsistemas Electromecánicos
       degree: Maestría
       location: Alemania
-      end_date: 2013-01
+      end_date: '2013'
     - institution: Universidad de Sídney
       area: Ingeniería de Superficies
       degree: Doctorado
       location: Australia
-      end_date: 2022-01
-    Carrera profesional: []
+      end_date: '2022'
+    Carrera profesional:
+    - name: Profesor Asociado
+      date: 08/03/2024
+    Publicaciones:
+    - title: Synthesis of Anisotropic Gold Microparticles via L‐Glutathione‐Mediated
+        Pathways in Droplet Microfluidics
+      journal: Particle &amp; Particle Systems Characterization
+      authors:
+      - Zhenxu Yang
+      - Qiankun Yin
+      - Mengfan He
+      - Shin‐Wei Chong
+      - Zhejun Xu
+      - Xiaochen Liu
+      - Christopher Vega‐Sánchez
+      - Arun Jaiswal
+      - Daniele Vigolo
+      - Ken‐Tye Yong
+      date: 7/6/2024
+      doi: 10.1002/ppsc.202400056
+    - title: Slightly Depleted Lubricant-Infused Surfaces Are No Longer Slippery
+      journal: Langmuir
+      authors:
+      - Christopher Vega-Sánchez
+      - Chiara Neto
+      date: 16/8/2022
+      doi: 10.1021/acs.langmuir.2c01412
+    - title: Detection of Nanobubbles on Lubricant-Infused Surfaces Using AFM Meniscus
+        Force Measurements
+      journal: Langmuir
+      authors:
+      - Sam Peppou-Chapman
+      - Christopher Vega-Sánchez
+      - Chiara Neto
+      date: 12/8/2022
+      doi: 10.1021/acs.langmuir.2c01411
+    - title: 'Pressure Drop Measurements in Microfluidic Devices: A Review on the
+        Accurate Quantification of Interfacial Slip'
+      journal: Advanced Materials Interfaces
+      authors:
+      - Christopher Vega‐Sánchez
+      - Chiara Neto
+      date: 13/12/2021
+      doi: 10.1002/admi.202101641
+    - title: Nanobubbles explain the large slip observed on lubricant-infused surfaces
+      journal: Nature Communications
+      authors:
+      - Christopher Vega-Sánchez
+      - Sam Peppou-Chapman
+      - Liwen Zhu
+      - Chiara Neto
+      date: 17/1/2022
+      doi: 10.1038/s41467-022-28016-1
+    Proyectos de investigación y extensión:
+    - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
+        eléctrica para aplicaciones en Bioingeniería
+      start_date: '2016-01-01'
+      end_date: '2019-12-31'
+      NUMPRO: 1360036
+      TIPO: Investigación
+      ESCUELA: Ingeniería en Electrónica
+    - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
+        para un sistema de conversión de la energía de las olas para maximizar el
+        aprovechamiento de la energía oceánica'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341024
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,44 +115,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/CVS0.pdf
-    typst_path: CVs/CVS0.typ
-    html_path: CVs/CVS0.html
-    markdown_path: CVs/CVS0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

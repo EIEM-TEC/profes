@@ -1,5 +1,5 @@
 cv:
-  name: Herson Esquivel Vargas
+  name: Herson Esquivel Vargas, Ph.D.
   email: h.esquivelvargas@itcr.ac.cr
   phone: +506-88131925
   sections:
@@ -18,13 +18,88 @@ cv:
       details: h.esquivelvargas@itcr.ac.cr
     - label: ORCID
       details: 0009-0009-9828-6775
-    Educación: []
-    Carrera profesional: []
+    Educación:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería en Computación
+      degree: Bachillerato
+      location: Costa Rica
+      end_date: '2008'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ciencias de la Computación con énfasis en Telemática
+      degree: Maestría
+      location: Costa Rica
+      end_date: '2012'
+    - institution: Instituto Kerckhoffs - Universidades de Twente, Eindhoven y Nijmegen
+      area: Ciencias de la Computación con énfasis en Ciberseguridad
+      degree: Maestría
+      location: Holanda
+      end_date: '2016'
+    - institution: Universidad de Twente
+      area: Ciberseguridad
+      degree: Doctorado
+      location: Holanda
+      end_date: '2022'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/02/2012
+    Publicaciones:
+    - title: Identifying Near-Optimal Single-Shot Attacks on ICSs with Limited Process
+        Knowledge
+      journal: Lecture Notes in Computer Science
+      authors:
+      - Herson Esquivel-Vargas
+      - John Henry Castellanos
+      - Marco Caselli
+      - Nils Ole Tippenhauer
+      - Andreas Peter
+      date: '2022'
+      doi: 10.1007/978-3-031-09234-3_9
+    - title: 'BACGraph: Automatic Extraction of Object Relationships in the BACnet
+        Protocol'
+      journal: 2021 51st Annual IEEE/IFIP International Conference on Dependable Systems
+        and Networks - Supplemental Volume (DSN-S)
+      authors:
+      - Herson Esquivel-Vargas
+      - Marco Caselli
+      - Andreas Peter
+      date: 6/2021
+      doi: 10.1109/DSN-S52858.2021.00029
+    - title: 'Putting Attacks in Context: A Building Automation Testbed for Impact
+        Assessment from the Victim’s Perspective'
+      journal: Lecture Notes in Computer Science
+      authors:
+      - Herson Esquivel-Vargas
+      - Marco Caselli
+      - Geert Jan Laanstra
+      - Andreas Peter
+      date: '2020'
+      doi: 10.1007/978-3-030-52683-2_3
+    - title: 'BACRank: Ranking Building Automation and Control System Components by
+        Business Continuity Impact'
+      journal: Lecture Notes in Computer Science
+      authors:
+      - Herson Esquivel-Vargas
+      - Marco Caselli
+      - Erik Tews
+      - Doina Bucur
+      - Andreas Peter
+      date: '2019'
+      doi: 10.1007/978-3-030-26601-1_13
+    - title: Automatic Deployment of Specification-based Intrusion Detection in the
+        BACnet Protocol
+      journal: Proceedings of the 2017 Workshop on Cyber-Physical Systems Security
+        and PrivaCy
+      authors:
+      - Herson Esquivel-Vargas
+      - Marco Caselli
+      - Andreas Peter
+      date: 3/11/2017
+      doi: 10.1145/3140241.3140244
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -32,44 +107,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/HEV0.pdf
-    typst_path: CVs/HEV0.typ
-    html_path: CVs/HEV0.html
-    markdown_path: CVs/HEV0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

@@ -1,5 +1,5 @@
 cv:
-  name: Carlos Otárola Zúñiga
+  name: M.Sc. Carlos Otárola Zúñiga
   email: cotarola@itcr.ac.cr
   phone: +506-25509372
   sections:
@@ -9,7 +9,7 @@ cv:
     - label: Tipo de nombramiento
       details: Propiedad
     - label: Fecha de contratación
-      details: 06/2011
+      details: 01/06/2011
     - label: Sede
       details: Cartago
     - label: Escuela
@@ -23,18 +23,120 @@ cv:
       area: Ingeniería Mecánica
       degree: Bachillerato
       location: Costa Rica
-      end_date: 2005-01
+      end_date: '2005'
     - institution: Instituto Tecnológico de Costa Rica
       area: Sistemas Modernos de Manufactura
       degree: Maestría
       location: Costa Rica
-      end_date: 2013-01
-    Carrera profesional: []
+      end_date: '2013'
+    Carrera profesional:
+    - name: Profesor Adjunto
+      date: 01/01/2014
+    Publicaciones:
+    - title: Propuesta metodológica de caracterización del mercado de la biomasa para
+        fines energéticos, caso del arroz costarricense
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Laura Patricia Brenes-Peralta
+      - María Fernanda Jiménez-Morales
+      - Dagoberto Arias-Aguilar
+      - Juan Carlos Valverde-Otárola
+      - Manuel Masís-Jiménez
+      - Daniela Valverde-Rodríguez
+      - Rooel Campos-Rodríguez
+      date: 1/8/2022
+      doi: 10.18845/tm.v35i7.6337
+    - title: Influence of 3D printing settings on mechanical properties of ABS at
+        room temperature and 77 K
+      journal: Additive Manufacturing
+      authors:
+      - F. Saenz
+      - C. Otarola
+      - K. Valladares
+      - J. Rojas
+      date: 3/2021
+      doi: 10.1016/j.addma.2021.101841
+    - title: Revisión de los perfiles aerodinámicos apropiados para turbinas eólicas
+        de eje horizontal y de pequeña escala en zonas boscosas
+      journal: Revista Lasallista de Investigación
+      authors:
+      - Gustavo Richmond-Navarro
+      - Mariana Montenegro-Montero
+      - Carlos Otárola
+      date: 7/9/2020
+      doi: 10.22507/rli.v17n1a22
+    - title: Implementation of stellarator of Costa Rica 1 SCR-1
+      journal: 2015 IEEE 26th Symposium on Fusion Engineering (SOFE)
+      authors:
+      - V.I. Vargas
+      - J. Mora
+      - C. Otarola
+      - E. Zamora
+      - J. Asenjo
+      - A. Mora
+      - E. Villalobos
+      date: 5/2015
+      doi: 10.1109/SOFE.2015.7482321
+    - title: Constructing a small modular stellarator in Latin America
+      journal: 'Journal of Physics: Conference Series'
+      authors:
+      - V I Vargas
+      - J Mora
+      - J Asenjo
+      - E Zamora
+      - C Otárola
+      - L Barillas
+      - J Carvajal-Godínez
+      - J González-Gómez
+      - C Soto-Soto
+      - C Piedras
+      date: 24/3/2015
+      doi: 10.1088/1742-6596/591/1/012016
+    - title: 'Engineering of the Stellarator of Costa Rica: SCR-1'
+      journal: 'Journal of Physics: Conference Series'
+      authors:
+      - J Mora
+      - V I Vargas
+      - C Otarola
+      - C Piedra
+      - W Jimenez
+      - L Esquivel
+      - R Esquivel
+      - K Sanchez
+      - J Gonzalez
+      - J Asenjo
+      - L Fonseca
+      date: 24/3/2015
+      doi: 10.1088/1742-6596/591/1/012017
+    - title: Engineering issues to the stellerator of Costa Rica 1
+      journal: 2013 IEEE 25th Symposium on Fusion Engineering (SOFE)
+      authors:
+      - V. I. Vargas
+      - J. Mora
+      - J. Asenjo
+      - E. Zamora
+      - C. Otarola
+      - J. Carvajal-Godinez
+      - J. Gonzalez-Gomez
+      - C. Soto-Soto
+      - C. Piedras
+      - L. Barillas
+      - C. Ribeiro
+      date: 6/2013
+      doi: 10.1109/sofe.2013.6635443
+    Proyectos de investigación y extensión:
+    - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
+        para aplicaciones de pequeña escala en zonas boscosas
+      start_date: '2018-01-01'
+      end_date: '2021-02-04'
+      NUMPRO: 1341015
+      TIPO: Investigación
+      ESCUELA: .nan
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -42,44 +144,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/COZ0.pdf
-    typst_path: CVs/COZ0.typ
-    html_path: CVs/COZ0.html
-    markdown_path: CVs/COZ0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

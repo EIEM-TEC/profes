@@ -1,7 +1,7 @@
 cv:
-  name: Gonzalo Mora Jiménez
+  name: M.Sc. Gonzalo Mora Jiménez
   email: gonmora@itcr.ac.cr
-  phone: +506-0.0
+  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -17,29 +17,31 @@ cv:
     - label: Correo
       details: gonmora@itcr.ac.cr
     - label: ORCID
-      details: '00'
+      details: 0000-0001-9059-3388
     Educación:
     - institution: Universidad de Costa Rica
       area: Ingeniería Eléctrica
       degree: Bachillerato
       location: Costa Rica
-      end_date: 2002-01
+      end_date: '2002'
     - institution: Universidad Nacional de Colombia
       area: Mercados Energéticos
       degree: Especialización
       location: Colombia
-      end_date: 2013-01
+      end_date: '2013'
     - institution: Universidad de Costa Rica
       area: Ingeniería Eléctrica
       degree: Maestría
       location: Costa Rica
-      end_date: 2010-01
-    Carrera profesional: []
+      end_date: '2010'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 01/01/2025
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,44 +49,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/GMJ0.pdf
-    typst_path: CVs/GMJ0.typ
-    html_path: CVs/GMJ0.html
-    markdown_path: CVs/GMJ0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"

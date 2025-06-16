@@ -1,5 +1,5 @@
 cv:
-  name: Juan José Montero Jimenez
+  name: Dr.-Ing. Juan José Montero Jimenez
   email: juan.montero@itcr.ac.cr
   phone: +506-25509338
   sections:
@@ -17,29 +17,135 @@ cv:
     - label: Correo
       details: juan.montero@itcr.ac.cr
     - label: ORCID
-      details: 0000-0002-8788-3840
+      details: 0000-0002-3215-3736
     Educación:
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
       degree: Licenciatura
       location: Costa Rica
-      end_date: 2011-01
+      end_date: '2011'
     - institution: ISAE-SUPAERO
       area: Ingeniería Aeroespacial
       degree: Maestría
       location: Francia
-      end_date: 2018-01
+      end_date: '2018'
     - institution: ISAE-SUPAERO
       area: Ingeniería Industrial e Informática
       degree: Doctorado
       location: Francia
-      end_date: 2022-01
-    Carrera profesional: []
+      end_date: '2022'
+    Carrera profesional:
+    - name: Profesor Instructor
+      date: 06/02/2013
+    - name: Profesor Adjunto
+      date: 23/10/2023
+    - name: Profesor Asociado
+      date: 23/10/2O23
+    Publicaciones:
+    - title: An ontology model for maintenance strategy selection and assessment
+      journal: Journal of Intelligent Manufacturing
+      authors:
+      - Juan José Montero Jiménez
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      - Sébastien Schwartz
+      date: 29/11/2021
+      doi: 10.1007/s10845-021-01855-3
+    - title: An unsupervised approach for health index building and for similarity-based
+        remaining useful life estimation
+      journal: Computers in Industry
+      authors:
+      - Sébastien Schwartz
+      - Juan José Montero Jiménez
+      - Rob Vingerhoeds
+      - Michel Salaün
+      date: 10/2022
+      doi: 10.1016/J.COMPIND.2022.103716
+    - title: Enhancing predictive maintenance architecture process by using ontology-enabled
+        Case-Based Reasoning
+      journal: 2021 IEEE International Symposium on Systems Engineering (ISSE)
+      authors:
+      - Juan Jose Montero-Jimenez
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      date: 13/9/2021
+      doi: 10.1109/ISSE51541.2021.9582535
+    - title: 'Towards multi-model approaches to predictive maintenance: A systematic
+        literature survey on diagnostics and prognostics'
+      journal: Journal of Manufacturing Systems
+      authors:
+      - Juan José Montero Jimenez
+      - Sébastien Schwartz
+      - Rob Vingerhoeds
+      - Bernard Grabot
+      - Michel Salaün
+      date: 7/2020
+      doi: 10.1016/j.jmsy.2020.07.008
+    - title: A fault mode identification methodology based on self-organizing map
+      journal: Neural Computing and Applications
+      authors:
+      - Sébastien Schwartz
+      - Juan José Montero Jimenez
+      - Michel Salaün
+      - Rob Vingerhoeds
+      date: 1/1/2020
+      doi: 10.1007/S00521-019-04692-X
+    - title: 'A System Engineering Approach to Predictive Maintenance Systems: from
+        needs and desires to logical architecture'
+      journal: 2019 International Symposium on Systems Engineering (ISSE)
+      authors:
+      - Juan Jose Montero Jimenez
+      - Rob Vingerhoeds
+      date: 10/2019
+      doi: 10.1109/ISSE46696.2019.8984559
+    Proyectos de investigación y extensión:
+    - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
+        Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
+      start_date: '2022-01-01'
+      end_date: '2023-06-30'
+      NUMPRO: 1341016
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
+        aprovechamiento del recurso hídrico mediante la incorporación de sistemas
+        IoT'
+      start_date: '2023-05-15'
+      end_date: '2023-12-31'
+      NUMPRO: 1341023
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      NUMPRO: 1341025
+      TIPO: Investigación
+      ESCUELA: Ingeniería Electromecánica
+    - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
+        escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago'
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+      NUMPRO: 1340030
+      TIPO: Extensión
+      ESCUELA: Ingeniería Electromecánica
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: '2022-07-01'
+      end_date: '2024-12-31'
+      NUMPRO: 1341021
+      TIPO: Investigación
+      ESCUELA: .nan
+    - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
+        de flujo en condiciones de turbulencia
+      start_date: '2022-07-01'
+      end_date: '2024-12-31'
+      NUMPRO: 1341020
+      TIPO: Investigación
+      ESCUELA: .nan
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 10/06/2025'
+  last_updated_date_template: 'Última actualización: 16/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -47,44 +153,42 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jun: null
     Ene: null
-    Abr: null
-    Jul: null
-    Dic: null
-    Sep: null
-    Oct: null
     May: null
-    Ago: null
-    Mar: null
-    Feb: null
+    Jun: null
+    Sep: null
+    Dic: null
+    Abr: null
     Nov: null
+    Mar: null
+    Jul: null
+    Feb: null
+    Ago: null
+    Oct: null
   full_names_of_months: !!set
-    Marzo: null
-    Diciembre: null
-    Abril: null
-    Mayo: null
-    Enero: null
     Junio: null
-    Agosto: null
-    Julio: null
-    Febrero: null
+    Mayo: null
     Octubre: null
-    Septiembre: null
+    Marzo: null
+    Agosto: null
+    Diciembre: null
+    Enero: null
+    Abril: null
     Noviembre: null
+    Septiembre: null
+    Febrero: null
+    Julio: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
     output_folder_name: CVs
-    pdf_path: CVs/JMJ0.pdf
-    typst_path: CVs/JMJ0.typ
-    html_path: CVs/JMJ0.html
-    markdown_path: CVs/JMJ0.md
     dont_generate_html: true
-    dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_markdown: true
+    dont_generate_png: true
 design:
   theme: engineeringresumes
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
+    normal_entry:
+      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
