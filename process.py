@@ -79,9 +79,11 @@ def make_research_entries(proyect):
             "name": row["proyecto"],
             "start_date": convert_cr_to_iso(row["inicio"]),
             "end_date": convert_cr_to_iso(row["fin"]),
-            "NUMPRO": row["numProy"],
-            "TIPO": row["tipo"],
-            "ESCUELA": row["nombre"]
+            "highlights": [
+                f"**Numero:** {row["numProy"]}",
+                f"**Tipo:** {row["tipo"]}",
+                f"**Escuela:** {row["nombre"]}"    
+            ]        
         }
         research_entries.append(entry)
     return research_entries
@@ -177,10 +179,7 @@ def make_rendercv_yaml(id,datos,grados):
             "entry_types": {
                 "education_entry": {
                     "degree_column_width": "2.5cm"
-                },
-                "normal_entry": {
-                    "main_column_first_row_template": "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
-                }            
+                }       
             }
         }
     }

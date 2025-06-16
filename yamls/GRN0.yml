@@ -171,44 +171,50 @@ cv:
     - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
       start_date: '2024-01-01'
       end_date: '2025-12-31'
-      NUMPRO: 1341025
-      TIPO: Investigación
-      ESCUELA: Ingeniería Electromecánica
+      highlights:
+      - '**Numero:** 1341025'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: 'I PLARE REACTOR 2: Optimización del diseño de un reactor de gasificación
         por plasma a través de simulaciones computacionales numéricas'
       start_date: '2016-01-01'
       end_date: '2017-12-31'
-      NUMPRO: 1341012
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 1341012'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
     - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
         para aplicaciones de pequeña escala en zonas boscosas
       start_date: '2018-01-01'
       end_date: '2021-02-04'
-      NUMPRO: 1341015
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 1341015'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
     - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
         estudios eléctricos y ambientales para Costa Rica
       start_date: '2020-01-01'
       end_date: '2022-12-31'
-      NUMPRO: 13411801
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 13411801'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
     - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
         de pequeña escala en Costa Rica
       start_date: '2022-07-01'
       end_date: '2024-12-31'
-      NUMPRO: 1341021
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 1341021'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
       start_date: '2022-07-01'
       end_date: '2024-12-31'
-      NUMPRO: 1341020
-      TIPO: Investigación
-      ESCUELA: .nan
+      highlights:
+      - '**Numero:** 1341020'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** nan'
 locale:
   language: es
   phone_number_format: national
@@ -221,31 +227,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Ene: null
-    May: null
-    Jun: null
-    Sep: null
-    Dic: null
-    Abr: null
-    Nov: null
-    Mar: null
     Jul: null
-    Feb: null
-    Ago: null
+    Sep: null
+    Abr: null
     Oct: null
+    Mar: null
+    May: null
+    Ago: null
+    Ene: null
+    Feb: null
+    Dic: null
+    Nov: null
+    Jun: null
   full_names_of_months: !!set
-    Junio: null
-    Mayo: null
-    Octubre: null
-    Marzo: null
-    Agosto: null
-    Diciembre: null
-    Enero: null
-    Abril: null
     Noviembre: null
-    Septiembre: null
+    Agosto: null
+    Junio: null
     Febrero: null
+    Marzo: null
     Julio: null
+    Septiembre: null
+    Mayo: null
+    Abril: null
+    Diciembre: null
+    Octubre: null
+    Enero: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
@@ -258,5 +264,3 @@ design:
   entry_types:
     education_entry:
       degree_column_width: 2.5cm
-    normal_entry:
-      main_column_first_row_template: "**NAME** \n Numero: NUMPRO \n \n \n Tipo: TIPO"
