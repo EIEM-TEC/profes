@@ -32,6 +32,16 @@ cv:
     Carrera profesional:
     - name: Profesor Adjunto
       date: 01/01/2014
+    Experiencia:
+    - company: Agilis Engineering
+      position: Ingeniero de Diseño Mecánico
+      start_date: '2008-01-01'
+      end_date: '2011-01-01'
+      summary: Diseño mecánico de componentes de turbinas de gas
+    Cursos impartidos en los últimos tres años:
+    - bullet: MI3103 - Procesos de Manufactura
+    - bullet: MI2101 - Dibujo Técnico
+    - bullet: MI3117 - Dinámica
     Publicaciones:
     - title: Propuesta metodológica de caracterización del mercado de la biomasa para
         fines energéticos, caso del arroz costarricense
@@ -44,7 +54,7 @@ cv:
       - Manuel Masís-Jiménez
       - Daniela Valverde-Rodríguez
       - Rooel Campos-Rodríguez
-      date: 1/8/2022
+      date: 01/08/2022
       doi: 10.18845/tm.v35i7.6337
     - title: Influence of 3D printing settings on mechanical properties of ABS at
         room temperature and 77 K
@@ -63,7 +73,7 @@ cv:
       - Gustavo Richmond-Navarro
       - Mariana Montenegro-Montero
       - Carlos Otárola
-      date: 7/9/2020
+      date: 07/09/2020
       doi: 10.22507/rli.v17n1a22
     - title: Implementation of stellarator of Costa Rica 1 SCR-1
       journal: 2015 IEEE 26th Symposium on Fusion Engineering (SOFE)
@@ -90,7 +100,7 @@ cv:
       - J González-Gómez
       - C Soto-Soto
       - C Piedras
-      date: 24/3/2015
+      date: 24/03/2015
       doi: 10.1088/1742-6596/591/1/012016
     - title: 'Engineering of the Stellarator of Costa Rica: SCR-1'
       journal: 'Journal of Physics: Conference Series'
@@ -106,7 +116,7 @@ cv:
       - J Gonzalez
       - J Asenjo
       - L Fonseca
-      date: 24/3/2015
+      date: 24/03/2015
       doi: 10.1088/1742-6596/591/1/012017
     - title: Engineering issues to the stellerator of Costa Rica 1
       journal: 2013 IEEE 25th Symposium on Fusion Engineering (SOFE)
@@ -144,32 +154,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

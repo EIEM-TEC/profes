@@ -52,6 +52,36 @@ cv:
       date: 02/02/2022
     - name: Intermedio Profesor Catedrático
       date: 03/03/2025
+    Experiencia:
+    - company: Hotel Crown Plaza
+      position: Gerente de Mantenimiento
+      start_date: '2013-02-01'
+      end_date: '2013-06-01'
+      summary: Administración de inversiones y mantenimiento
+    - company: Corporación Musmanni
+      position: Ingeniero de Proyectos
+      start_date: '2012-04-01'
+      end_date: '2012-12-01'
+      summary: Remodelación de edificios y coordinación de permisos
+    - company: Walmart México y Centroamérica
+      position: Coordinador de instalaciones electromecánicas
+      start_date: '2008-12-01'
+      end_date: '2012-03-01'
+      summary: Coordinación de instalaciones electromecánicas en proyectos de construcción
+    Idiomas:
+    - bullet: 'Inglés: TOEFL 100/120 iBT'
+    Áreas de interés:
+    - bullet: Sistemas de potencia para pequeños satélites
+    - bullet: Sistemas ciberfísicos a la medida orientados a necesidades específicas
+        de usuarios o comunidades
+    - bullet: Sistemas de instrumentación hechos a la medida
+    - bullet: Caracterizadores de baterías
+    Cursos impartidos en los últimos tres años:
+    - bullet: MI2205 - Electricidad I
+    - bullet: 'MI2202 - Laboratorio de Electricidad I '
+    - bullet: MI4210 - Laboratorio de Control Eléctrico
+    - bullet: IF3502 - Instrumentación I
+    - bullet: IF3503 - Instrumentación II
     Publicaciones:
     - title: Diseño de un sistema embebido para el control  y regulación del proceso
         dinámico de carga y descarga de celdas electroquímicas y su posterior validación
@@ -60,7 +90,7 @@ cv:
       authors:
       - Kevin Gómez-Villagra
       - Juan José Rojas-Hernandez
-      date: 28/6/2024
+      date: 28/06/2024
       doi: 10.18845/tm.v37i3.6833
     - title: Desarrollo y prueba de un sistema para sensar de manera remota la velocidad
         del viento
@@ -69,7 +99,7 @@ cv:
       - Nestor Martínez-Soto
       - Juan J. Rojas
       - Gustavo Richmond-Navarro
-      date: 1/8/2022
+      date: 01/08/2022
       doi: 10.18845/tm.v35i7.6331
     - title: Evolución vertical de la intensidad de turbulencia del viento en terreno
         complejo con obstáculos
@@ -80,7 +110,7 @@ cv:
       - Luis Enrique Castro-Rodríguez
       - Juan J. Rojas
       - Williams R. Calderón-Muñoz
-      date: 1/8/2022
+      date: 01/08/2022
       doi: 10.18845/tm.v35i7.6332
     - title: Integración de un sistema de almacenamiento de energía en un parque eólico,
         estudio de caso
@@ -89,7 +119,7 @@ cv:
       - Jorge David Araya Rodríguez
       - Juan J. Rojas
       - Gustavo Richmond-Navarro
-      date: 1/8/2022
+      date: 01/08/2022
       doi: 10.18845/tm.v35i7.6333
     - title: Diseño y desarrollo de una plataforma microfluídica con electrodos interdigitados
         para espectroscopía por impedancia eléctrica
@@ -111,7 +141,7 @@ cv:
       - Juan J. Rojas
       - Yamauchi Takashi
       - Mengu Cho
-      date: 5/7/2020
+      date: 05/07/2020
       doi: 10.3390/aerospace7070094
     - title: Design, Implementation, and Operation of a Small Satellite Mission to
         Explore the Space Weather Effects in LEO
@@ -141,7 +171,7 @@ cv:
       - Sean Tuttle
       - Roger Dudziak
       - Kei-ichi Okuyama
-      date: 27/9/2019
+      date: 27/09/2019
       doi: 10.3390/aerospace6100108
     Proyectos de investigación y extensión:
     - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
@@ -228,32 +258,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

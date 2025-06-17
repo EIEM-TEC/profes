@@ -37,6 +37,14 @@ cv:
     Carrera profesional:
     - name: Profesor Adjunto
       date: 01/01/2017
+    Cursos impartidos en los últimos tres años:
+    - bullet: MI2106 - Estática
+    - bullet: MI2101 - Dibujo Técnico
+    - bullet: MI2205 - Electricidad I
+    - bullet: MI2202 - Laboratorio de Electricidad I
+    - bullet: MI6255 - Sistemas de Control Automático
+    - bullet: EL4419 - Análisis y Control de Sistemas lineales
+    - bullet: IF3502 - Instrumentación I
     Publicaciones:
     - title: Efficiency-aware nonlinear model-predictive control with real-time iteration
         scheme for wave energy converters
@@ -45,7 +53,7 @@ cv:
       - Juan L. Guerrero-Fernandez
       - Oscar J. González-Villarreal
       - John Anthony Rossiter
-      date: 26/5/2022
+      date: 26/05/2022
       doi: 10.1080/00207179.2022.2078424
     - title: Nonlinear Model Predictive Control Based on Real-Time Iteration Scheme
         for Wave Energy Converters Using WEC-Sim
@@ -54,7 +62,7 @@ cv:
       - Juan Luis Guerrero-Fernández
       - Nathan Michael Tom
       - John Anthony Rossiter
-      date: 5/6/2022
+      date: 05/06/2022
       doi: 10.1115/OMAE2022-80972
     - title: 'Model Predictive Control for Wave Energy Converters: A Moving Window
         Blocking Approach'
@@ -87,32 +95,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

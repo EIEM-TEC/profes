@@ -45,32 +45,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

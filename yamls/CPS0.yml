@@ -35,6 +35,37 @@ cv:
       date: 01/07/2012
     - name: Profesor Adjunto
       date: 05/02/2018
+    Experiencia:
+    - company: Instituto Costarricense de Electricidad
+      position: Ingeniero de Inspección de Calidad
+      start_date: '1993-01-01'
+      end_date: '1994-01-01'
+      summary: Construcción Proyecto Hidroeléctrico Toro I, Toro II y el de Angostura.
+    - company: Republic Tobbaco Company
+      position: Gerente de Mantenimiento
+      start_date: '1994-01-01'
+      end_date: '2001-01-01'
+      summary: ''
+    - company: Baxter Productos Médicos
+      position: Supervisor de Manufactura
+      start_date: '2001-01-01'
+      end_date: '2001-06-01'
+      summary: ''
+    - company: Amanco Plycem
+      position: Gerente de Ingeniería
+      start_date: '2001-07-01'
+      end_date: '2006-01-01'
+      summary: ''
+    - company: ITT Industries
+      position: Jefe de Mantenimiento
+      start_date: '2006-01-01'
+      end_date: '2008-01-01'
+      summary: ''
+    - company: Irex Costa Rica
+      position: Subgerente de Mantenimiento y Facilidades
+      start_date: '2008-01-01'
+      end_date: '2012-01-01'
+      summary: ''
 locale:
   language: es
   phone_number_format: national
@@ -46,32 +77,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

@@ -32,6 +32,9 @@ cv:
     Carrera profesional:
     - name: Profesor Instructor
       date: 01/01/2025
+    Idiomas:
+    - bullet: 'Inglés: TOEFL 109/120 iBT'
+    - bullet: 'Alemán: A2.1 MCER'
     Publicaciones:
     - title: Modelo dinámico de la velocidad del viento en una zona boscosa tropical
       journal: Revista Tecnología en Marcha
@@ -40,7 +43,7 @@ cv:
       - Gustavo Murillo-Zumbado
       - Frank Marín-Guillén
       - Pedro Casanova-Treto
-      date: 30/3/2022
+      date: 30/03/2022
       doi: 10.18845/tm.v35i2.5465
     Proyectos de investigación y extensión:
     - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
@@ -62,32 +65,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Ago: null
-    Nov: null
-    Dic: null
-    Jul: null
-    Feb: null
-    Ene: null
-    Jun: null
-    May: null
-    Mar: null
-    Oct: null
-    Abr: null
-    Sep: null
-  full_names_of_months: !!set
-    Abril: null
-    Enero: null
-    Mayo: null
-    Octubre: null
-    Diciembre: null
-    Junio: null
-    Marzo: null
-    Julio: null
-    Febrero: null
-    Septiembre: null
-    Agosto: null
-    Noviembre: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

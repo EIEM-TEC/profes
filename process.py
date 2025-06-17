@@ -8,12 +8,13 @@ today = date.today()
 # === Cargar los csv con los datos de los profes ===
 datos = pd.read_csv("00_datos.csv")
 grados = pd.read_csv("01_grados.csv")
-experencia = pd.read_csv("02_experiencia_industria.csv")
+experi = pd.read_csv("02_experiencia_industria.csv")
+experi.fillna("",inplace=True)
 idiomas = pd.read_csv("03_idiomas.csv")
 areas = pd.read_csv("04_areas_interes.csv")
-publicaciones = pd.read_csv("05_publicaciones.csv")
+cursos = pd.read_csv("05_cursos.csv")
+publicaciones = pd.read_csv("06_publicaciones.csv")
 publicaciones.fillna("0",inplace=True)
-cursos = pd.read_csv("06_cursos.csv")
 carrera = pd.read_csv("07_carrera.csv")
 proyect = pd.read_csv("08_proyectos_inv_ext.csv")
 proyect["codigo"] = proyect["codigo"].str.split(";",expand=False)
@@ -57,7 +58,7 @@ def make_publication_entries(publicaciones):
     for _, row in publicaciones.iterrows():
         autoresd = row.get("autores","").split(";")
         autores = [x.strip() for x in autoresd]
-        date = f"{int(row["dia"])}/{int(row["mes"])}/{int(row["año"])}"
+        date = f"{int(row["dia"]):02d}/{int(row["mes"]):02d}/{int(row["año"])}"
         if row["dia"] == "0": 
             date = f"{int(row["mes"])}/{int(row["año"])}"
         if row["mes"] == "0":
@@ -71,6 +72,15 @@ def make_publication_entries(publicaciones):
         }
         publication_entries.append(entry)
     return publication_entries
+
+def make_courses_entries(cursos):
+    courses_entries = []
+    for _, row in cursos.iterrows():
+        entry = {
+            "bullet": f"{row["codCurso"]} - {row["curso"]}"
+        }
+        courses_entries.append(entry)
+    return courses_entries
 
 def make_research_entries(proyect):
     research_entries = []
@@ -88,6 +98,37 @@ def make_research_entries(proyect):
         research_entries.append(entry)
     return research_entries
 
+def make_experience_entries(experi):
+    experi_entries = []
+    for _, row in experi.iterrows():
+        entry = {
+            "company": row["empresa"],
+            "position": row["puesto"],
+            "start_date": convert_cr_to_iso(row["inicio"]),
+            "end_date": convert_cr_to_iso(row["fin"]),
+            "summary": row["descripcion"]
+        }
+        experi_entries.append(entry)
+    return experi_entries  
+
+def make_language_entries(idiomas):
+    idiom_entries = []
+    for _, row in idiomas.iterrows():
+        entry = {
+            "bullet": f"{row["idioma"]}: {row["detalle"]}"
+        }
+        idiom_entries.append(entry)
+    return idiom_entries  
+
+def make_interest_entries(areas):
+    area_entries = []
+    for _, row in areas.iterrows():
+        entry = {
+            "bullet": f"{row["area"]}"
+        }
+        area_entries.append(entry)
+    return area_entries 
+
 def make_rendercv_yaml(id,datos,grados):
     print(datos.nombre)
     match datos.titulo:
@@ -99,6 +140,10 @@ def make_rendercv_yaml(id,datos,grados):
     career = make_career_entries(carrera[carrera["codigo"]==id])
     public = make_publication_entries(publicaciones[publicaciones["codigo"]==id])
     research = make_research_entries(proyect[proyect["codigo"]==id])
+    experie = make_experience_entries(experi[experi["codigo"]==id])
+    languag = make_language_entries(idiomas[idiomas["codigo"]==id])
+    interes = make_interest_entries(areas[areas["codigo"]==id])
+    cursoss = make_courses_entries(cursos[cursos["codigo"]==id])
     sections = {
     "Información laboral": [
         {"label": "Cédula", "details": str(datos["cedula"])},
@@ -108,11 +153,18 @@ def make_rendercv_yaml(id,datos,grados):
         {"label": "Escuela", "details": datos["escuela"]},
         {"label": "Correo", "details": datos["correo"]},
         {"label": "ORCID", "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"},
-    ],
-    "Educación": education,
-    "Carrera profesional": career,
+    ]
     }
-
+    sections["Educación"] = education
+    sections["Carrera profesional"] = career
+    if experie:
+        sections["Experiencia"] = experie
+    if languag:
+        sections["Idiomas"] = languag
+    if interes:
+        sections["Áreas de interés"] = interes
+    if cursoss:
+        sections["Cursos impartidos en los últimos tres años"] = cursoss
     if public:
         sections["Publicaciones"] = public
     if research:
@@ -136,7 +188,7 @@ def make_rendercv_yaml(id,datos,grados):
             "year": "año",
             "years": "años",
             "present": "actualmente",
-            "abbreviations_for_months": {
+            "abbreviations_for_months": [
                 "Ene",
                 "Feb",
                 "Mar",
@@ -149,8 +201,8 @@ def make_rendercv_yaml(id,datos,grados):
                 "Oct",
                 "Nov",
                 "Dic"
-            },
-            "full_names_of_months": {
+            ],
+            "full_names_of_months": [
                 "Enero",
                 "Febrero",
                 "Marzo",
@@ -163,7 +215,7 @@ def make_rendercv_yaml(id,datos,grados):
                 "Octubre",
                 "Noviembre",
                 "Diciembre",
-            }
+            ]
         },
         "rendercv_settings": {
             "date": "2025-06-08",
