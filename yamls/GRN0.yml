@@ -61,7 +61,7 @@ cv:
       - Pedro Casanova-Treto
       - Franklin Hernández-Castro
       - Jorge Monge-Fallas
-      date: 7/1/2022
+      date: 07/01/2022
       doi: 10.1177/0309524X211050081
     - title: Shrouded wind turbine performance in yawed turbulent flow conditions
       journal: Wind Engineering
@@ -69,7 +69,7 @@ cv:
       - Gustavo Richmond-Navarro
       - Takanori Uchida
       - Williams R. Calderón-Muñoz
-      date: 4/8/2021
+      date: 04/08/2021
       doi: 10.1177/0309524X211036041
     - title: Aerodynamic performance simulation of three selected airfoils
       journal: Universidad Ciencia y Tecnología
@@ -86,7 +86,7 @@ cv:
       - Gustavo Richmond-Navarro
       - Pedro Casanova-Treto
       - Julio César Rojas-Gómez
-      date: 30/9/2021
+      date: 30/09/2021
       doi: 10.18845/tm.v34i4.5274
     - title: Efecto de un difusor tipo wind lens en flujo turbulento
       journal: Uniciencia
@@ -94,7 +94,7 @@ cv:
       - Gustavo Richmond-Navarro
       - Pedro Casanova-Treto
       - Franklin Hernández-Castro
-      date: 31/7/2021
+      date: 31/07/2021
       doi: 10.15359/ru.35-2.7
     - title: Research Opportunities for Renewable Energy Electrification in Remote
         Areas of Costa Rica
@@ -112,7 +112,7 @@ cv:
       - Kenneth Vega-Carranza
       - Juan Francisco Piedra-Segura
       - Gustavo Richmond-Navarro
-      date: 26/7/2019
+      date: 26/07/2019
       doi: 10.18845/tm.v32i3.4480
     - title: Estado actual de la investigación sobre turbinas eólicas en Costa Rica
       journal: Revista Tecnología en Marcha
@@ -121,7 +121,7 @@ cv:
       - Gustavo Murillo-Zumbado
       - Pedro Casanova-Treto
       - Juan Francisco Piedra-Segura
-      date: 16/5/2019
+      date: 16/05/2019
       doi: 10.18845/tm.v32i2.4349
     - title: CFD Modeling of Plasma Gasification Reactor for Municipal Solid Waste
       journal: IEEE Transactions on Plasma Science
@@ -156,7 +156,7 @@ cv:
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Richmond-Navarro
-      date: 20/4/2016
+      date: 20/04/2016
       doi: 10.18845/tm.v29i1.2537
     - title: Optimización y análisis de sensibilidad de turbinas eólicas Magnus de
         pequeña escala
@@ -226,32 +226,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Jul: null
-    Sep: null
-    Abr: null
-    Oct: null
-    Mar: null
-    May: null
-    Ago: null
-    Ene: null
-    Feb: null
-    Dic: null
-    Nov: null
-    Jun: null
-  full_names_of_months: !!set
-    Noviembre: null
-    Agosto: null
-    Junio: null
-    Febrero: null
-    Marzo: null
-    Julio: null
-    Septiembre: null
-    Mayo: null
-    Abril: null
-    Diciembre: null
-    Octubre: null
-    Enero: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

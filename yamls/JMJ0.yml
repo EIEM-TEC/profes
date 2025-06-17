@@ -68,7 +68,7 @@ cv:
       - Juan Jose Montero-Jimenez
       - Rob Vingerhoeds
       - Bernard Grabot
-      date: 13/9/2021
+      date: 13/09/2021
       doi: 10.1109/ISSE51541.2021.9582535
     - title: 'Towards multi-model approaches to predictive maintenance: A systematic
         literature survey on diagnostics and prognostics'
@@ -88,7 +88,7 @@ cv:
       - Juan José Montero Jimenez
       - Michel Salaün
       - Rob Vingerhoeds
-      date: 1/1/2020
+      date: 01/01/2020
       doi: 10.1007/S00521-019-04692-X
     - title: 'A System Engineering Approach to Predictive Maintenance Systems: from
         needs and desires to logical architecture'
@@ -158,32 +158,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Jul: null
-    Sep: null
-    Abr: null
-    Oct: null
-    Mar: null
-    May: null
-    Ago: null
-    Ene: null
-    Feb: null
-    Dic: null
-    Nov: null
-    Jun: null
-  full_names_of_months: !!set
-    Noviembre: null
-    Agosto: null
-    Junio: null
-    Febrero: null
-    Marzo: null
-    Julio: null
-    Septiembre: null
-    Mayo: null
-    Abril: null
-    Diciembre: null
-    Octubre: null
-    Enero: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

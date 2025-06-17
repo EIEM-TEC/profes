@@ -37,6 +37,9 @@ cv:
     Carrera profesional:
     - name: Profesor Asociado
       date: 08/03/2024
+    Cursos impartidos en los últimos tres años:
+    - bullet: MI2106 - Estática
+    - bullet: MI2101 - Dibujo Técnico
     Publicaciones:
     - title: Synthesis of Anisotropic Gold Microparticles via L‐Glutathione‐Mediated
         Pathways in Droplet Microfluidics
@@ -52,14 +55,14 @@ cv:
       - Arun Jaiswal
       - Daniele Vigolo
       - Ken‐Tye Yong
-      date: 7/6/2024
+      date: 07/06/2024
       doi: 10.1002/ppsc.202400056
     - title: Slightly Depleted Lubricant-Infused Surfaces Are No Longer Slippery
       journal: Langmuir
       authors:
       - Christopher Vega-Sánchez
       - Chiara Neto
-      date: 16/8/2022
+      date: 16/08/2022
       doi: 10.1021/acs.langmuir.2c01412
     - title: Detection of Nanobubbles on Lubricant-Infused Surfaces Using AFM Meniscus
         Force Measurements
@@ -68,7 +71,7 @@ cv:
       - Sam Peppou-Chapman
       - Christopher Vega-Sánchez
       - Chiara Neto
-      date: 12/8/2022
+      date: 12/08/2022
       doi: 10.1021/acs.langmuir.2c01411
     - title: 'Pressure Drop Measurements in Microfluidic Devices: A Review on the
         Accurate Quantification of Interfacial Slip'
@@ -85,7 +88,7 @@ cv:
       - Sam Peppou-Chapman
       - Liwen Zhu
       - Chiara Neto
-      date: 17/1/2022
+      date: 17/01/2022
       doi: 10.1038/s41467-022-28016-1
     Proyectos de investigación y extensión:
     - name: Diseño e implementación de un Sistema de Espectroscopia de impedancia
@@ -116,32 +119,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Jul: null
-    Sep: null
-    Abr: null
-    Oct: null
-    Mar: null
-    May: null
-    Ago: null
-    Ene: null
-    Feb: null
-    Dic: null
-    Nov: null
-    Jun: null
-  full_names_of_months: !!set
-    Noviembre: null
-    Agosto: null
-    Junio: null
-    Febrero: null
-    Marzo: null
-    Julio: null
-    Septiembre: null
-    Mayo: null
-    Abril: null
-    Diciembre: null
-    Octubre: null
-    Enero: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:

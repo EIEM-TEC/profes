@@ -64,7 +64,7 @@ cv:
       - Dario Brenes-Fallas
       - José Pablo Morales-Hern ́andez
       - Marlon Umaña-Mondragón
-      date: 8/4/2025
+      date: 08/04/2025
       doi: 10.18845/tm.v38i2.7104
     - title: Evaluación del comportamiento de la demanda en el modelado de las redes
         de distribución
@@ -106,7 +106,7 @@ cv:
       - Gustavo Adolfo Gómez-Ramírez
       - Greivin Barahona-Guzmán
       - Juan José Montero-Jiménez
-      date: 9/4/2024
+      date: 09/04/2024
       doi: 10.18845/tm.v37i2.6699
     - title: Impact of electric vechicles on power transmission grids
       journal: Heliyon
@@ -125,7 +125,7 @@ cv:
       - Gonzalo Mora-Jiménez
       - José Rodrigo Rojas Morales
       - Luis García-Santander
-      date: 25/5/2023
+      date: 25/05/2023
       doi: 10.3390/en16114328
     - title: Simulación del sistema de interconexión eléctrica de los países de América
         Central usando ETAP
@@ -134,7 +134,7 @@ cv:
       - Gustavo Adolfo Gómez-Ramírez
       - Gonzalo Mora-Jiménez
       - Carlos Meza
-      date: 6/3/2023
+      date: 06/03/2023
       doi: 10.18845/tm.v36i2.6007
     - title: Metodología para la implementación de sistemas fotovoltaicos con almacenamiento
         para pequeñas industrias
@@ -160,7 +160,7 @@ cv:
       - Jose Ignacio Rodriguez-Rodriguez
       - Oscar Nunez-Mata
       - Gustavo Gomez-Ramirez
-      date: 9/11/2022
+      date: 09/11/2022
       doi: 10.1109/concapan48024.2022.9997595
     - title: 'Increasing Distribution Network Capacity through Storage in Central
         American Countries: A Case Study'
@@ -182,7 +182,7 @@ cv:
       - José Manuel Castro-Meneses
       - Gustavo A. Gómez-Ramírez
       - Oscar Núñez-Mata
-      date: 30/9/2022
+      date: 30/09/2022
       doi: 10.18845/tm.v35i4.5776
     - title: Challenges of Storage in  Large Power Systems
       journal: Revista Tecnología en Marcha
@@ -200,7 +200,7 @@ cv:
       - Isaac A. Luevano-Reyes
       - Carlos Meza
       - Luis Garcia-Santander
-      date: 6/12/2021
+      date: 06/12/2021
       doi: 10.1109/chilecon54041.2021.9703062
     - title: Electric Vehicle Penetration Modelling for Costa Rica Power System
       journal: 2021 IEEE CHILEAN Conference on Electrical, Electronics Engineering,
@@ -208,7 +208,7 @@ cv:
       authors:
       - Gustavo A. Gomez-Ramirez
       - Rebeca Solis-Ortega
-      date: 6/12/2021
+      date: 06/12/2021
       doi: 10.1109/chilecon54041.2021.9703070
     - title: Oportunidades y desafíos para la integración de almacenamiento electroquímico
         en las redes eléctricas centroamericanas
@@ -217,7 +217,7 @@ cv:
       - Gustavo Adolfo Gómez-Ramírez
       - Carlos Meza
       - Sergio Morales-Hernández
-      date: 29/6/2021
+      date: 29/06/2021
       doi: 10.18845/tm.v34i3.5352
     - title: Assessment of Power Transformers using a Methodology Based on Health
         Indices
@@ -228,7 +228,7 @@ cv:
       - Fauricio Acuna-Rojas
       - Cesar Gonzalez-Solis
       - Gustavo Gomez-Ramirez
-      date: 22/3/2021
+      date: 22/03/2021
       doi: 10.1109/icaacca51523.2021.9465245
     - title: Metodología indirecta para la estimación de vida útil residual de transformadores
         de potencia a partir de la evaluación de los materiales dieléctricos
@@ -236,20 +236,20 @@ cv:
       authors:
       - Luis Diego Acuña-Barrantes
       - Gustavo Adolfo Gómez Ramírez
-      date: 23/7/2020
+      date: 23/07/2020
       doi: 10.18845/tm.v33i3.4485
     - title: 'Potencia Reactiva: del despacho óptimo al cobro de tarifas - PARTE B'
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Adolfo Gómez-Ramírez
-      date: 16/5/2019
+      date: 16/05/2019
       doi: 10.18845/tm.v32i2.4347
     - title: 'Potencia Reactiva: Despacho Óptimo con una programación lineal-PARTE
         A'
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Adolfo Gómez-Ramírez
-      date: 1/3/2019
+      date: 01/03/2019
       doi: 10.18845/tm.v32i1.4116
     - title: New Proposal of Electric Rates in Costa Rica
       journal: 2018 IEEE 38th Central America and Panama Convention (CONCAPAN XXXVIII)
@@ -262,7 +262,7 @@ cv:
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Adolfo Gómez-Ramírez
-      date: 22/3/2018
+      date: 22/03/2018
       doi: 10.18845/tm.v31i1.3498
     - title: Comportamiento de los aislamientos sólidos de transformadores de potencia
         en condiciones ambientales no controladas
@@ -277,7 +277,7 @@ cv:
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Adolfo Gómez-Ramírez
-      date: 30/8/2016
+      date: 30/08/2016
       doi: 10.18845/tm.v29i2.2687
     - title: Introducing saturation characteristic fitting techniques for power transformers
         in the Costa Rican Electrical Network
@@ -293,7 +293,7 @@ cv:
       journal: Revista Tecnología en Marcha
       authors:
       - Gustavo Adolfo Gómez-Ramírez
-      date: 1/9/2015
+      date: 01/09/2015
       doi: 10.18845/tm.v28i3.2416
     Proyectos de investigación y extensión:
     - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
@@ -338,32 +338,32 @@ locale:
   year: año
   years: años
   present: actualmente
-  abbreviations_for_months: !!set
-    Jul: null
-    Sep: null
-    Abr: null
-    Oct: null
-    Mar: null
-    May: null
-    Ago: null
-    Ene: null
-    Feb: null
-    Dic: null
-    Nov: null
-    Jun: null
-  full_names_of_months: !!set
-    Noviembre: null
-    Agosto: null
-    Junio: null
-    Febrero: null
-    Marzo: null
-    Julio: null
-    Septiembre: null
-    Mayo: null
-    Abril: null
-    Diciembre: null
-    Octubre: null
-    Enero: null
+  abbreviations_for_months:
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
+  full_names_of_months:
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
 rendercv_settings:
   date: '2025-06-08'
   render_command:
