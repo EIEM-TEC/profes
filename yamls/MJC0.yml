@@ -26,7 +26,7 @@ cv:
       end_date: '2018'
     Carrera profesional:
     - name: Profesor Instructor
-      date: 01/01/2025
+      date: 08/02/2021
     Proyectos de investigación y extensión:
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
@@ -48,31 +48,31 @@ locale:
   years: años
   present: actualmente
   abbreviations_for_months: !!set
-    Jul: null
-    Sep: null
-    Abr: null
-    Oct: null
-    Mar: null
-    May: null
     Ago: null
-    Ene: null
-    Feb: null
-    Dic: null
     Nov: null
+    Dic: null
+    Jul: null
+    Feb: null
+    Ene: null
     Jun: null
+    May: null
+    Mar: null
+    Oct: null
+    Abr: null
+    Sep: null
   full_names_of_months: !!set
-    Noviembre: null
-    Agosto: null
+    Abril: null
+    Enero: null
+    Mayo: null
+    Octubre: null
+    Diciembre: null
     Junio: null
-    Febrero: null
     Marzo: null
     Julio: null
+    Febrero: null
     Septiembre: null
-    Mayo: null
-    Abril: null
-    Diciembre: null
-    Octubre: null
-    Enero: null
+    Agosto: null
+    Noviembre: null
 rendercv_settings:
   date: '2025-06-08'
   render_command:
