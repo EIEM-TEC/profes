@@ -1,18 +1,38 @@
 codigo,numProy,proyecto,inicio,fin,tipo,nombre
-JRH0;CVS0,1360036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,31/12/2019,Investigación,Ingeniería en Electrónica
-JRH0,17011001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,31/12/2012,Investigación,Química
-JRH0,1341019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,30/06/2024,Investigación,Ingeniería Electromecánica
-JRH0;JMJ0;LCG0,1341016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,30/06/2023,Extensión,Ingeniería Electromecánica
+JRH0;CVS0,0000-0136-0036,Diseño e implementación de un Sistema de Espectroscopia de impedancia eléctrica para aplicaciones en Bioingeniería,01/01/2016,31/12/2019,Investigación,Ingeniería en Electrónica
+JRH0,5402-1701-1001,Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC),01/01/2010,31/12/2012,Investigación,Química
+JRH0,0000-0134-1019,Desarrollo de un sistema integrado para la prueba de sistemas de potencian CubeSats,01/01/2022,30/06/2024,Investigación,Ingeniería Electromecánica
+JRH0;JMJ0;LCG0,00-0134-1016,Diagnóstico del potencial para la transformación digital de las Asociaciones Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega,01/01/2022,30/06/2023,Extensión,Ingeniería Electromecánica
 JRH0;JMJ0,1341023,Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor aprovechamiento del recurso hídrico mediante la incorporación de sistemas IoT,15/05/2023,31/12/2023,Extensión,Ingeniería Electromecánica
-JRH0;JMJ0;GGR0;GRN0,1341025,Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico,01/01/2024,31/12/2025,Investigación,Ingeniería Electromecánica
+JRH0;JMJ0;GGR0,0000-0134-1025,Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico,01/01/2024,31/12/2025,Investigación,Ingeniería Electromecánica
 JRH0,1341029,Desarrollo de un sistema de monitoreo y alerta para la detección de la exposición al calor en labores agrícolas: Aplicación en la zafra de la caña de azúcar,01/01/2025,31/12/2027,Investigación, Ingeniería Electromecánica
 JRH0,1460108,Desarrollo de una plataforma tecnológica escalable y modular para el registro de variables físicas y químicas asociadas a la calidad y abundancia del agua potable,01/01/2025,31/12/2027,Investigación,Química
 JRH0;JMJ0,1340030,ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica escalable; modular y abierta de para la ASADA de Paso Ancho; Oreamuno; Cartago,01/01/2025,31/12/2026,Extensión,Ingeniería Electromecánica
-JGF0;CVS0;JRG0,1341024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,01/01/2024,31/12/2025,Investigación,Ingeniería Electromecánica
-GRN0,1341012,I PLARE REACTOR 2: Optimización del diseño de un reactor de gasificación por plasma a través de simulaciones computacionales numéricas,01/01/2016,31/12/2017,Investigación,
-GRN0;NUS0;FMG0;COZ0,1341015,Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal para aplicaciones de pequeña escala en zonas boscosas,01/01/2018,04/02/2021,Investigación,
-GGR0;GRN0,13411801,Modelado de la futura penetración de Vehículos Eléctricos para realizar estudios eléctricos y ambientales para Costa Rica,01/01/2020,31/12/2022,Investigación,
-RMC0;GRN0;LMS0;JMJ0,1341021,Requerimientos para lograr la factibilidad de turbinas eólicas comerciales de pequeña escala en Costa Rica,01/07/2022,31/12/2024,Investigación,
-GRN0;MJC0;LMS0;JMJ0,1341020,Desempeño de turbinas eólicas de eje horizontal con dispositivos de control de flujo en condiciones de turbulencia,01/07/2022,31/12/2024,Investigación,
-GGR0,13411901,Estimación del Límite Técnico permisible para la penetración de energías renovables y generación distribuida en el Sistema Eléctrico Nacional,01/01/2023,31/12/2024,Investigación,
-GGR0,1341028,"Estrategias para la integración de vehículos eléctricos, generación distribuida y almacenamiento electroquímico en el Sistema Eléctrico Nacional",01/01/2025,31/12/2026,Investigación,
+JGF0;CVS0;JRG0,0000-0134-1024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,01/01/2024,31/12/2025,Investigación,Ingeniería Electromecánica
+IVG0,5402-1353-1801,Utilización de madera en pequeños talleres de artesanías y elaboración de muebles en la comunidad de sarchí,01/01/2008,30/06/2008,,
+IVG0,5402-1401-1011,Eficiencia y validación de secadoras solares de madera aserrada para pequeña y mediana industria,01/01/2009,31/12/2010,,
+OGC0;LGG0,5402-1341-0901,Diseño de propuesta metodológica para reducción de fallas de los motores trifásicos de inducción en Costa Rica,01/01/2009,30/12/2009,,Ingeniería Electromecánica
+OGC0;LMS0,5402-1341-1001,Diseño de experimentos para la obtención de modelos de fallas en motores trifásicos de inducción,01/01/2010,31/12/2011,,Ingeniería Electromecánica
+IVG0,5402-1353-2301,Evaluación de exposición ocupacional a isocianatos en procesos de aplicación de lacas y pintura en Mueblerías y Talleres de Enderezado y Pintura de Vehículos,01/01/2010,30/12/2012,,
+LMS0,5402-1341-1101,Diseño e implementación de los algoritmos para controlar dos celdas flexibles de manufactura usando el método aproximación basada en matrices,01/01/2011,31/12/2011,,Ingeniería Electromecánica
+OGC0;LMS0,5402-1341-1201,Validación de la propuesta metodológica:"Diseño de una propuesta para la reducción de fallas de los motores trifásicos de inducción",01/01/2011,31/12/2011,,Ingeniería Electromecánica
+OGC0;JAC0;LMS0,5402-1341-1301,Sistema Experto para Motores Asistido por Temperatura (SEMAT),01/07/2012,31/12/2016,,Ingeniería Electromecánica
+MMC0;CVS0,5401-1341-1401,i-Plare Reactor: Simulación y diseño de un reactor para gasificación por plasma,01/01/2014,31/12/2015,,Ingeniería Electromecánica
+CPS;MMC0,5402-1341-1501,Implementación de un reactor de plasma de Descarga de Barrera Dieléctrica (DBD) para el tratamiento de agua,01/01/2014,31/12/2015,,Ingeniería Electromecánica
+LGG0,5402-1801-0492,Situación del Mantenimiento en Costa Rica,01/07/2014,30/06/2015,,Ingeniería Electromecánica
+LMS0,5402-1801-0505,Síntesis del Diagnosticador de fallas en un sistema de eventos discretos usando redes de petri coloreadas,01/07/2015,31/12/2016,,Ingeniería Electromecánica
+GRN0,0000-0134-1012,I-Plare Reactor 2: Optimización de un reactor de gasificación por plasma,01/01/2016,31/12/2017,,
+COZ0,0000-0134-1014,Estudio de materiales diseño y métodos de manufactura aditiva para estructura modular de soporte para bobinas superconductoras,01/01/2017,31/12/2018,,Ingeniería Electromecánica
+LMS0,5402-1341-1601,Tarjeta Electrónica de potencia para administrar conexiones eléctricas de dos cadenas de paneles solares,27/02/2017,31/12/2018,,Ingeniería Electromecánica
+GRN0;FMG0;COZ0;NUS0,0000-0134-1015,Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal para aplicaciones de pequeña escala en zonas boscosas,01/01/2018,04/02/2021,,Ingeniería Electromecánica
+LMS0,5402-1341-1701,Diagnostico y gestión de fallos en arreglos de paneles solares basados en algoritmos livianos: bajo el paradigma de computación de borde,18/02/2019,04/02/2021,,Ingeniería Electromecánica
+GGR0;GRN0,5402-1341-1801,Modelado de la futura penetración de Vehículos Eléctricos para realizar estudios de eléctricos y ambientales para Costa Rica,01/01/2020,31/12/2022,,Ingeniería Electromecánica
+LMS0,5402-1360-4201,Identificación de fallas en instalaciones solares fotovoltaicas,01/01/2020,30/06/2023,,
+JMH0,5402-1360-4301,Sistema robotizado semiautomático para limpieza de cielorrasos metálicos en industria y matrices de paneles fotovoltaicos,01/01/2020,31/12/2022,,
+JMJ0,0000-0146-0083,Desarrollo de matrices porosas extracelulares con propiedades eléctricas (MECC) para el estudio in vitro de tejido celular,02/05/2021,31/12/2022,,
+GRN0;MJC0;JMJ0;LMS0,0000-0134-1017,Desempeño de turbinas eólicas de eje horizontal con dispositivos de control de flujo en condiciones de turbulencia,07/01/2022,30/06/2024,,Ingeniería Electromecánica
+RMC0;JMJ0;LMS0;GRN0,0000-0134-1018,Requerimientos para lograr la factibilidad de turbinas eólicas comerciales de pequeña escala en Costa Rica,07/01/2022,30/06/2024,,Ingeniería Electromecánica
+GGR0,5402-1341-1901,Estimación del Límite Técnico permisible para la penetración de energías renovables y generación distribuida en el Sistema Eléctrico Nacional,01/01/2023,31/12/2024,,Ingeniería Electromecánica
+CVS0;JGF0;JRG0,0000-0134-1024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,01/01/2024,31/12/2025,,Ingeniería Electromecánica
+LMS0;CVS0,0000-0134-1026,Sistema de enfriamiento pasivo para paneles fotovoltaicos mono-faciales,01/01/2024,31/12/2025,,Ingeniería Electromecánica
+NUS0,0000-0149-0036,Estudio del comportamiento biomecánico-osteointegración de implantes biomédicos procesados con tecnologías de manufactura avanzada,01/01/2024,31/12/2026,,

@@ -5,7 +5,7 @@ today = pd.to_datetime(datetime.today().date())
 
 datos = pd.read_csv("00_datos.csv")
 grados = pd.read_csv("01_grados.csv")
-publicaciones = pd.read_csv("05_publicaciones.csv")
+publicaciones = pd.read_csv("06_publicaciones.csv")
 proyectos = pd.read_csv("08_proyectos_inv_ext.csv")
 carrera = pd.read_csv("07_carrera.csv")
 
@@ -40,10 +40,12 @@ tabla["pub5a"] = tabla["pub5a"].fillna(0).astype(int)
 
 proyectos["codigo"] = proyectos["codigo"].str.split(";",expand=False)
 proyectos = proyectos.explode("codigo")
-proyectos["fin"] = pd.to_datetime(proyectos["fin"], format="%m/%d/%Y", errors="coerce")
+proyectos["fin"] = pd.to_datetime(proyectos["fin"], format="%d/%m/%Y", errors="coerce")
+print(proyectos.head(35))
 proyectosU5A = proyectos[proyectos["fin"].dt.year >= (datetime.now().year - 5)]
 propp = proyectosU5A["codigo"].value_counts().reset_index()
 propp.columns = ["codigo", "pro5a"]
+
 
 tabla = tabla.merge(propp, on="codigo", how="left")
 tabla["pro5a"] = tabla["pro5a"].fillna(0).astype(int)
