@@ -5,7 +5,7 @@ cv:
   sections:
     Información laboral:
     - label: Cédula
-      details: '402520721'
+      details: '112690215'
     - label: Tipo de nombramiento
       details: Propiedad
     - label: Fecha de contratación
@@ -37,9 +37,10 @@ cv:
     Carrera profesional:
     - name: Profesor Asociado
       date: 08/03/2024
-    Cursos impartidos en los últimos tres años:
-    - bullet: MI2106 - Estática
-    - bullet: MI2101 - Dibujo Técnico
+    Áreas de interés:
+    - bullet: Diseño Mecánico
+    - bullet: Microfluídica
+    - bullet: Energía Oceánica
     Publicaciones:
     - title: Synthesis of Anisotropic Gold Microparticles via L‐Glutathione‐Mediated
         Pathways in Droplet Microfluidics
@@ -96,7 +97,7 @@ cv:
       start_date: '2016-01-01'
       end_date: '2019-12-31'
       highlights:
-      - '**Numero:** 1360036'
+      - '**Numero:** 0000-0136-0036'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería en Electrónica'
     - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
@@ -105,20 +106,45 @@ cv:
       start_date: '2024-01-01'
       end_date: '2025-12-31'
       highlights:
-      - '**Numero:** 1341024'
+      - '**Numero:** 0000-0134-1024'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: 'i-Plare Reactor: Simulación y diseño de un reactor para gasificación
+        por plasma'
+      start_date: '2014-01-01'
+      end_date: '2015-12-31'
+      highlights:
+      - '**Numero:** 5401-1341-1401'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
+        para un sistema de conversión de la energía de las olas para maximizar el
+        aprovechamiento de la energía oceánica'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      highlights:
+      - '**Numero:** 0000-0134-1024'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Sistema de enfriamiento pasivo para paneles fotovoltaicos mono-faciales
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      highlights:
+      - '**Numero:** 0000-0134-1026'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -156,4 +182,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

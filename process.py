@@ -163,8 +163,8 @@ def make_rendercv_yaml(id,datos,grados):
         sections["Idiomas"] = languag
     if interes:
         sections["Áreas de interés"] = interes
-    if cursoss:
-        sections["Cursos impartidos en los últimos tres años"] = cursoss
+    # if cursoss:
+    #     sections["Cursos impartidos en los últimos tres años"] = cursoss
     if public:
         sections["Publicaciones"] = public
     if research:
@@ -188,6 +188,7 @@ def make_rendercv_yaml(id,datos,grados):
             "year": "año",
             "years": "años",
             "present": "actualmente",
+            "to": "-",
             "abbreviations_for_months": [
                 "Ene",
                 "Feb",
@@ -230,6 +231,7 @@ def make_rendercv_yaml(id,datos,grados):
             "theme": "engineeringresumes", 
             "entry_types": {
                 "education_entry": {
+                    "main_column_first_row_template": '**INSTITUTION**, DEGREE en AREA',
                     "degree_column_width": "2.5cm"
                 }       
             }

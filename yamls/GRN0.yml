@@ -52,6 +52,12 @@ cv:
       date: 12/05/2021
     - name: Profesor Catedrático
       date: 16/10/2023
+    Áreas de interés:
+    - bullet: Simulación
+    - bullet: Aerodinámica
+    - bullet: Métodos numéricos
+    - bullet: Optimización
+    - bullet: Energía Eólica
     Publicaciones:
     - title: Roughness sub-layer wind speed model for tropical wooded areas
       journal: Wind Engineering
@@ -168,64 +174,57 @@ cv:
       date: '2016'
       doi: 10.18687/laccei2016.1.1.027
     Proyectos de investigación y extensión:
-    - name: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y pronóstico'
-      start_date: '2024-01-01'
-      end_date: '2025-12-31'
-      highlights:
-      - '**Numero:** 1341025'
-      - '**Tipo:** Investigación'
-      - '**Escuela:** Ingeniería Electromecánica'
-    - name: 'I PLARE REACTOR 2: Optimización del diseño de un reactor de gasificación
-        por plasma a través de simulaciones computacionales numéricas'
+    - name: 'I-Plare Reactor 2: Optimización de un reactor de gasificación por plasma'
       start_date: '2016-01-01'
       end_date: '2017-12-31'
       highlights:
-      - '**Numero:** 1341012'
+      - '**Numero:** 0000-0134-1012'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
         para aplicaciones de pequeña escala en zonas boscosas
       start_date: '2018-01-01'
       end_date: '2021-02-04'
       highlights:
-      - '**Numero:** 1341015'
+      - '**Numero:** 0000-0134-1015'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
-        estudios eléctricos y ambientales para Costa Rica
+        estudios de eléctricos y ambientales para Costa Rica
       start_date: '2020-01-01'
       end_date: '2022-12-31'
       highlights:
-      - '**Numero:** 13411801'
+      - '**Numero:** 5402-1341-1801'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
-    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
-        de pequeña escala en Costa Rica
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
-      highlights:
-      - '**Numero:** 1341021'
-      - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
       highlights:
-      - '**Numero:** 1341020'
+      - '**Numero:** 0000-0134-1017'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
+      highlights:
+      - '**Numero:** 0000-0134-1018'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -263,4 +262,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

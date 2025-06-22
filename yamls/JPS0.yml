@@ -27,17 +27,24 @@ cv:
     Carrera profesional:
     - name: Profesor Instructor
       date: 01/01/2025
+    Áreas de interés:
+    - bullet: Sistemas eléctricos de potencia
+    - bullet: Diseño eléctrico
+    - bullet: Gestión integral de la energía;eficiencia enérgetica;energías renovables
+        y gestión de la energía
+    - bullet: Sistemas de almacenamiento de energía y movilidad eléctrica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -75,4 +82,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

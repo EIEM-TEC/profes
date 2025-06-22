@@ -38,10 +38,10 @@ cv:
       start_date: '2008-01-01'
       end_date: '2011-01-01'
       summary: Diseño mecánico de componentes de turbinas de gas
-    Cursos impartidos en los últimos tres años:
-    - bullet: MI3103 - Procesos de Manufactura
-    - bullet: MI2101 - Dibujo Técnico
-    - bullet: MI3117 - Dinámica
+    Áreas de interés:
+    - bullet: Producción científica en ingeniería de dispositivos de fusión a pequeña
+        escala
+    - bullet: Manufactura Aditiva aplicada en dispositivos pequeños
     Publicaciones:
     - title: Propuesta metodológica de caracterización del mercado de la biomasa para
         fines energéticos, caso del arroz costarricense
@@ -135,25 +135,34 @@ cv:
       date: 6/2013
       doi: 10.1109/sofe.2013.6635443
     Proyectos de investigación y extensión:
+    - name: Estudio de materiales diseño y métodos de manufactura aditiva para estructura
+        modular de soporte para bobinas superconductoras
+      start_date: '2017-01-01'
+      end_date: '2018-12-31'
+      highlights:
+      - '**Numero:** 0000-0134-1014'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Optimización de un perfil aerodinámico de una turbina eólica de eje horizontal
         para aplicaciones de pequeña escala en zonas boscosas
       start_date: '2018-01-01'
       end_date: '2021-02-04'
       highlights:
-      - '**Numero:** 1341015'
+      - '**Numero:** 0000-0134-1015'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -191,4 +200,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

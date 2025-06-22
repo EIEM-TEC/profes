@@ -34,17 +34,30 @@ cv:
       date: 01/07/2013
     - name: Profesor Adjunto
       date: 01/01/2025
+    Áreas de interés:
+    - bullet: Diseño mecánico
+    - bullet: Energías renovables
+    Proyectos de investigación y extensión:
+    - name: Sistema robotizado semiautomático para limpieza de cielorrasos metálicos
+        en industria y matrices de paneles fotovoltaicos
+      start_date: '2020-01-01'
+      end_date: '2022-12-31'
+      highlights:
+      - '**Numero:** 5402-1360-4301'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electrónica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -82,4 +95,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

@@ -35,6 +35,10 @@ cv:
     Idiomas:
     - bullet: 'Inglés: TOEFL 109/120 iBT'
     - bullet: 'Alemán: A2.1 MCER'
+    Áreas de interés:
+    - bullet: Microsistemas
+    - bullet: Modelado de Materiales
+    - bullet: DDMM
     Publicaciones:
     - title: Modelo dinámico de la velocidad del viento en una zona boscosa tropical
       journal: Revista Tecnología en Marcha
@@ -51,20 +55,21 @@ cv:
       start_date: '2018-01-01'
       end_date: '2021-02-04'
       highlights:
-      - '**Numero:** 1341015'
+      - '**Numero:** 0000-0134-1015'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -102,4 +107,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

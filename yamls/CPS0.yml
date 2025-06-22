@@ -66,17 +66,34 @@ cv:
       start_date: '2008-01-01'
       end_date: '2012-01-01'
       summary: ''
+    Áreas de interés:
+    - bullet: Movilidad eléctrica en transporte público
+    - bullet: Movilidad eléctrica en carga liviana y pesada
+    - bullet: Gestión del mantenimiento basada en sistemas de monitoreo en tiempo
+        real
+    - bullet: Diagnóstico y pronóstico del mantenimiento
+    - bullet: Modelos de Gestión de Energía
+    Proyectos de investigación y extensión:
+    - name: Implementación de un reactor de plasma de Descarga de Barrera Dieléctrica
+        (DBD) para el tratamiento de agua
+      start_date: '2014-01-01'
+      end_date: '2015-12-31'
+      highlights:
+      - '**Numero:** 5402-1341-1501'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -114,4 +131,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

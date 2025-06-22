@@ -55,6 +55,12 @@ cv:
       date: 16/02/2022
     - name: Profesor Catedrático Paso1
       date: 16/02/2025
+    Áreas de interés:
+    - bullet: Sistemas eléctricos de potencia
+    - bullet: Modelado y Simulación
+    - bullet: Transformadores de potencia
+    - bullet: Integración de energías renovables
+    - bullet: Almacenamiento
     Publicaciones:
     - title: Modelado de Redes de Distribución usando ETAP
       journal: Revista Tecnología en Marcha
@@ -300,44 +306,37 @@ cv:
       start_date: '2024-01-01'
       end_date: '2025-12-31'
       highlights:
-      - '**Numero:** 1341025'
+      - '**Numero:** 0000-0134-1025'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: Modelado de la futura penetración de Vehículos Eléctricos para realizar
-        estudios eléctricos y ambientales para Costa Rica
+        estudios de eléctricos y ambientales para Costa Rica
       start_date: '2020-01-01'
       end_date: '2022-12-31'
       highlights:
-      - '**Numero:** 13411801'
+      - '**Numero:** 5402-1341-1801'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Estimación del Límite Técnico permisible para la penetración de energías
         renovables y generación distribuida en el Sistema Eléctrico Nacional
       start_date: '2023-01-01'
       end_date: '2024-12-31'
       highlights:
-      - '**Numero:** 13411901'
+      - '**Numero:** 5402-1341-1901'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
-    - name: Estrategias para la integración de vehículos eléctricos, generación distribuida
-        y almacenamiento electroquímico en el Sistema Eléctrico Nacional
-      start_date: '2025-01-01'
-      end_date: '2026-12-31'
-      highlights:
-      - '**Numero:** 1341028'
-      - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -375,4 +374,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

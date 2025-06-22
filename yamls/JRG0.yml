@@ -32,6 +32,11 @@ cv:
     Carrera profesional:
     - name: Profesor Instructor
       date: 01/02/2016
+    Áreas de interés:
+    - bullet: Desarrollo e implementación de dispositivos de transformación de energía
+        proveniente de las olas de mar en energía eléctrica
+    - bullet: Manufactura aditiva y manufactura de alta precisión
+    - bullet: Diseño mecánico de elementos de transporte y transmisiones mecánicas
     Proyectos de investigación y extensión:
     - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
         para un sistema de conversión de la energía de las olas para maximizar el
@@ -39,20 +44,30 @@ cv:
       start_date: '2024-01-01'
       end_date: '2025-12-31'
       highlights:
-      - '**Numero:** 1341024'
+      - '**Numero:** 0000-0134-1024'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: 'eWave 2.0: Validación experimental de una estrategia de control óptimo
+        para un sistema de conversión de la energía de las olas para maximizar el
+        aprovechamiento de la energía oceánica'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      highlights:
+      - '**Numero:** 0000-0134-1024'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -90,4 +105,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm
