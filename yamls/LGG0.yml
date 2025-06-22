@@ -37,17 +37,38 @@ cv:
     Carrera profesional:
     - name: Profesor Asociado
       date: 01/01/2025
+    Áreas de interés:
+    - bullet: Automatización Industrial
+    - bullet: Gestión de Activos
+    - bullet: Gestión de Mantenimiento
+    Proyectos de investigación y extensión:
+    - name: Diseño de propuesta metodológica para reducción de fallas de los motores
+        trifásicos de inducción en Costa Rica
+      start_date: '2009-01-01'
+      end_date: '2009-12-30'
+      highlights:
+      - '**Numero:** 5402-1341-0901'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Situación del Mantenimiento en Costa Rica
+      start_date: '2014-07-01'
+      end_date: '2015-06-30'
+      highlights:
+      - '**Numero:** 5402-1801-0492'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -85,4 +106,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

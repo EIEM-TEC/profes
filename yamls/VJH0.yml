@@ -36,24 +36,20 @@ cv:
       date: 01/01/2009
     - name: Intermedio Profesor Asociado
       date: 01/01/2015
-    Cursos impartidos en los últimos tres años:
-    - bullet: MI3119 - Laboratorio de Turbomáquinas
-    - bullet: MI3138 - Máquinas y Equipos
-    - bullet: MI2101 - Dibujo Técnico
-    - bullet: MI3124 - Dibujo Industrial
-    - bullet: ID2301 - Principios Estructurales
-    - bullet: MI3115 - Resistencia de Materiales
+    Áreas de interés:
+    - bullet: Área Aeronaútica
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -91,4 +87,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

@@ -27,26 +27,30 @@ cv:
     Carrera profesional:
     - name: Profesor Instructor
       date: 08/02/2021
+    Áreas de interés:
+    - bullet: Simulación y construcción de rotores eólicos para áreas de bajo potencial
+        eólico
     Proyectos de investigación y extensión:
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
       highlights:
-      - '**Numero:** 1341020'
+      - '**Numero:** 0000-0134-1017'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -84,4 +88,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

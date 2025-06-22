@@ -39,17 +39,46 @@ cv:
       date: 01/01/2006
     - name: Profesor Asociado
       date: 01/01/2011
+    Áreas de interés:
+    - bullet: Sistemas mecánicos para Edificaciones
+    - bullet: Energías renovables
+    Proyectos de investigación y extensión:
+    - name: Utilización de madera en pequeños talleres de artesanías y elaboración
+        de muebles en la comunidad de sarchí
+      start_date: '2008-01-01'
+      end_date: '2008-06-30'
+      highlights:
+      - '**Numero:** 5402-1353-1801'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería en Seguridad Laboral e Higiene Ambiental'
+    - name: Eficiencia y validación de secadoras solares de madera aserrada para pequeña
+        y mediana industria
+      start_date: '2009-01-01'
+      end_date: '2010-12-31'
+      highlights:
+      - '**Numero:** 5402-1401-1011'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Forestal'
+    - name: Evaluación de exposición ocupacional a isocianatos en procesos de aplicación
+        de lacas y pintura en Mueblerías y Talleres de Enderezado y Pintura de Vehículos
+      start_date: '2010-01-01'
+      end_date: '2012-12-30'
+      highlights:
+      - '**Numero:** 5402-1353-2301'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería en Seguridad Laboral e Higiene Ambiental'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -87,4 +116,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

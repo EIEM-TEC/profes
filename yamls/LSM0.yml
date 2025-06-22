@@ -32,17 +32,25 @@ cv:
     Carrera profesional:
     - name: Profesor Instructor
       date: 01/08/2016
+    Áreas de interés:
+    - bullet: Diseño integrado de proyectos para la optimización de costos y tiempos
+        de construcción
+    - bullet: Eficiencia energética de los edificios desde su concepción y diseño
+        inicial
+    - bullet: Normalización de especificaciones para proyectos de construcción según
+        Master Format
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -80,4 +88,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

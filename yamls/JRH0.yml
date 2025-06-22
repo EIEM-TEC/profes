@@ -76,12 +76,6 @@ cv:
         de usuarios o comunidades
     - bullet: Sistemas de instrumentación hechos a la medida
     - bullet: Caracterizadores de baterías
-    Cursos impartidos en los últimos tres años:
-    - bullet: MI2205 - Electricidad I
-    - bullet: 'MI2202 - Laboratorio de Electricidad I '
-    - bullet: MI4210 - Laboratorio de Control Eléctrico
-    - bullet: IF3502 - Instrumentación I
-    - bullet: IF3503 - Instrumentación II
     Publicaciones:
     - title: Diseño de un sistema embebido para el control  y regulación del proceso
         dinámico de carga y descarga de celdas electroquímicas y su posterior validación
@@ -179,14 +173,14 @@ cv:
       start_date: '2016-01-01'
       end_date: '2019-12-31'
       highlights:
-      - '**Numero:** 1360036'
+      - '**Numero:** 0000-0136-0036'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería en Electrónica'
     - name: Programa de Energías Limpias del Instituto Tecnológico de Costa Rica (PELTEC)
       start_date: '2010-01-01'
       end_date: '2012-12-31'
       highlights:
-      - '**Numero:** 17011001'
+      - '**Numero:** 5402-1701-1001'
       - '**Tipo:** Investigación'
       - '**Escuela:** Química'
     - name: Desarrollo de un sistema integrado para la prueba de sistemas de potencian
@@ -194,7 +188,7 @@ cv:
       start_date: '2022-01-01'
       end_date: '2024-06-30'
       highlights:
-      - '**Numero:** 1341019'
+      - '**Numero:** 0000-0134-1019'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: Diagnóstico del potencial para la transformación digital de las Asociaciones
@@ -202,7 +196,7 @@ cv:
       start_date: '2022-01-01'
       end_date: '2023-06-30'
       highlights:
-      - '**Numero:** 1341016'
+      - '**Numero:** 00-0134-1016'
       - '**Tipo:** Extensión'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
@@ -218,7 +212,7 @@ cv:
       start_date: '2024-01-01'
       end_date: '2025-12-31'
       highlights:
-      - '**Numero:** 1341025'
+      - '**Numero:** 0000-0134-1025'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: 'Desarrollo de un sistema de monitoreo y alerta para la detección de la
@@ -251,13 +245,14 @@ locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -295,4 +290,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

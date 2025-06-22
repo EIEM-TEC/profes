@@ -41,6 +41,9 @@ cv:
       date: 23/10/2023
     - name: Profesor Asociado
       date: 23/10/2O23
+    Áreas de interés:
+    - bullet: Ingeniería de sistemas
+    - bullet: Mantenimiento predictivo
     Publicaciones:
     - title: An ontology model for maintenance strategy selection and assessment
       journal: Journal of Intelligent Manufacturing
@@ -104,7 +107,7 @@ cv:
       start_date: '2022-01-01'
       end_date: '2023-06-30'
       highlights:
-      - '**Numero:** 1341016'
+      - '**Numero:** 00-0134-1016'
       - '**Tipo:** Extensión'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un mejor
@@ -120,7 +123,7 @@ cv:
       start_date: '2024-01-01'
       end_date: '2025-12-31'
       highlights:
-      - '**Numero:** 1341025'
+      - '**Numero:** 0000-0134-1025'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
     - name: 'ASADAS-IoT: Desarrollo y transferencia de una plataforma tecnológica
@@ -131,33 +134,34 @@ cv:
       - '**Numero:** 1340030'
       - '**Tipo:** Extensión'
       - '**Escuela:** Ingeniería Electromecánica'
-    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
-        de pequeña escala en Costa Rica
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
-      highlights:
-      - '**Numero:** 1341021'
-      - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
       highlights:
-      - '**Numero:** 1341020'
+      - '**Numero:** 0000-0134-1017'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
+      highlights:
+      - '**Numero:** 0000-0134-1018'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -195,4 +199,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm

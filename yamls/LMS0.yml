@@ -45,7 +45,7 @@ cv:
       location: Costa Rica
       end_date: '2016'
     - institution: Instituto Tecnológico de Costa Rica
-      area: Sistemas Fotovoltaicos
+      area: Ingeniería
       degree: Doctorado
       location: Costa Rica
       end_date: '2022'
@@ -60,6 +60,13 @@ cv:
       date: 01/09/2021
     - name: Profesor Catedrático Paso2
       date: 01/07/2024
+    Áreas de interés:
+    - bullet: Sistemas automáticos de gestión de fallos en sistemas fotovoltaicos
+    - bullet: Desarrollo de algoritmos de detección y diagnóstico de fallos basados
+        en redes neuronales
+    - bullet: Desarrollo de modelos de sistemas de eventos discretos
+    - bullet: Desarrollo de algoritmos de control y automatización usando redes de
+        Petri
     Publicaciones:
     - title: Distributed Detection Algorithm for Photo-Voltaic Solar Arrays Based
         on Least Significant Difference Test
@@ -229,33 +236,103 @@ cv:
       date: 01/09/2014
       doi: 10.18845/tm.v27i3.2065
     Proyectos de investigación y extensión:
-    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
-        de pequeña escala en Costa Rica
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
+    - name: Diseño de experimentos para la obtención de modelos de fallas en motores
+        trifásicos de inducción
+      start_date: '2010-01-01'
+      end_date: '2011-12-31'
       highlights:
-      - '**Numero:** 1341021'
+      - '**Numero:** 5402-1341-1001'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Diseño e implementación de los algoritmos para controlar dos celdas flexibles
+        de manufactura usando el método aproximación basada en matrices
+      start_date: '2011-01-01'
+      end_date: '2011-12-31'
+      highlights:
+      - '**Numero:** 5402-1341-1101'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Validación de la propuesta metodológica:"Diseño de una propuesta para
+        la reducción de fallas de los motores trifásicos de inducción"
+      start_date: '2011-01-01'
+      end_date: '2011-12-31'
+      highlights:
+      - '**Numero:** 5402-1341-1201'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Sistema Experto para Motores Asistido por Temperatura (SEMAT)
+      start_date: '2012-07-01'
+      end_date: '2016-12-31'
+      highlights:
+      - '**Numero:** 5402-1341-1301'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Síntesis del Diagnosticador de fallas en un sistema de eventos discretos
+        usando redes de petri coloreadas
+      start_date: '2015-07-01'
+      end_date: '2016-12-31'
+      highlights:
+      - '**Numero:** 5402-1801-0505'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Tarjeta Electrónica de potencia para administrar conexiones eléctricas
+        de dos cadenas de paneles solares
+      start_date: '2017-02-27'
+      end_date: '2018-12-31'
+      highlights:
+      - '**Numero:** 5402-1341-1601'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: 'Diagnostico y gestión de fallos en arreglos de paneles solares basados
+        en algoritmos livianos: bajo el paradigma de computación de borde'
+      start_date: '2019-02-18'
+      end_date: '2021-02-04'
+      highlights:
+      - '**Numero:** 5402-1341-1701'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Identificación de fallas en instalaciones solares fotovoltaicas
+      start_date: '2020-01-01'
+      end_date: '2023-06-30'
+      highlights:
+      - '**Numero:** 5402-1360-4201'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Desempeño de turbinas eólicas de eje horizontal con dispositivos de control
         de flujo en condiciones de turbulencia
-      start_date: '2022-07-01'
-      end_date: '2024-12-31'
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
       highlights:
-      - '**Numero:** 1341020'
+      - '**Numero:** 0000-0134-1017'
       - '**Tipo:** Investigación'
-      - '**Escuela:** nan'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Requerimientos para lograr la factibilidad de turbinas eólicas comerciales
+        de pequeña escala en Costa Rica
+      start_date: '2022-01-07'
+      end_date: '2024-06-30'
+      highlights:
+      - '**Numero:** 0000-0134-1018'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
+    - name: Sistema de enfriamiento pasivo para paneles fotovoltaicos mono-faciales
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      highlights:
+      - '**Numero:** 0000-0134-1026'
+      - '**Tipo:** Investigación'
+      - '**Escuela:** Ingeniería Electromecánica'
 locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 16/06/2025'
+  last_updated_date_template: 'Última actualización: 21/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
   year: año
   years: años
   present: actualmente
+  to: '-'
   abbreviations_for_months:
   - Ene
   - Feb
@@ -293,4 +370,5 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm
