@@ -34,6 +34,27 @@ cv:
       date: 01/07/2013
     - name: Profesor Adjunto
       date: 01/01/2025
+    Experiencia:
+    - company: Tropical Paradise Fruits
+      position: Jefe de departamento de Mantenimiento
+      start_date: '2010-01-01'
+      end_date: '2011-01-01'
+      summary: ''
+    - company: Tropical Paradise Fruits
+      position: Ingeniero de Proceso y Proyectos
+      start_date: '2011-01-01'
+      end_date: '2013-01-01'
+      summary: ''
+    - company: Universidad Técnica Nacional
+      position: Docente
+      start_date: '2014-01-01'
+      end_date: '2014-01-01'
+      summary: Enseñanza en el área de Ciencias Básicas de Ingeniería
+    - company: Consultoría
+      position: Diseñador de sistemas fotovoltaicos y de Energías Renovables
+      start_date: '2018-01-01'
+      end_date: present
+      summary: ''
     Áreas de interés:
     - bullet: Diseño mecánico
     - bullet: Energías renovables
@@ -50,7 +71,7 @@ locale:
   language: es
   phone_number_format: national
   page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 21/06/2025'
+  last_updated_date_template: 'Última actualización: 27/06/2025'
   date_template: MONTH_ABBREVIATION YEAR
   month: mes
   months: meses
@@ -97,3 +118,5 @@ design:
     education_entry:
       main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
       degree_column_width: 2.5cm
+    experience_entry:
+      date_and_location_column_template: DATE

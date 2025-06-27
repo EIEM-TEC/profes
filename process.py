@@ -2,6 +2,16 @@ import pandas as pd
 import yaml
 import os
 from datetime import date, datetime
+import rendercv.data.generator as gen
+
+model = gen.create_a_sample_data_model(name="juanjo", theme="engineeringresumes")
+
+# Convert to plain dict using Pydantic (no __dict__, no !!python/object, etc.)
+clean_dict = model.model_dump()  # Use .dict() if you're using older pydantic
+
+# Dump as normal YAML
+with open("example.yaml", 'w', encoding='utf-8') as f:
+    yaml.dump(clean_dict, f, allow_unicode=True, sort_keys=False)
 
 today = date.today()
 
@@ -28,7 +38,10 @@ output_dir = "yamls"
 os.makedirs(output_dir, exist_ok=True)
 
 def convert_cr_to_iso(date_cr):
-    return datetime.strptime(date_cr, "%d/%m/%Y").strftime("%Y-%m-%d")
+    if date_cr != "present":
+        return datetime.strptime(date_cr, "%d/%m/%Y").strftime("%Y-%m-%d")
+    else:
+        return date_cr
 
 def make_education_entries(grados):
     education_entries = []
@@ -233,7 +246,10 @@ def make_rendercv_yaml(id,datos,grados):
                 "education_entry": {
                     "main_column_first_row_template": '**INSTITUTION**, DEGREE en AREA',
                     "degree_column_width": "2.5cm"
-                }       
+                },
+                "experience_entry": {
+                    "date_and_location_column_template": "DATE"
+                }
             }
         }
     }
