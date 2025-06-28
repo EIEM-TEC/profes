@@ -62,6 +62,14 @@ cv:
     - bullet: Integración de energías renovables
     - bullet: Almacenamiento
     Publicaciones:
+    - title: Análisis del Límite Técnico en la  Integración de Energías Renovables  y
+        Generación Distribuida en las  Redes Eléctricas de Costa Rica
+      journal: Investiga.TEC
+      authors:
+      - Gustavo Adolfo Gómez-Ramírez
+      - Rebeca Solis-Ortega
+      date: 30/05/2025
+      doi: 10.18845/itec.v18i53.8017
     - title: Modelado de Redes de Distribución usando ETAP
       journal: Revista Tecnología en Marcha
       authors:

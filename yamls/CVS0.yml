@@ -42,6 +42,28 @@ cv:
     - bullet: Microfluídica
     - bullet: Energía Oceánica
     Publicaciones:
+    - title: Experimental Study of Gas Microbubbles on Oil‐Infused Wrinkled Surfaces
+      journal: Advanced Materials Interfaces
+      authors:
+      - Leo James
+      - Christopher Vega‐Sánchez
+      - Priya Mehta
+      - Xuehua Zhang
+      - Chiara Neto
+      date: 27/04/2025
+      doi: 10.1002/admi.202500160
+    - title: Encapsulation of Oil Droplets Using Film-Forming Janus Nanoparticles
+      journal: Langmuir
+      authors:
+      - Geosmin Turpin
+      - Duc Nguyen
+      - Kathryn Isobel Sypkes
+      - Christopher Vega-Sánchez
+      - Tim Davey
+      - Brian S. Hawkett
+      - Chiara Neto
+      date: 29/01/2025
+      doi: 10.1021/acs.langmuir.4c03843
     - title: Synthesis of Anisotropic Gold Microparticles via L‐Glutathione‐Mediated
         Pathways in Droplet Microfluidics
       journal: Particle &amp; Particle Systems Characterization
@@ -58,6 +80,14 @@ cv:
       - Ken‐Tye Yong
       date: 07/06/2024
       doi: 10.1002/ppsc.202400056
+    - title: Fluid Slip and Drag Reduction on Liquid-Infused Surfaces under High Static
+        Pressure
+      journal: Langmuir
+      authors:
+      - Christopher Vega-Sánchez
+      - Chiara Neto
+      date: 15/02/2024
+      doi: 10.1021/acs.langmuir.3c03792
     - title: Slightly Depleted Lubricant-Infused Surfaces Are No Longer Slippery
       journal: Langmuir
       authors:

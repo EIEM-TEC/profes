@@ -165,7 +165,7 @@ def search_crossref_by_title(title, max_results=3, threshold=85, log_discards=No
 
     return {}
 
-def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicaciones.csv"):
+def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="06_publicaciones.csv"):
     with open(input_csv, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         publicaciones = []
@@ -235,7 +235,7 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="05_publicacio
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(descartados)
-        print(f"\n⚠️ {len(descartados)} publicaciones descartadas exportadas a 05_publicaciones_descartadas.csv")
+        print(f"\n⚠️ {len(descartados)} publicaciones descartadas exportadas a 06_publicaciones_descartadas.csv")
     else:
         print("\n✅ No hubo publicaciones descartadas.")
 

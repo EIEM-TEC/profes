@@ -30,8 +30,10 @@ cv:
       location: Costa Rica
       end_date: '2010'
     Carrera profesional:
-    - name: Profesor Instructor
+    - name: Profesora Instructora
       date: 01/08/2016
+    - name: Profesora Adjunta
+      date: 21/03/2024
     Áreas de interés:
     - bullet: Diseño integrado de proyectos para la optimización de costos y tiempos
         de construcción
