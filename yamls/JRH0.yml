@@ -242,55 +242,28 @@ cv:
       - '**Tipo:** Extensión'
       - '**Escuela:** Ingeniería Electromecánica'
 locale:
-  language: es
-  phone_number_format: national
-  page_numbering_template: NAME - Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: 'Última actualización: 27/06/2025'
-  date_template: MONTH_ABBREVIATION YEAR
-  month: mes
-  months: meses
-  year: año
-  years: años
+  language: spanish
   present: actualmente
-  to: '-'
-  abbreviations_for_months:
-  - Ene
-  - Feb
-  - Mar
-  - Abr
-  - May
-  - Jun
-  - Jul
-  - Ago
-  - Sep
-  - Oct
-  - Nov
-  - Dic
-  full_names_of_months:
-  - Enero
-  - Febrero
-  - Marzo
-  - Abril
-  - Mayo
-  - Junio
-  - Julio
-  - Agosto
-  - Septiembre
-  - Octubre
-  - Noviembre
-  - Diciembre
-rendercv_settings:
-  date: '2025-06-08'
+settings:
+  current_date: '2026-04-28'
   render_command:
-    output_folder_name: CVs
+    output_folder: ../CVs
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true
 design:
   theme: engineeringresumes
-  entry_types:
+  page:
+    show_footer: true
+  templates:
+    footer: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+    top_note: 'Última actualización: DAY_IN_TWO_DIGITS/MONTH_IN_TWO_DIGITS/YEAR'
     education_entry:
-      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
-      degree_column_width: 2.5cm
+      main_column: '**INSTITUTION**, DEGREE_WITH_AREA
+
+        SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
     experience_entry:
-      date_and_location_column_template: DATE
+      date_and_location_column: DATE

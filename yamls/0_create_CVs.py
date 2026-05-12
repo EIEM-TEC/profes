@@ -1,17 +1,31 @@
 import subprocess
+import sys
+from pathlib import Path
+
 import pandas as pd
-datos = pd.read_csv("00_datos.csv")
 
-# datos = pd.read_csv("datos.csv")
+ROOT_DIR = Path(__file__).resolve().parents[1]
+YAML_DIR = ROOT_DIR / "yamls"
+CV_DIR = ROOT_DIR / "CVs"
 
-CVdir = "C:\\Repositories\\profes\\yamls\\"
-name = "JRH0"
+datos = pd.read_csv(ROOT_DIR / "00_datos.csv")
 
-#subprocess.run(f"rendercv render {CVdir}{name}.yml", shell=True, check=True)
+# datos = pd.read_csv(ROOT_DIR / "datos.csv")
 
 for _, row in datos.iterrows():
     print(f"{row.nombre} ({row.codigo})")
     id = row["codigo"]
-    subprocess.run(f"rendercv render {CVdir}{id}.yml", shell=True, check=True)
+    subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "rendercv",
+            "render",
+            str(YAML_DIR / f"{id}.yml"),
+            "--quiet",
+        ],
+        check=True,
+    )
 
-subprocess.run(["del", f"C:\\Repositories\\profes\\CVs\\*.typ"], shell=True, check=True)
+for typ_file in CV_DIR.glob("*.typ"):
+    typ_file.unlink()

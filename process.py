@@ -2,16 +2,6 @@ import pandas as pd
 import yaml
 import os
 from datetime import date, datetime
-import rendercv.data.generator as gen
-
-model = gen.create_a_sample_data_model(name="juanjo", theme="engineeringresumes")
-
-# Convert to plain dict using Pydantic (no __dict__, no !!python/object, etc.)
-clean_dict = model.model_dump()  # Use .dict() if you're using older pydantic
-
-# Dump as normal YAML
-with open("example.yaml", 'w', encoding='utf-8') as f:
-    yaml.dump(clean_dict, f, allow_unicode=True, sort_keys=False)
 
 today = date.today()
 
@@ -24,7 +14,9 @@ idiomas = pd.read_csv("03_idiomas.csv")
 areas = pd.read_csv("04_areas_interes.csv")
 cursos = pd.read_csv("05_cursos.csv")
 publicaciones = pd.read_csv("06_publicaciones.csv")
-publicaciones.fillna("0",inplace=True)
+publicaciones["revista"] = publicaciones["revista"].fillna("")
+publicaciones["mes"] = publicaciones["mes"].fillna(0).astype(int)
+publicaciones["dia"] = publicaciones["dia"].fillna(0).astype(int)
 carrera = pd.read_csv("07_carrera.csv")
 proyect = pd.read_csv("08_proyectos_inv_ext.csv")
 proyect["codigo"] = proyect["codigo"].str.split(";",expand=False)
@@ -72,9 +64,9 @@ def make_publication_entries(publicaciones):
         autoresd = row.get("autores","").split(";")
         autores = [x.strip() for x in autoresd]
         date = f"{int(row["dia"]):02d}/{int(row["mes"]):02d}/{int(row["año"])}"
-        if row["dia"] == "0": 
+        if row["dia"] == 0:
             date = f"{int(row["mes"])}/{int(row["año"])}"
-        if row["mes"] == "0":
+        if row["mes"] == 0:
             date = f"{int(row["año"])}"
         entry = {
             "title": row["titulo"],
@@ -191,64 +183,32 @@ def make_rendercv_yaml(id,datos,grados):
             "sections": sections,         
         },
         "locale": {
-            "language": "es",
-            "phone_number_format": "national",
-            "page_numbering_template": "NAME - Página PAGE_NUMBER de TOTAL_PAGES",
-            "last_updated_date_template": f"Última actualización: {today.strftime("%d/%m/%Y")}",
-            "date_template": "MONTH_ABBREVIATION YEAR",
-            "month": "mes",
-            "months": "meses",
-            "year": "año",
-            "years": "años",
+            "language": "spanish",
             "present": "actualmente",
-            "to": "-",
-            "abbreviations_for_months": [
-                "Ene",
-                "Feb",
-                "Mar",
-                "Abr",
-                "May",
-                "Jun",
-                "Jul",
-                "Ago",
-                "Sep",
-                "Oct",
-                "Nov",
-                "Dic"
-            ],
-            "full_names_of_months": [
-                "Enero",
-                "Febrero",
-                "Marzo",
-                "Abril",
-                "Mayo",
-                "Junio",
-                "Julio",
-                "Agosto",
-                "Septiembre",
-                "Octubre",
-                "Noviembre",
-                "Diciembre",
-            ]
         },
-        "rendercv_settings": {
-            "date": "2025-06-08",
+        "settings": {
+            "current_date": today.isoformat(),
             "render_command": {
-                "output_folder_name": "CVs",
+                "output_folder": "../CVs",
                 "dont_generate_html": True,
                 "dont_generate_markdown": True,
                 "dont_generate_png": True
             }
         },
         "design": {
-            "theme": "engineeringresumes", 
-            "entry_types": {
+            "theme": "engineeringresumes",
+            "page": {
+                "show_footer": True
+            },
+            "templates": {
+                "footer": "NAME - Página PAGE_NUMBER de TOTAL_PAGES",
+                "top_note": "Última actualización: DAY_IN_TWO_DIGITS/MONTH_IN_TWO_DIGITS/YEAR",
                 "education_entry": {
-                    "main_column_first_row_template": '**INSTITUTION**, DEGREE en AREA',
-                    "degree_column_width": "2.5cm"
+                    "main_column": '**INSTITUTION**, DEGREE_WITH_AREA\nSUMMARY\nHIGHLIGHTS',
+                    "date_and_location_column": "DATE"
                 },
                 "experience_entry": {
-                    "date_and_location_column_template": "DATE"
+                    "date_and_location_column": "DATE"
                 }
             }
         }
@@ -263,4 +223,4 @@ for _, row in datos.iterrows():
     with open(filepath, 'w', encoding='utf-8') as f:
         yaml.dump(yaml_dict, f, allow_unicode=True, sort_keys=False)
 
-print(f"✅ Se generaron {len(datos)} archivos YAML en el folder '{output_dir}'")
+print(f"Se generaron {len(datos)} archivos YAML en el folder '{output_dir}'")
