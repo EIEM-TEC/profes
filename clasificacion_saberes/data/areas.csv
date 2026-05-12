@@ -1,0 +1,13 @@
+codArea,nombre,porcTRC,porcINS,porcAER,porcSCF,porcENF
+ADD,Analisís de datos,2.5,2.5,2.5,2.5,2.5
+AER,Aeronáutica,0.0,0.0,25.0,0.0,0.0
+AUT,Automática,7.9,7.9,7.9,7.9,7.9
+CIB,Ciencias básicas,19.9,19.9,19.9,19.9,19.9
+CYD,Comunicación y dibujo,5.6,5.6,5.6,5.6,5.6
+FPH,Formación profesional y habilidades interpersonales,7.7,7.7,7.7,7.7,7.7
+IEE,Ingeniería eléctrica y electrónica,13.1,13.1,13.1,13.1,13.1
+IMM,Ingeniería mecánica y de materiales,18.3,18.3,18.3,18.3,18.3
+INS,Instalaciones electromecánicas,0.0,25.0,0.0,0.0,0.0
+SCF,Sistemas ciberfísicos,0.0,0.0,0.0,25.0,0.0
+ENF,Énfasis,0.0,0.0,0.0,0.0,25.0
+TOT,Total,75.0,100.0,100.0,100.0,100.0

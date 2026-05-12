@@ -1,0 +1,52 @@
+nombre,codArea,codSaber,porcTRC,porcINS,porcAER,porcSCF
+Matemática,CIB,MAT,11.6,11.6,11.6,11.6
+Física,CIB,FIS,6.1,6.1,6.1,6.1
+Química,CIB,QUI,2.2,2.2,2.2,2.2
+Ética y ciencias sociales,FPH,ECS,3.6,3.6,3.6,3.6
+Habilidades interpersonales,FPH,HIP,0.8,0.8,0.8,0.8
+Emprendedurismo,FPH,EMP,2.2,2.2,2.2,2.2
+Administración de proyectos,FPH,ADP,1.1,1.1,1.1,1.1
+Comunicación oral y escrita,CYD,COE,1.7,1.7,1.7,1.7
+Inglés,CYD,ING,0.6,0.6,0.6,0.6
+Dibujo para ingeniería,CYD,DPI,3.3,3.3,3.3,3.3
+Circuitos eléctricos y electrónica,IEE,CEE,6.6,6.6,6.6,6.6
+Máquinas eléctricas,IEE,MEE,4.4,4.4,4.4,4.4
+Instrumentación y transductores,IEE,IYT,2.1,2.1,2.1,2.1
+Ciencia e ingeniería de los materiales,IMM,CIM,1.7,1.7,1.7,1.7
+Mecánica de sólidos y fluidos,IMM,MSF,7.2,7.2,7.2,7.2
+Termodinámica y transferencia de calor,IMM,TTC,5.5,5.5,5.5,5.5
+Elementos de máquinas,IMM,EDM,1.7,1.7,1.7,1.7
+Manufactura,IMM,MAN,2.2,2.2,2.2,2.2
+Programación,AUT,PRO,0.6,0.6,0.6,0.6
+Modelado y simulación,AUT,MYS,1.7,1.7,1.7,1.7
+Microcontroladores y arquitectura de computadores,AUT,MAC,1.7,1.7,1.7,1.7
+Sistemas de control y automatización,AUT,SCA,3.9,3.9,3.9,3.9
+Estadística y diseño de experimentos,ADD,EYD,1,1,1,1
+"Confiabilidad,disponibilidad,mantenibilidad y seguridad",ADD,CDM,1,1,1,1
+Metrología,ADD,MET,0.5,0.5,0.5,0.5
+Instalaciones electromecánicas,INS,IEM,0.0,12.2,0.0,0.0
+Sistemas de generación y almacenamiento de energía,INS,GAE,0.0,1.9,0.0,0.0
+Sistemas de distribución y transmisión de energía eléctrica,INS,DTE,0.0,1.9,0.0,0.0
+Gestión del ciclo de vida y transformación digital,INS,GCV,0.0,2.6,0.0,0.0
+Gestión de la energía,INS,GEE,0.0,1.9,0.0,0.0
+"Liderazgo e inclusión",INS,LID,0.0,1.3,0.0,0.0
+"Sostenibilidad e impacto social de la ingeniería",INS,SYC,0.0,1.3,0.0,0.0
+"Investigación y presentación de resultados",INS,IPR,0.0,1.9,0.0,0.0
+"Aviónica, dinamica de vuelo y control de vuelo",AER,ADC,0.0,0.0,5.8,0.0
+"Aerodinámica y sistemas de propulsión",AER,ACP,0.0,0.0,3.8,0.0
+"Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AER,AME,0.0,0.0,5.1,0.0
+Gestión del ciclo de vida de la aeronave,AER,GCA,0.0,0.0,3.2,0.0
+Seguridad aeronáutica y aeronavegabilidad,AER,SAA,0.0,0.0,2.6,0.0
+"Liderazgo e inclusión",AER,LID,0.0,0.0,1.3,0.0
+"Sostenibilidad e impacto social de la ingeniería",AER,SYC,0.0,0.0,1.3,0.0
+"Investigación y presentación de resultados",AER,IPR,0.0,0.0,1.9,0.0
+Aplicaciones de sistemas embebidos,SCF,ASE,0.0,0.0,0.0,1.9
+Automatización y digitalización,SCF,AYD,0.0,0.0,0.0,3.8
+Robótica,SCF,RBT,0.0,0.0,0.0,3.8
+Modelado numérico y simulación computacional,SCF,MNC,0.0,0.0,0.0,1.9
+Ingeniería de sistemas complejos,SCF,ISC,0.0,0.0,0.0,4.5
+"Aplicaciones de Inteligencia Artificial",SCF,AIA,0.0,0.0,0.0,3.8
+Ciberseguridad,SCF,CIS,0.0,0.0,0.0,0.8
+"Liderazgo e inclusión",SCF,LID,0.0,0.0,0.0,1.3
+"Sostenibilidad e impacto social de la ingeniería",SCF,SYC,0.0,0.0,0.0,1.3
+"Investigación y presentación de resultados",SCF,IPR,0.0,0.0,0.0,1.9
