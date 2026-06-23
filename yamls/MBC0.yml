@@ -1,7 +1,5 @@
 cv:
   name: Lic. Marvin Bermúdez Chacón
-  email: mabermudez@itcr.ac.cr
-  phone: +506-86228623
   sections:
     Información laboral:
     - label: Cédula
@@ -32,11 +30,13 @@ cv:
     - bullet: Simulación CFD
     - bullet: Seguridad eléctrica
     - bullet: Protección contra incendios
+  email: mabermudez@itcr.ac.cr
+  phone: +506-86228623
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

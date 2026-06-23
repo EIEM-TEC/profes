@@ -1,7 +1,5 @@
 cv:
   name: Mag. Greivin Barahona Guzmán
-  email: gbarahona@itcr.ac.cr
-  phone: +506-25509344
   sections:
     Información laboral:
     - label: Cédula
@@ -45,11 +43,13 @@ cv:
     - bullet: Diseño Eléctrico en baja tensión
     - bullet: Diseño Eléctrico en mediana y alta tensión
     - bullet: Investigación en análisis de potencia y máquinas eléctricas
+  email: gbarahona@itcr.ac.cr
+  phone: +506-25509344
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

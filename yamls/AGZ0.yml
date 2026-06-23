@@ -1,7 +1,5 @@
 cv:
   name: Lic. Alberto Garro Zavaleta
-  email: jagarro@itcr.ac.cr
-  phone: +506-25509576
   sections:
     Información laboral:
     - label: Cédula
@@ -36,11 +34,13 @@ cv:
       date: 01/01/2004
     Áreas de interés:
     - bullet: Sistemas térmicos
+  email: jagarro@itcr.ac.cr
+  phone: +506-25509576
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

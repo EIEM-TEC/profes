@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Lisandro Araya Rodriguez
-  email: laraya@itcr.ac.cr
-  phone: +506-25509333
   sections:
     Información laboral:
     - label: Cédula
@@ -25,7 +23,7 @@ cv:
       location: Costa Rica
       end_date: '1997'
     - institution: Instituto Tecnológico de Costa Rica
-      area: Ingeniería Electrónica
+      area: Ingeniería en Computación
       degree: Maestría
       location: Costa Rica
       end_date: '2003'
@@ -34,11 +32,13 @@ cv:
       date: 01/07/2016
     Áreas de interés:
     - bullet: Electrónica analógica y digital
+  email: laraya@itcr.ac.cr
+  phone: +506-25509333
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

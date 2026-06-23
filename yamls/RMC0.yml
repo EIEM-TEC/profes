@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Rosa Matarrita Chaves
-  email: rmmatarrita@itcr.ac.cr
-  phone: +506-87226648
   sections:
     Información laboral:
     - label: Cédula
@@ -70,11 +68,13 @@ cv:
       - '**Numero:** 0000-0134-1018'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
+  email: rmmatarrita@itcr.ac.cr
+  phone: +506-87226648
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

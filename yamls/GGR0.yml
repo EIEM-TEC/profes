@@ -1,7 +1,5 @@
 cv:
   name: Dr.-Ing. Gustavo Gomez Ramirez
-  email: ggomez@itcr.ac.cr
-  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -333,11 +331,13 @@ cv:
       - '**Numero:** 5402-1341-1901'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
+  email: ggomez@itcr.ac.cr
+  phone: +506-25509354
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

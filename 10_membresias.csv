@@ -1,24 +1,64 @@
 codigo,abreviación,nombre,codigo
-JRH0,IEEE, Aerospace and Electronic Systems Society
-JRH0,IAF, International Astronautical Federation
-LCR0,IEEE
-HJQ0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales
-COZ0,IEEE, Nuclear and Plasma Science Society
-VJH0,,Comisión Paritaria Aeroespacial
-VJH0,,Presidente Comité Técnico Nacional de DT
-VJH0,,Vicepresidente Comité Técnico Nacional Aeroespacial
-VJH0,,Representante de la Academia ante la JD del Costa Rica Aerospace Cluster
-LGG0,CITEC,Colegio de Ingenieros Tecnólogos
+JRH0,IEEE, Aerospace and Electronic Systems Society,
+JRH0,IAF, International Astronautical Federation,
+LCR0,IEEE,,
+HJQ0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales,
+COZ0,IEEE, Nuclear and Plasma Science Society,
+VJH0,,Comisión Paritaria Aeroespacial,
+VJH0,,Presidente Comité Técnico Nacional de DT,
+VJH0,,Vicepresidente Comité Técnico Nacional Aeroespacial,
+VJH0,,Representante de la Academia ante la JD del Costa Rica Aerospace Cluster,
+LGG0,CITEC,Colegio de Ingenieros Tecnólogos,
 OGC0,IEEE,,90462738
 LMS0,IEEE,,94891290
-GBG0,CITEC,Colegio de Ingenieros Tecnólogos
-GGR0,IEEE,Power and Energy Society
-JGC0,CIHSE,Código de Instalaciones Hidráulicas y Sanitarias en Edificaciones
-JGC0,CITEC,Colegio de Ingenieros Tecnólogos
+GBG0,CITEC,Colegio de Ingenieros Tecnólogos,
+GGR0,IEEE,Power and Energy Society,
+JGC0,CIHSE,Código de Instalaciones Hidráulicas y Sanitarias en Edificaciones,
+JGC0,CITEC,Colegio de Ingenieros Tecnólogos,
 LSM0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales,IM-9143
 NVP0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales,IE-14137
-OMR0,,Comision Institucional de Aeronautica
-OMR0,CTN 56,Comite Tecnico Nacional de Refrigeración
-REH0,CTN 56,Comite Tecnico Nacional de Refrigeración
-GMJ0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales
-LMC0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales
+OMR0,,Comision Institucional de Aeronautica,
+OMR0,CTN 56,Comite Tecnico Nacional de Refrigeración,
+REH0,CTN 56,Comite Tecnico Nacional de Refrigeración,
+GMJ0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales,
+LMC0,CIEMI, Colegio de Ingenieros Electricistas Mecánicos e Industriales,
+CVS0,,,
+GRN0,,,
+JMJ0,,,
+HEV0,,,
+JGF0,,,
+AGZ0,,,
+FBG0,,,
+JPS0,,,
+JRG0,,,
+LCG0,,,
+MBC0,,,
+MJC0,,,
+FMG0,,,
+IVG0,,,
+JAC0,,,
+JMH0,,,
+LAR0,,,
+MMC0,,,
+NUS0,,,
+RMC0,,,
+CPS0,,,
+SMO0,,,
+ECV0,,,
+SFM0,,,
+BMC0,,,
+DMH0,,,
+NRQ0,,,
+MSQ0,,,
+AAV0,,,
+ALL0,,,
+AAG0,,,
+AVH0,,,
+CMM0,,,
+DGR0,,,
+EMP0,,,
+JBC0,,,
+JOS0,,,
+LAC0,,,
+MJA0,,,
+SMG0,,,

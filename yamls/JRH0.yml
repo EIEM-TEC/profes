@@ -1,7 +1,5 @@
 cv:
   name: Dr.-Ing. Juan José Rojas Hernández
-  email: juan.rojas@itcr.ac.cr
-  phone: +506-88581419
   sections:
     Información laboral:
     - label: Cédula
@@ -69,7 +67,7 @@ cv:
       end_date: '2012-03-01'
       summary: Coordinación de instalaciones electromecánicas en proyectos de construcción
     Idiomas:
-    - bullet: 'Inglés: TOEFL 100/120 iBT'
+    - bullet: 'Inglés: C1 (OTE)'
     Áreas de interés:
     - bullet: Sistemas de potencia para pequeños satélites
     - bullet: Sistemas ciberfísicos a la medida orientados a necesidades específicas
@@ -223,7 +221,7 @@ cv:
       highlights:
       - '**Numero:** 1341029'
       - '**Tipo:** Investigación'
-      - '**Escuela:**  Ingeniería Electromecánica'
+      - '**Escuela:** Ingeniería Electromecánica'
     - name: Desarrollo de una plataforma tecnológica escalable y modular para el registro
         de variables físicas y químicas asociadas a la calidad y abundancia del agua
         potable
@@ -241,11 +239,13 @@ cv:
       - '**Numero:** 1340030'
       - '**Tipo:** Extensión'
       - '**Escuela:** Ingeniería Electromecánica'
+  email: juan.rojas@itcr.ac.cr
+  phone: +506-88581419
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

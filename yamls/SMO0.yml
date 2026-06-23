@@ -1,7 +1,5 @@
 cv:
   name: Mag. Sebastián Mata Ortega
-  email: semata@itcr.ac.cr
-  phone: +506-25509343
   sections:
     Información laboral:
     - label: Cédula
@@ -34,18 +32,20 @@ cv:
       date: 01/02/2016
     Áreas de interés:
     - bullet: Movilidad eléctrica
-    - bullet: 'Sistemas de transporte autónomo '
+    - bullet: Sistemas de transporte autónomo
     - bullet: Administración de Energía
     - bullet: Energías renovables
     - bullet: Sistemas de climatización y ventilación para acondicionamiento de espacios
         críticos
     - bullet: Monitoreo de la condición en tiempo real para análisis de fallas en
         equipos Electromecánicos
+  email: semata@itcr.ac.cr
+  phone: +506-25509343
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

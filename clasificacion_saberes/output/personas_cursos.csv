@@ -1,292 +1,643 @@
-﻿codigo_persona,persona,id_curso,codigo_curso,curso,semestre,tipo,creditos,saberes_requeridos,saberes_requeridos_nombres,saberes_encontrados,saberes_faltantes,coverage,score_promedio_saberes,score_total_saberes
-AGZ0,Alberto Garro Zavaleta,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-AGZ0,Alberto Garro Zavaleta,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-COZ0,Carlos Otárola Zúñiga,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,CIM - Ciencia e ingeniería de los materiales; MAN - Manufactura,MAN;CIM,,1.0,7.76,15.53
-COZ0,Carlos Otárola Zúñiga,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.11,8.11
-COZ0,Carlos Otárola Zúñiga,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.11,8.11
-COZ0,Carlos Otárola Zúñiga,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.11,8.11
-COZ0,Carlos Otárola Zúñiga,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.11,8.11
-COZ0,Carlos Otárola Zúñiga,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,5.35,5.35
-COZ0,Carlos Otárola Zúñiga,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-COZ0,Carlos Otárola Zúñiga,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-COZ0,Carlos Otárola Zúñiga,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,5.17,5.17
-COZ0,Carlos Otárola Zúñiga,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-CVS0,Christopher Vega Sánchez,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,5.52,5.52
-FBG0,Francisco Bonilla Guido,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-FBG0,Francisco Bonilla Guido,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GMJ0,Gonzalo Mora Jiménez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,7.2,7.2
-GMJ0,Gonzalo Mora Jiménez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.17,5.17
-GMJ0,Gonzalo Mora Jiménez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.17,5.17
-GMJ0,Gonzalo Mora Jiménez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.17,5.17
-GMJ0,Gonzalo Mora Jiménez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.17,5.17
-GMJ0,Gonzalo Mora Jiménez,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,5.17,5.17
-GMJ0,Gonzalo Mora Jiménez,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,5.17,5.17
-GBG0,Greivin Barahona Guzmán,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,10.12,10.12
-GBG0,Greivin Barahona Guzmán,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,10.12,10.12
-GGR0,Gustavo Gomez Ramirez,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE;MET,MEE - Máquinas eléctricas; MET - Metrología,MEE;MET,,1.0,19.18,38.37
-GGR0,Gustavo Gomez Ramirez,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE;MET,MEE - Máquinas eléctricas; MET - Metrología,MEE;MET,,1.0,19.18,38.37
-GGR0,Gustavo Gomez Ramirez,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,34.05,34.05
-GGR0,Gustavo Gomez Ramirez,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,34.05,34.05
-GGR0,Gustavo Gomez Ramirez,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE;MET,CEE - Circuitos eléctricos y electrónica; MET - Metrología,CEE;MET,,1.0,10.36,20.71
-GGR0,Gustavo Gomez Ramirez,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT;MET,IYT - Instrumentación y transductores; MET - Metrología,IYT;MET,,1.0,10.36,20.71
-GGR0,Gustavo Gomez Ramirez,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE;MET,CEE - Circuitos eléctricos y electrónica; MET - Metrología,CEE;MET,,1.0,10.36,20.71
-GGR0,Gustavo Gomez Ramirez,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT;MET,IYT - Instrumentación y transductores; MET - Metrología,IYT;MET,,1.0,10.36,20.71
-GGR0,Gustavo Gomez Ramirez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,16.39,16.39
-GGR0,Gustavo Gomez Ramirez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,16.39,16.39
-GGR0,Gustavo Gomez Ramirez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,16.39,16.39
-GGR0,Gustavo Gomez Ramirez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,16.39,16.39
-GGR0,Gustavo Gomez Ramirez,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM;MET,IEM - Instalaciones electromecánicas; MET - Metrología,IEM;MET,,1.0,5.54,11.07
-GGR0,Gustavo Gomez Ramirez,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM;MET,IEM - Instalaciones electromecánicas; MET - Metrología,IEM;MET,,1.0,5.54,11.07
-GGR0,Gustavo Gomez Ramirez,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM;MET,IEM - Instalaciones electromecánicas; MET - Metrología,IEM;MET,,1.0,5.54,11.07
-GGR0,Gustavo Gomez Ramirez,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,10.59,10.59
-GGR0,Gustavo Gomez Ramirez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF;MET,MET - Metrología; MSF - Mecánica de sólidos y fluidos,MSF;MET,,1.0,4.32,8.64
-GGR0,Gustavo Gomez Ramirez,FPH0501,AE4208,Desarrollo de emprendedores,5,Teórico,4,EMP,EMP - Emprendedurismo,EMP,,1.0,8.11,8.11
-GGR0,Gustavo Gomez Ramirez,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-GGR0,Gustavo Gomez Ramirez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,4.32,4.32
-GGR0,Gustavo Gomez Ramirez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,4.32,4.32
-GGR0,Gustavo Gomez Ramirez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,4.32,4.32
-GGR0,Gustavo Gomez Ramirez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,4.32,4.32
-GRN0,Gustavo Richmond Navarro,CIB0102,FI1101,Física general I,1,Teórico,3,FIS,FIS - Física,FIS,,1.0,7.59,7.59
-GRN0,Gustavo Richmond Navarro,CIB0103,FI1201,Laboratorio de física general I,1,Práctico,1,FIS,FIS - Física,FIS,,1.0,7.59,7.59
-GRN0,Gustavo Richmond Navarro,CIB0202,FI1102,Física general II,2,Teórico,3,FIS,FIS - Física,FIS,,1.0,7.59,7.59
-GRN0,Gustavo Richmond Navarro,CIB0203,FI1202,Laboratorio de física general II,2,Práctico,1,FIS,FIS - Física,FIS,,1.0,7.59,7.59
-GRN0,Gustavo Richmond Navarro,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-GRN0,Gustavo Richmond Navarro,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-GRN0,Gustavo Richmond Navarro,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-GRN0,Gustavo Richmond Navarro,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-HJQ0,Herberth Jackson Quirós,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-HJQ0,Herberth Jackson Quirós,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-HJQ0,Herberth Jackson Quirós,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-HJQ0,Herberth Jackson Quirós,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-HJQ0,Herberth Jackson Quirós,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,CIM - Ciencia e ingeniería de los materiales; MAN - Manufactura,MAN;CIM,,1.0,5.17,10.34
-HJQ0,Herberth Jackson Quirós,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-HJQ0,Herberth Jackson Quirós,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,5.17,5.17
-HJQ0,Herberth Jackson Quirós,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-HJQ0,Herberth Jackson Quirós,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,5.17,5.17
-HJQ0,Herberth Jackson Quirós,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-HEV0,Herson Esquivel Vargas,SCF0808,EE8808,Fundamentos de ciberseguridad,8,Teórico,1,CIS,CIS - Ciberseguridad,CIS,,1.0,30.43,30.43
-IVG0,Ignacio del Valle Granados,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-IVG0,Ignacio del Valle Granados,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-IVG0,Ignacio del Valle Granados,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-IVG0,Ignacio del Valle Granados,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-JMJ0,Juan José Montero Jimenez,AER0902,EE6902,Aerodinámica,9,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,5.52,5.52
-JMJ0,Juan José Montero Jimenez,AER1002,EE7002,Sistemas de propulsión,10,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,5.52,5.52
-JRH0,Juan José Rojas Hernández,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,6.9,6.9
-JRH0,Juan José Rojas Hernández,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,6.9,6.9
-JRH0,Juan José Rojas Hernández,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,6.9,6.9
-JRH0,Juan José Rojas Hernández,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,6.9,6.9
-JRH0,Juan José Rojas Hernández,AER0901,EE6901,Aviónica,9,Teórico - Práctico,3,ADC,"ADC - Aviónica, dinamica de vuelo y control de vuelo",ADC,,1.0,5.89,5.89
-JRH0,Juan José Rojas Hernández,AER0903,EE6903,Dinámica de vuelo,9,Teórico - Práctico,3,ADC,"ADC - Aviónica, dinamica de vuelo y control de vuelo",ADC,,1.0,5.89,5.89
-JRH0,Juan José Rojas Hernández,AER1003,EE7003,Control automático de vuelo,10,Teórico - Práctico,3,ADC,"ADC - Aviónica, dinamica de vuelo y control de vuelo",ADC,,1.0,5.89,5.89
-JAC0,Juan Pablo Arias Cartín,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-JAC0,Juan Pablo Arias Cartín,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-JRG0,Julio César Rojas Gómez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-JRG0,Julio César Rojas Gómez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-JRG0,Julio César Rojas Gómez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-JRG0,Julio César Rojas Gómez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-LSM0,Laura Salas Moya,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-LSM0,Laura Salas Moya,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-LSM0,Laura Salas Moya,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-LSM0,Laura Salas Moya,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-LAR0,Lisandro Araya Rodriguez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,11.04,11.04
-LAR0,Lisandro Araya Rodriguez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,11.04,11.04
-LAR0,Lisandro Araya Rodriguez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,11.04,11.04
-LAR0,Lisandro Araya Rodriguez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,11.04,11.04
-LAR0,Lisandro Araya Rodriguez,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,5.17,5.17
-LAR0,Lisandro Araya Rodriguez,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,5.17,5.17
-LMC0,Luis Carlos Muñoz Chacón,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,7.76,7.76
-LMC0,Luis Carlos Muñoz Chacón,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,7.76,7.76
-LMC0,Luis Carlos Muñoz Chacón,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,7.76,7.76
-LMC0,Luis Carlos Muñoz Chacón,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,7.76,7.76
-LMC0,Luis Carlos Muñoz Chacón,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,7.76,7.76
-LMC0,Luis Carlos Muñoz Chacón,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,7.76,7.76
-LMS0,Luis Diego Murillo Soto,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,9.02,9.02
-LMS0,Luis Diego Murillo Soto,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,9.02,9.02
-LMS0,Luis Diego Murillo Soto,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,8.11,8.11
-LMS0,Luis Diego Murillo Soto,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,8.11,8.11
-LMS0,Luis Diego Murillo Soto,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,8.11,8.11
-LMS0,Luis Diego Murillo Soto,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,8.11,8.11
-LMS0,Luis Diego Murillo Soto,SCF0806,EE0806,Máquinas y mecanismos,8,Teórico,3,RBT,RBT - Robótica,RBT,,1.0,7.59,7.59
-LMS0,Luis Diego Murillo Soto,SCF0906,EE8906,Robótica,9,Teórico - Práctico,3,RBT,RBT - Robótica,RBT,,1.0,7.59,7.59
-LCR0,Luis Felipe Córdoba Ramírez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-LCR0,Luis Felipe Córdoba Ramírez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-LCR0,Luis Felipe Córdoba Ramírez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-LCR0,Luis Felipe Córdoba Ramírez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,11.04,11.04
-LCR0,Luis Felipe Córdoba Ramírez,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,CIM - Ciencia e ingeniería de los materiales; MAN - Manufactura,MAN;CIM,,1.0,5.17,10.34
-LCR0,Luis Felipe Córdoba Ramírez,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-LCR0,Luis Felipe Córdoba Ramírez,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,5.17,5.17
-LCR0,Luis Felipe Córdoba Ramírez,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-LCR0,Luis Felipe Córdoba Ramírez,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,5.17,5.17
-LCR0,Luis Felipe Córdoba Ramírez,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.17,5.17
-LGG0,Luis Gómez Gutierrez,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-LGG0,Luis Gómez Gutierrez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,CIM - Ciencia e ingeniería de los materiales; MAN - Manufactura,MAN;CIM,,1.0,5.96,11.92
-MMC0,Manuel Francisco Mata Coto,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,9.79,9.79
-MMC0,Manuel Francisco Mata Coto,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.89,8.89
-MMC0,Manuel Francisco Mata Coto,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.89,8.89
-MMC0,Manuel Francisco Mata Coto,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.89,8.89
-MMC0,Manuel Francisco Mata Coto,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,8.89,8.89
-MMC0,Manuel Francisco Mata Coto,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-MMC0,Manuel Francisco Mata Coto,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.96,5.96
-MMC0,Manuel Francisco Mata Coto,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,5.96,5.96
-MMC0,Manuel Francisco Mata Coto,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.96,5.96
-MMC0,Manuel Francisco Mata Coto,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,5.96,5.96
-NVP0,Nicolás Vaquerano Pineda,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,10.7,10.7
-NVP0,Nicolás Vaquerano Pineda,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,10.7,10.7
-NVP0,Nicolás Vaquerano Pineda,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,10.7,10.7
-NVP0,Nicolás Vaquerano Pineda,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,10.7,10.7
-NVP0,Nicolás Vaquerano Pineda,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,7.76,7.76
-NVP0,Nicolás Vaquerano Pineda,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,7.76,7.76
-NUS0,Noel Jacob Ureña Sandí,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,CIM - Ciencia e ingeniería de los materiales; MAN - Manufactura,MAN;CIM,,1.0,10.7,21.39
-NUS0,Noel Jacob Ureña Sandí,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,13.63,13.63
-NUS0,Noel Jacob Ureña Sandí,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,10.7,10.7
-NUS0,Noel Jacob Ureña Sandí,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,10.7,10.7
-NUS0,Noel Jacob Ureña Sandí,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,10.7,10.7
-NUS0,Noel Jacob Ureña Sandí,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,10.7,10.7
-NUS0,Noel Jacob Ureña Sandí,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,7.76,7.76
-NUS0,Noel Jacob Ureña Sandí,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,7.76,7.76
-NUS0,Noel Jacob Ureña Sandí,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,7.76,7.76
-NUS0,Noel Jacob Ureña Sandí,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,7.76,7.76
-OMR0,Oscar Monge Ruiz,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,13.95,13.95
-OMR0,Oscar Monge Ruiz,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-OMR0,Oscar Monge Ruiz,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-OGC0,Osvaldo Guerrero Castro,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-REH0,Rodolfo Elizondo Hernandez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-RMC0,Rosa Matarrita Chaves,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-SMO0,Sebastián Mata Ortega,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,6.75,6.75
-SMC0,Suzanne Melara Cruz,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.52,5.52
-SMC0,Suzanne Melara Cruz,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.52,5.52
-SMC0,Suzanne Melara Cruz,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.52,5.52
-SMC0,Suzanne Melara Cruz,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,AER0806,EE0806,Máquinas y mecanismos,8,Teórico,3,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,9.79,9.79
-VJH0,Víctor Julio Hernández,AER0807,EE6807,Materiales en aeronáutica,8,Teórico,2,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,9.79,9.79
-VJH0,Víctor Julio Hernández,AER0906,EE6906,Análisis mecánico de estructuras de la aeronave,9,Teórico,3,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,9.79,9.79
-VJH0,Víctor Julio Hernández,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,AER0902,EE6902,Aerodinámica,9,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,5.52,5.52
-VJH0,Víctor Julio Hernández,AER1002,EE7002,Sistemas de propulsión,10,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,5.52,5.52
+codigo_persona,persona,id_curso,codigo_curso,curso,semestre,tipo,creditos,saberes_requeridos,saberes_requeridos_nombres,saberes_encontrados,saberes_faltantes,coverage,score_promedio_saberes,score_total_saberes
+AGZ0,Alberto Garro Zavaleta,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,SCF0903,EE8903,Aplicaciones de Inteligencia Artificial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,SCF0907,EE8907,Automatización y digitalización industrial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,SCF1002,EE9002,Diseño de interfases humano-máquina,10,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+AAV0,Alejandro Arroyo Valle,SCF1007,EE9007,Visión de máquina,10,Teórico - Práctico,3,AIA,AIA - Aplicaciones de Inteligencia Artificial,AIA,,1.0,1.0,1
+ALL0,Ana Laura Loría,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+ALL0,Ana Laura Loría,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ALL0,Ana Laura Loría,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+ALL0,Ana Laura Loría,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+ALL0,Ana Laura Loría,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+ALL0,Ana Laura Loría,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+AAG0,Andrés Arguello Guillén,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+AVH0,Anyelo Vargas Hernández,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+BMC0,Bryan Mesen Campos,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+CMM0,Carlos Montoya Marín,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+COZ0,Carlos Otárola Zúñiga,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+CPS0,Carlos Piedra Santamaría,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,AUT0504,EE0504,Modelado y simulación de sistemas,5,Teórico - Práctico,3,MYS,MYS - Modelado y simulación,MYS,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
+CVS0,Christopher Vega Sánchez,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DMH0,Diana Morales Hidalgo,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+DGR0,Diego Gómez Rivera,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+DGR0,Diego Gómez Rivera,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+DGR0,Diego Gómez Rivera,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+DGR0,Diego Gómez Rivera,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+DGR0,Diego Gómez Rivera,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+EMP0,Emmanuel Muñoz Peña,AUT0705,EE0705,Microcontroladores,7,Teórico - Práctico,2,MAC,MAC - Microcontroladores y arquitectura de computadores,MAC,,1.0,1.0,1
+EMP0,Emmanuel Muñoz Peña,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
+EMP0,Emmanuel Muñoz Peña,SCF1007,EE9007,Visión de máquina,10,Teórico - Práctico,3,AIA,AIA - Aplicaciones de Inteligencia Artificial,AIA,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,AUT0504,EE0504,Modelado y simulación de sistemas,5,Teórico - Práctico,3,MYS,MYS - Modelado y simulación,MYS,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,SCF0801,EE8104,Ingeniería de sistemas,8,Teórico - Práctico,3,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,SCF0902,EE8902,Aplicaciones de circuitos integrados,9,Teórico - Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+ECV0,Erick Chinchilla Vargas,SCF1001,EE9001,Taller de integración de sistemas,10,Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FBG0,Francisco Bonilla Guido,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+FMG0,Frank Marín Guillén,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0507,EE0507,Manufactura,5,Teórico,2,MAN;CIM,MAN - Manufactura; CIM - Ciencia e ingeniería de los materiales,MAN;CIM,,1.0,1.0,2
+FMG0,Frank Marín Guillén,IMM0508,EE0508,Laboratorio de manufactura,5,Teórico - Práctico,2,MAN;CIM,MAN - Manufactura; CIM - Ciencia e ingeniería de los materiales,MAN;CIM,,1.0,1.0,2
+FMG0,Frank Marín Guillén,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+FMG0,Frank Marín Guillén,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+FMG0,Frank Marín Guillén,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+FMG0,Frank Marín Guillén,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+GMJ0,Gonzalo Mora Jiménez,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GBG0,Greivin Barahona Guzmán,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+GGR0,Gustavo Gomez Ramirez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+GRN0,Gustavo Richmond Navarro,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HJQ0,Herberth Jackson Quirós,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+HEV0,Herson Esquivel Vargas,SCF0808,EE8808,Fundamentos de ciberseguridad,8,Teórico,1,CIS,CIS - Ciberseguridad,CIS,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+IVG0,Ignacio del Valle Granados,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,AUT0705,EE0705,Microcontroladores,7,Teórico - Práctico,2,MAC,MAC - Microcontroladores y arquitectura de computadores,MAC,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF0806,EE0806,Máquinas y mecanismos,8,Teórico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF0903,EE8903,Aplicaciones de Inteligencia Artificial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF0906,EE8906,Robótica,9,Teórico - Práctico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF0907,EE8907,Automatización y digitalización industrial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JBC0,Jenifer Brenes Casasola,SCF1002,EE9002,Diseño de interfases humano-máquina,10,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JOS0,Jose Miguel Ocampo Solano,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+JOS0,Jose Miguel Ocampo Solano,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JGC0,Joshua Guzmán Conejo,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+JPS0,Juan Francisco Piedra Seguro,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,AER0801,EE6801,Sistemas de la aeronave,8,Teórico,3,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,SCF0801,EE8104,Ingeniería de sistemas,8,Teórico - Práctico,3,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,AER0902,EE6902,Aerodinámica,9,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,SCF0902,EE8902,Aplicaciones de circuitos integrados,9,Teórico - Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,AER1001,EE7001,Gestión del ciclo de vida de la aeronave,10,Teórico,2,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,AER1002,EE7002,Sistemas de propulsión,10,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
+JMJ0,Juan José Montero Jimenez,SCF1001,EE9001,Taller de integración de sistemas,10,Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,AUT0504,EE0504,Modelado y simulación de sistemas,5,Teórico - Práctico,3,MYS,MYS - Modelado y simulación,MYS,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,AUT0705,EE0705,Microcontroladores,7,Teórico - Práctico,2,MAC,MAC - Microcontroladores y arquitectura de computadores,MAC,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF0801,EE8104,Ingeniería de sistemas,8,Teórico - Práctico,3,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF0902,EE8902,Aplicaciones de circuitos integrados,9,Teórico - Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF0903,EE8903,Aplicaciones de Inteligencia Artificial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF0907,EE8907,Automatización y digitalización industrial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF1001,EE9001,Taller de integración de sistemas,10,Práctico,2,ISC,ISC - Ingeniería de sistemas complejos,ISC,,1.0,1.0,1
+JRH0,Juan José Rojas Hernández,SCF1002,EE9002,Diseño de interfases humano-máquina,10,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,AUT0504,EE0504,Modelado y simulación de sistemas,5,Teórico - Práctico,3,MYS,MYS - Modelado y simulación,MYS,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,SCF0806,EE0806,Máquinas y mecanismos,8,Teórico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+JGF0,Juan Luis Guerrero Fernandez,SCF0906,EE8906,Robótica,9,Teórico - Práctico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JAC0,Juan Pablo Arias Cartín,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JMH0,Julio Andrés Morera Hidalgo,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+JRG0,Julio César Rojas Gómez,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LSM0,Laura Salas Moya,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LSM0,Laura Salas Moya,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LSM0,Laura Salas Moya,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LSM0,Laura Salas Moya,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LSM0,Laura Salas Moya,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LSM0,Laura Salas Moya,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LSM0,Laura Salas Moya,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LSM0,Laura Salas Moya,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LSM0,Laura Salas Moya,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LAR0,Lisandro Araya Rodriguez,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LMC0,Luis Carlos Muñoz Chacón,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LCG0,Luis Chévez Gómez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
+LAC0,Luis Diego Araya Campos,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,AUT0504,EE0504,Modelado y simulación de sistemas,5,Teórico - Práctico,3,MYS,MYS - Modelado y simulación,MYS,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF0806,EE0806,Máquinas y mecanismos,8,Teórico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF0903,EE8903,Aplicaciones de Inteligencia Artificial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF0906,EE8906,Robótica,9,Teórico - Práctico,3,RBT,RBT - Robótica,RBT,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF0907,EE8907,Automatización y digitalización industrial,9,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+LMS0,Luis Diego Murillo Soto,SCF1002,EE9002,Diseño de interfases humano-máquina,10,Teórico - Práctico,3,AYD,AYD - Automatización y digitalización,AYD,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+LCR0,Luis Felipe Córdoba Ramírez,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+LGG0,Luis Gómez Gutierrez,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+MMC0,Manuel Francisco Mata Coto,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MSQ0,Marilyn Solano Quesada,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MBC0,Marvin Bermúdez Chacón,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJA0,María Jesús Amador Orozco,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+MJC0,Maximino Jiménez Ceciliano,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+MJC0,Maximino Jiménez Ceciliano,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NRQ0,Natalia Rojas Quesada,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,AUT0705,EE0705,Microcontroladores,7,Teórico - Práctico,2,MAC,MAC - Microcontroladores y arquitectura de computadores,MAC,,1.0,1.0,1
+NVP0,Nicolás Vaquerano Pineda,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0506,ME2208,Ciencia de los materiales,5,Teórico,3,CIM,CIM - Ciencia e ingeniería de los materiales,CIM,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
+NUS0,Noel Jacob Ureña Sandí,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,AER0801,EE6801,Sistemas de la aeronave,8,Teórico,3,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,AER0902,EE6902,Aerodinámica,9,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,AER1001,EE7001,Gestión del ciclo de vida de la aeronave,10,Teórico,2,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
+OMR0,Oscar Monge Ruiz,AER1002,EE7002,Sistemas de propulsión,10,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+RMC0,Rosa Matarrita Chaves,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
+SMO0,Sebastián Mata Ortega,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
+SMG0,Sofia Madrigal Gamboa,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+SFM0,Sofía Jimenez Monge,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0806,EE0806,Máquinas y mecanismos,8,Teórico,3,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0801,EE6801,Sistemas de la aeronave,8,Teórico,3,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0807,EE6807,Materiales en aeronáutica,8,Teórico,2,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0808,EE6808,Metrología aeronáutica,8,Teórico - Práctico,1,SAA,SAA - Seguridad aeronáutica y aeronavegabilidad,SAA,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0906,EE6906,Análisis mecánico de estructuras de la aeronave,9,Teórico,3,AME,"AME - Análisis mecánico de materiales, estructuras y mecanismos de la aeronave",AME,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER0908,EE6908,Seguridad aeronáutica y aeronavegabilidad,9,Teórico,3,SAA,SAA - Seguridad aeronáutica y aeronavegabilidad,SAA,,1.0,1.0,1
+VJH0,Víctor Julio Hernández,AER1001,EE7001,Gestión del ciclo de vida de la aeronave,10,Teórico,2,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1

@@ -1,7 +1,5 @@
 cv:
   name: Lic. Joshua Guzmán Conejo
-  email: joguzman@itcr.ac.cr
-  phone: +506-25509336
   sections:
     Información laboral:
     - label: Cédula
@@ -37,11 +35,13 @@ cv:
     - bullet: Ahorro energético
     - bullet: Diseño de sistemas HVAC con Revit
     - bullet: Análisis de datos
+  email: joguzman@itcr.ac.cr
+  phone: +506-25509336
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

@@ -1,0 +1,29 @@
+cv:
+  name: Jose Miguel Ocampo Solano
+  sections: {}
+locale:
+  language: spanish
+  present: actualmente
+settings:
+  current_date: '2026-06-22'
+  render_command:
+    output_folder: ../CVs
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true
+design:
+  theme: engineeringresumes
+  page:
+    show_footer: true
+  templates:
+    footer: NAME - Página PAGE_NUMBER de TOTAL_PAGES
+    top_note: 'Última actualización: DAY_IN_TWO_DIGITS/MONTH_IN_TWO_DIGITS/YEAR'
+    education_entry:
+      main_column: '**INSTITUTION**, DEGREE_WITH_AREA
+
+        SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
+    experience_entry:
+      date_and_location_column: DATE

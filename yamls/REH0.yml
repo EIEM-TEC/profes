@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Rodolfo Elizondo Hernandez
-  email: relizondo@itcr.ac.cr
-  phone: +506-25509346
   sections:
     Información laboral:
     - label: Cédula
@@ -42,11 +40,13 @@ cv:
     - bullet: Uso de refrigerantes naturales en sistemas de refrigeración y climatización
     - bullet: uso de refrigerantes sintéticos en sistemas de refrigeración y aire
         acondicionado
+  email: relizondo@itcr.ac.cr
+  phone: +506-25509346
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

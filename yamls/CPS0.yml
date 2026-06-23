@@ -1,7 +1,5 @@
 cv:
   name: Mag. Carlos Piedra Santamaria
-  email: cpiedra@itcr.ac.cr
-  phone: +506-22509353
   sections:
     Información laboral:
     - label: Cédula
@@ -82,11 +80,13 @@ cv:
       - '**Numero:** 5402-1341-1501'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
+  email: cpiedra@itcr.ac.cr
+  phone: +506-22509353
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

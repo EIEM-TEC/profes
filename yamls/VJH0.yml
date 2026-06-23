@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Víctor Julio Hernández
-  email: vhernandezg@itcr.ac.cr
-  phone: +506-25509348
   sections:
     Información laboral:
     - label: Cédula
@@ -38,11 +36,13 @@ cv:
       date: 01/01/2015
     Áreas de interés:
     - bullet: Área Aeronaútica
+  email: vhernandezg@itcr.ac.cr
+  phone: +506-25509348
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

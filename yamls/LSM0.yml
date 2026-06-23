@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Laura Salas Moya
-  email: lausalas@itcr.ac.cr
-  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -41,11 +39,13 @@ cv:
         inicial
     - bullet: Normalización de especificaciones para proyectos de construcción según
         Master Format
+  email: lausalas@itcr.ac.cr
+  phone: +506-25509354
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

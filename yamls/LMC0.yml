@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Luis Carlos Muñoz Chacón
-  email: lmunoz@itcr.ac.cr
-  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -49,11 +47,13 @@ cv:
     - bullet: Sistemas de puesta a tierra
     - bullet: Pararrayos
     - bullet: Diseño eléctrico de baja;media y alta tensión
+  email: lmunoz@itcr.ac.cr
+  phone: +506-25509354
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

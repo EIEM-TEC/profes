@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Julio Andrés Morera Hidalgo
-  email: jmorera@itcr.ac.cr
-  phone: +506-25509009
   sections:
     Información laboral:
     - label: Cédula
@@ -67,11 +65,13 @@ cv:
       - '**Numero:** 5402-1360-4301'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electrónica'
+  email: jmorera@itcr.ac.cr
+  phone: +506-25509009
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

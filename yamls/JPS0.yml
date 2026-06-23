@@ -1,7 +1,5 @@
 cv:
   name: Lic. Juan Francisco Piedra Segura
-  email: jpiedra@itcr.ac.cr
-  phone: +506-25509354
   sections:
     Información laboral:
     - label: Cédula
@@ -33,11 +31,13 @@ cv:
     - bullet: Gestión integral de la energía;eficiencia enérgetica;energías renovables
         y gestión de la energía
     - bullet: Sistemas de almacenamiento de energía y movilidad eléctrica
+  email: jpiedra@itcr.ac.cr
+  phone: +506-25509354
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

@@ -1,7 +1,5 @@
 cv:
-  name: Lic. Maximino Jimenez Ceciliano
-  email: maxjimenez@itcr.ac.cr
-  phone: +506-87849096
+  name: Lic. Maximino Jiménez Ceciliano
   sections:
     Información laboral:
     - label: Cédula
@@ -21,7 +19,7 @@ cv:
     Educación:
     - institution: Instituto Tecnológico de Costa Rica
       area: Ingeniería en Mantenimiento Industrial
-      degree: Bachillerato
+      degree: Licenciatura
       location: Costa Rica
       end_date: '2018'
     Carrera profesional:
@@ -39,11 +37,13 @@ cv:
       - '**Numero:** 0000-0134-1017'
       - '**Tipo:** Investigación'
       - '**Escuela:** Ingeniería Electromecánica'
+  email: maxjimenez@itcr.ac.cr
+  phone: +506-87849096
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

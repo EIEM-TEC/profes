@@ -1,7 +1,5 @@
 cv:
   name: M.Sc. Luis Felipe Córdoba Ramírez
-  email: lfcordoba@itcr.ac.cr
-  phone: +506-25509347
   sections:
     Información laboral:
     - label: Cédula
@@ -53,11 +51,13 @@ cv:
       - Yong Lin Kong
       date: '2025'
       doi: 10.1039/D4SM01548G
+  email: lfcordoba@itcr.ac.cr
+  phone: +506-25509347
 locale:
   language: spanish
   present: actualmente
 settings:
-  current_date: '2026-04-28'
+  current_date: '2026-06-22'
   render_command:
     output_folder: ../CVs
     dont_generate_html: true

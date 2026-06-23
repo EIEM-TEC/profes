@@ -15,7 +15,7 @@ OGC0;LGG0,5402-1341-0901,Diseño de propuesta metodológica para reducción de f
 OGC0;LMS0,5402-1341-1001,Diseño de experimentos para la obtención de modelos de fallas en motores trifásicos de inducción,1/1/2010,12/31/2011,,Ingeniería Electromecánica
 IVG0,5402-1353-2301,Evaluación de exposición ocupacional a isocianatos en procesos de aplicación de lacas y pintura en Mueblerías y Talleres de Enderezado y Pintura de Vehículos,1/1/2010,12/30/2012,,
 LMS0,5402-1341-1101,Diseño e implementación de los algoritmos para controlar dos celdas flexibles de manufactura usando el método aproximación basada en matrices,1/1/2011,12/31/2011,,Ingeniería Electromecánica
-OGC0;LMS0,5402-1341-1201,Validación de la propuesta metodológica:"Diseño de una propuesta para la reducción de fallas de los motores trifásicos de inducción",1/1/2011,12/31/2011,,Ingeniería Electromecánica
+OGC0;LMS0,5402-1341-1201,Validación de la propuesta metodológica:Diseño de una propuesta para la reducción de fallas de los motores trifásicos de inducción,1/1/2011,12/31/2011,,Ingeniería Electromecánica
 OGC0;JAC0;LMS0,5402-1341-1301,Sistema Experto para Motores Asistido por Temperatura (SEMAT),7/1/2012,12/30/2016,,Ingeniería Electromecánica
 MMC0;CVS0,5401-1341-1401,i-Plare Reactor: Simulación y diseño de un reactor para gasificación por plasma,1/1/2014,12/31/2015,,Ingeniería Electromecánica
 CPS;MMC0,5402-1341-1501,Implementación de un reactor de plasma de Descarga de Barrera Dieléctrica (DBD) para el tratamiento de agua,1/1/2014,12/31/2015,,Ingeniería Electromecánica
@@ -36,3 +36,39 @@ GGR0,5402-1341-1901,Estimación del Límite Técnico permisible para la penetrac
 CVS0;JGF0;JRG0,0000-0134-1024,eWave 2.0: Validación experimental de una estrategia de control óptimo para un sistema de conversión de la energía de las olas para maximizar el aprovechamiento de la energía oceánica,1/1/2024,12/31/2025,,Ingeniería Electromecánica
 LMS0;CVS0,0000-0134-1026,Sistema de enfriamiento pasivo para paneles fotovoltaicos mono-faciales,1/1/2024,12/31/2025,,Ingeniería Electromecánica
 NUS0,0000-0149-0036,Estudio del comportamiento biomecánico-osteointegración de implantes biomédicos procesados con tecnologías de manufactura avanzada,1/1/2024,12/31/2026,,
+HEV0,,,,,,
+AGZ0,,,,,,
+FBG0,,,,,,
+JGC0,,,,,,
+JPS0,,,,,,
+MBC0,,,,,,
+GMJ0,,,,,,
+HJQ0,,,,,,
+LSM0,,,,,,
+LAR0,,,,,,
+LMC0,,,,,,
+LCR0,,,,,,
+NVP0,,,,,,
+VJH0,,,,,,
+CPS0,,,,,,
+GBG0,,,,,,
+OMR0,,,,,,
+SMO0,,,,,,
+ECV0,,,,,,
+SFM0,,,,,,
+BMC0,,,,,,
+DMH0,,,,,,
+NRQ0,,,,,,
+MSQ0,,,,,,
+AAV0,,,,,,
+ALL0,,,,,,
+AAG0,,,,,,
+AVH0,,,,,,
+CMM0,,,,,,
+DGR0,,,,,,
+EMP0,,,,,,
+JBC0,,,,,,
+JOS0,,,,,,
+LAC0,,,,,,
+MJA0,,,,,,
+SMG0,,,,,,
