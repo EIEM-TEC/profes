@@ -1,14 +1,12 @@
 codigo_persona,persona,id_curso,codigo_curso,curso,semestre,tipo,creditos,saberes_requeridos,saberes_requeridos_nombres,saberes_encontrados,saberes_faltantes,coverage,score_promedio_saberes,score_total_saberes
-AGZ0,Alberto Garro Zavaleta,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
+AGZ0,Alberto Garro Zavaleta,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
-AGZ0,Alberto Garro Zavaleta,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
-AGZ0,Alberto Garro Zavaleta,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 AGZ0,Alberto Garro Zavaleta,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
@@ -20,7 +18,6 @@ AGZ0,Alberto Garro Zavaleta,INS1007,EE5007,Neumática y oleohidráulica,10,Teór
 AAV0,Alejandro Arroyo Valle,IEE0305,EE0305,Transductores,3,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
 AAV0,Alejandro Arroyo Valle,IEE0405,EE0405,Instrumentación,4,Teórico - Práctico,2,IYT,IYT - Instrumentación y transductores,IYT,,1.0,1.0,1
 AAV0,Alejandro Arroyo Valle,ADD0502,PI0502,Estadística aplicada,5,Teórico,2,EYD,EYD - Estadística y diseño de experimentos,EYD,,1.0,1.0,1
-AAV0,Alejandro Arroyo Valle,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 AAV0,Alejandro Arroyo Valle,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 AAV0,Alejandro Arroyo Valle,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 AAV0,Alejandro Arroyo Valle,SCF0807,EE8807,Aplicaciones de sistemas embebidos,8,Teórico - Práctico,3,ASE,ASE - Aplicaciones de sistemas embebidos,ASE,,1.0,1.0,1
@@ -40,12 +37,6 @@ ALL0,Ana Laura Loría,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Di
 ALL0,Ana Laura Loría,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 ALL0,Ana Laura Loría,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 ALL0,Ana Laura Loría,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0303,EE0303,Análisis de circuitos I,3,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AAG0,Andrés Arguello Guillén,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 AAG0,Andrés Arguello Guillén,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
 AAG0,Andrés Arguello Guillén,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
 AAG0,Andrés Arguello Guillén,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1

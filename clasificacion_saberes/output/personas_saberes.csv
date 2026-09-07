@@ -7,7 +7,7 @@ JRH0,Juan José Rojas Hernández,CEE;IYT;MYS;MAC;AYD;ISC,IEE;IEE;AUT;AUT;SCF;SCF
 LMS0,Luis Diego Murillo Soto,CEE;IEE;MYS;SCA;EYD;ASE;AYD;RBT,IEE;IEE;AUT;AUT;ADD;SCF;SCF;SCF,CEE - Circuitos eléctricos y electrónica; IEE - Ingeniería eléctrica y electrónica; MYS - Modelado y simulación; SCA - Sistemas de control y automatización; EYD - Estadística y diseño de experimentos; ASE - Aplicaciones de sistemas embebidos; AYD - Automatización y digitalización; RBT - Robótica
 HEV0,Herson Esquivel Vargas,PRO;CIS,AUT;SCF,PRO - Programación; CIS - Ciberseguridad
 JGF0,Juan Luis Guerrero Fernandez,CEE;IYT;MSF;MYS;SCA;RBT,IEE;IEE;IMM;AUT;AUT;SCF,CEE - Circuitos eléctricos y electrónica; IYT - Instrumentación y transductores; MSF - Mecánica de sólidos y fluidos; MYS - Modelado y simulación; SCA - Sistemas de control y automatización; RBT - Robótica
-AGZ0,Alberto Garro Zavaleta,MSF;TTC;IEM,IMM;IMM;INS,MSF - Mecánica de sólidos y fluidos; TTC - Termodinámica y transferencia de calor; IEM - Instalaciones electromecánicas
+AGZ0,Alberto Garro Zavaleta,HIP;MSF;TTC;IEM,FPH;IMM;IMM;INS,HIP - Habilidades interpersonales; MSF - Mecánica de sólidos y fluidos; TTC - Termodinámica y transferencia de calor; IEM - Instalaciones electromecánicas
 FBG0,Francisco Bonilla Guido,DPI;MAN;IEM,CYD;IMM;INS,DPI - Dibujo para ingeniería; MAN - Manufactura; IEM - Instalaciones electromecánicas
 JGC0,Joshua Guzmán Conejo,DPI;MSF;IEM,CYD;IMM;INS,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; IEM - Instalaciones electromecánicas
 JPS0,Juan Francisco Piedra Seguro,IEM;GEE,INS;INS,IEM - Instalaciones electromecánicas; GEE - Gestión de la energía
@@ -47,7 +47,7 @@ AAV0,Alejandro Arroyo Valle,IYT;SCA;EYD;ASE;AYD;AIA,IEE;AUT;ADD;SCF;SCF;SCF,IYT 
 ALL0,Ana Laura Loría,HIP;DPI;CEE;SCA,FPH;CYD;IEE;AUT,HIP - Habilidades interpersonales; DPI - Dibujo para ingeniería; CEE - Circuitos eléctricos y electrónica; SCA - Sistemas de control y automatización
 AAG0,Andrés Arguello Guillén,CEE;MEE;GAE;DTE,IEE;IEE;INS;INS,CEE - Circuitos eléctricos y electrónica; MEE - Máquinas eléctricas; GAE - Sistemas de generación y almacenamiento de energía; DTE - Sistemas de distribución y transmisión de energía eléctrica
 AVH0,Anyelo Vargas Hernández,CEE;CDM;GAE;DTE,IEE;ADD;INS;INS,"CEE - Circuitos eléctricos y electrónica; CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad; GAE - Sistemas de generación y almacenamiento de energía; DTE - Sistemas de distribución y transmisión de energía eléctrica"
-CMM0,Carlos Montoya Marín,DPI;IYT;SCA,CYD;IEE;AUT,DPI - Dibujo para ingeniería; IYT - Instrumentación y transductores; SCA - Sistemas de control y automatización
+CMM0,Carlos Montoya Marín,DPI;IYT;SCA;AYD;RBT,CYD;IEE;AUT;SCF;SCF,DPI - Dibujo para ingeniería; IYT - Instrumentación y transductores; SCA - Sistemas de control y automatización; AYD - Automatización y digitalización; RBT - Robótica
 DGR0,Diego Gómez Rivera,DPI;SCA,CYD;AUT,DPI - Dibujo para ingeniería; SCA - Sistemas de control y automatización
 EMP0,Emmanuel Muñoz Peña,MAC;ASE;AIA,AUT;SCF;SCF,MAC - Microcontroladores y arquitectura de computadores; ASE - Aplicaciones de sistemas embebidos; AIA - Aplicaciones de Inteligencia Artificial
 JBC0,Jenifer Brenes Casasola,CEE;MAC;SCA;ASE;AYD;RBT,IEE;AUT;AUT;SCF;SCF;SCF,CEE - Circuitos eléctricos y electrónica; MAC - Microcontroladores y arquitectura de computadores; SCA - Sistemas de control y automatización; ASE - Aplicaciones de sistemas embebidos; AYD - Automatización y digitalización; RBT - Robótica
