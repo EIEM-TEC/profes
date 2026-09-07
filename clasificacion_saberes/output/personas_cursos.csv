@@ -47,9 +47,7 @@ AVH0,Anyelo Vargas Hernández,IEE0303,EE0303,Análisis de circuitos I,3,Teórico
 AVH0,Anyelo Vargas Hernández,IEE0304,EE0304,Laboratorio de circuitos I,3,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 AVH0,Anyelo Vargas Hernández,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 AVH0,Anyelo Vargas Hernández,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-AVH0,Anyelo Vargas Hernández,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 AVH0,Anyelo Vargas Hernández,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
-AVH0,Anyelo Vargas Hernández,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 AVH0,Anyelo Vargas Hernández,INS0801,EE4801,Sistemas eléctricos de transmisión y distribución,8,Teórico,3,DTE,DTE - Sistemas de distribución y transmisión de energía eléctrica,DTE,,1.0,1.0,1
 AVH0,Anyelo Vargas Hernández,INS0901,EE4901,Sistemas de generación y almacenamiento de energía,9,Teórico,3,GAE,GAE - Sistemas de generación y almacenamiento de energía,GAE,,1.0,1.0,1
 BMC0,Bryan Mesen Campos,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
@@ -563,14 +561,7 @@ OGC0,Osvaldo Guerrero Castro,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3
 OGC0,Osvaldo Guerrero Castro,IEE0703,EE0703,Laboratorio de máquinas eléctricas I,7,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
 OGC0,Osvaldo Guerrero Castro,IEE0802,EE0802,Máquinas eléctricas II,8,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
 OGC0,Osvaldo Guerrero Castro,IEE0803,EE0803,Laboratorio de máquinas eléctricas II,8,Práctico,1,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OGC0,Osvaldo Guerrero Castro,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
+OGC0,Osvaldo Guerrero Castro,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1OGC0,Osvaldo Guerrero Castro,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 OGC0,Osvaldo Guerrero Castro,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
 OGC0,Osvaldo Guerrero Castro,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 RMC0,Rosa Matarrita Chaves,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
@@ -586,18 +577,12 @@ RMC0,Rosa Matarrita Chaves,INS1003,EE5003,Gestión de la energía,10,Teórico,3,
 RMC0,Rosa Matarrita Chaves,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS0808,EE4808,Mantenimiento electromecánico,8,Teórico,1,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS1006,EE5006,Gestión del ciclo de vida de instalaciones electromecánicas,10,Teórico - Práctico,3,GCV,GCV - Gestión del ciclo de vida y transformación digital,GCV,,1.0,1.0,1
-SMO0,Sebastián Mata Ortega,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMG0,Sofia Madrigal Gamboa,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 SMG0,Sofia Madrigal Gamboa,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 SMG0,Sofia Madrigal Gamboa,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1

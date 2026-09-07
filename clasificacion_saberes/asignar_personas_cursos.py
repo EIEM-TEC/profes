@@ -6,6 +6,8 @@ from pathlib import Path
 
 import pandas as pd
 
+#Aqui meter los codigos de las personas que ya estan fijas
+omitir = {"AGZ0","AAV0","ALL0","AAG0","AVH0","BMC0","CMM0","OGC0","SMG0","SMO0","RMC0"}
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 BASE_DIR = Path(__file__).resolve().parent
@@ -134,6 +136,7 @@ def assign_person_courses(
     cursos_rasgos: pd.DataFrame,
     saberes: pd.DataFrame,
     plan: pd.DataFrame,
+    asignaciones_previas: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     validate_person_saberes(personas_saberes)
 
@@ -150,6 +153,8 @@ def assign_person_courses(
 
     rows = []
     for person in personas_saberes.itertuples(index=False):
+        if str(person.codigo).strip() in omitir:
+            continue
         person_codes = set(split_codes(person.saberes))
         for course_id, raw_required in course_saberes.items():
             required = effective_required_saberes(course_id, raw_required)
@@ -184,10 +189,17 @@ def assign_person_courses(
                 }
             )
 
-    if not rows:
-        return pd.DataFrame(columns=OUTPUT_COLUMNS)
-
     output = pd.DataFrame(rows, columns=OUTPUT_COLUMNS)
+    if asignaciones_previas is not None:
+        # Recuperar todas las filas originales de las personas fijas.
+        fijas = asignaciones_previas.loc[
+            asignaciones_previas["codigo_persona"].astype(str).str.strip().isin(omitir)
+        ]
+        output = pd.concat([output, fijas], ignore_index=True).fillna("")
+
+    if output.empty:
+        return output
+
     output["_semestre_sort"] = pd.to_numeric(
         output["semestre"], errors="coerce"
     ).fillna(999)
@@ -206,11 +218,13 @@ def generate_personas_cursos(
     plan_path: Path,
     output_path: Path,
 ) -> pd.DataFrame:
+    asignaciones_previas = read_csv(output_path) if output_path.exists() else None
     output = assign_person_courses(
         personas_saberes=read_csv(personas_saberes_path),
         cursos_rasgos=read_csv(cursos_rasgos_path),
         saberes=read_csv(saberes_path),
         plan=read_csv(plan_path),
+        asignaciones_previas=asignaciones_previas,
     )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output.to_csv(output_path, index=False, encoding="utf-8")
@@ -225,6 +239,8 @@ def build_parser() -> argparse.ArgumentParser:
     Una persona puede impartir un curso si cubre todos los saberes requeridos.
     Reglas especiales: HIP solamente asigna el curso FPH0108; MET se trata
     como saber transversal opcional cuando aparece junto a otros saberes.
+    Las personas de omitir conservan sus filas del archivo de salida existente;
+    si no tienen filas previas, no se les generan asignaciones nuevas.
     """
     parser = argparse.ArgumentParser(
         description=textwrap.dedent(description).strip(),
