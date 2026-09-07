@@ -10,7 +10,7 @@ JGF0,Juan Luis Guerrero Fernandez,CEE;IYT;MSF;MYS;SCA;RBT,IEE;IEE;IMM;AUT;AUT;SC
 AGZ0,Alberto Garro Zavaleta,HIP;MSF;TTC;IEM,FPH;IMM;IMM;INS,HIP - Habilidades interpersonales; MSF - Mecánica de sólidos y fluidos; TTC - Termodinámica y transferencia de calor; IEM - Instalaciones electromecánicas
 FBG0,Francisco Bonilla Guido,DPI;MAN;IEM,CYD;IMM;INS,DPI - Dibujo para ingeniería; MAN - Manufactura; IEM - Instalaciones electromecánicas
 JGC0,Joshua Guzmán Conejo,DPI;MSF;IEM,CYD;IMM;INS,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; IEM - Instalaciones electromecánicas
-JPS0,Juan Francisco Piedra Seguro,IEM;GEE,INS;INS,IEM - Instalaciones electromecánicas; GEE - Gestión de la energía
+JPS0,Juan Francisco Piedra Segura,IEM;GEE,INS;INS,IEM - Instalaciones electromecánicas; GEE - Gestión de la energía
 JRG0,Julio César Rojas Gómez,DPI;MSF;MAN;EYD;MET,CYD;IMM;IMM;ADD;ADD,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; MAN - Manufactura; EYD - Estadística y diseño de experimentos; MET - Metrología
 LCG0,Luis Chévez Gómez,DPI;MSF;IEM,CYD;IMM;INS,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; IEM - Instalaciones electromecánicas
 MBC0,Marvin Bermúdez Chacón,DPI;IEM,CYD;INS,DPI - Dibujo para ingeniería; IEM - Instalaciones electromecánicas
@@ -18,7 +18,7 @@ MJC0,Maximino Jiménez Ceciliano,DPI,CYD,DPI - Dibujo para ingeniería
 COZ0,Carlos Otárola Zúñiga,DPI;MSF;EDM;MAN,CYD;IMM;IMM;IMM,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; EDM - Elementos de máquinas; MAN - Manufactura
 FMG0,Frank Marín Guillén,DPI;IYT;CIM;MSF;MAN;MNC,CYD;IEE;IMM;IMM;IMM;SCF,DPI - Dibujo para ingeniería; IYT - Instrumentación y transductores; CIM - Ciencia e ingeniería de los materiales; MSF - Mecánica de sólidos y fluidos; MAN - Manufactura; MNC - Modelado numérico y simulación computacional
 GMJ0,Gonzalo Mora Jiménez,CEE;MEE;GAE;DTE,IEE;IEE;INS;INS,CEE - Circuitos eléctricos y electrónica; MEE - Máquinas eléctricas; GAE - Sistemas de generación y almacenamiento de energía; DTE - Sistemas de distribución y transmisión de energía eléctrica
-HJQ0,Herberth Jackson Quirós,MSF;EDM;IEM,IMM;IMM;INS,MSF - Mecánica de sólidos y fluidos; EDM - Elementos de máquinas; IEM - Instalaciones electromecánicas
+HJQ0,Herberth Jackson Quirós,DPI;MSF;EDM;IEM,CYD;IMM;IMM;INS,DPI - Dibujo para ingeniería; MSF - Mecánica de sólidos y fluidos; EDM - Elementos de máquinas; IEM - Instalaciones electromecánicas
 IVG0,Ignacio del Valle Granados,TTC;IEM;GEE,IMM;INS;INS,TTC - Termodinámica y transferencia de calor; IEM - Instalaciones electromecánicas; GEE - Gestión de la energía
 JAC0,Juan Pablo Arias Cartín,IEM,INS,IEM - Instalaciones electromecánicas
 JMH0,Julio Andrés Morera Hidalgo,MSF;GEE,IMM;INS,MSF - Mecánica de sólidos y fluidos; GEE - Gestión de la energía
@@ -50,8 +50,7 @@ AVH0,Anyelo Vargas Hernández,CEE;CDM;GAE;DTE,IEE;ADD;INS;INS,"CEE - Circuitos e
 CMM0,Carlos Montoya Marín,DPI;IYT;SCA;AYD;RBT,CYD;IEE;AUT;SCF;SCF,DPI - Dibujo para ingeniería; IYT - Instrumentación y transductores; SCA - Sistemas de control y automatización; AYD - Automatización y digitalización; RBT - Robótica
 DGR0,Diego Gómez Rivera,DPI;SCA,CYD;AUT,DPI - Dibujo para ingeniería; SCA - Sistemas de control y automatización
 EMP0,Emmanuel Muñoz Peña,MAC;ASE;AIA,AUT;SCF;SCF,MAC - Microcontroladores y arquitectura de computadores; ASE - Aplicaciones de sistemas embebidos; AIA - Aplicaciones de Inteligencia Artificial
-JBC0,Jenifer Brenes Casasola,CEE;MAC;SCA;ASE;AYD;RBT,IEE;AUT;AUT;SCF;SCF;SCF,CEE - Circuitos eléctricos y electrónica; MAC - Microcontroladores y arquitectura de computadores; SCA - Sistemas de control y automatización; ASE - Aplicaciones de sistemas embebidos; AYD - Automatización y digitalización; RBT - Robótica
 JOS0,Jose Miguel Ocampo Solano,DPI;MAN,CYD;IMM,DPI - Dibujo para ingeniería; MAN - Manufactura
 LAC0,Luis Diego Araya Campos,CEE;GAE;DTE,IEE;INS;INS,CEE - Circuitos eléctricos y electrónica; GAE - Sistemas de generación y almacenamiento de energía; DTE - Sistemas de distribución y transmisión de energía eléctrica
 MJA0,María Jesús Amador Orozco,IEM,INS,IEM - Instalaciones electromecánicas
-SMG0,Sofia Madrigal Gamboa,MSF;TTC;MNC,IMM;IMM;SCF,MSF - Mecánica de sólidos y fluidos; TTC - Termodinámica y transferencia de calor; MNC - Modelado numérico y simulación computacional
+SMG0,Sofia Madrigal Gamboa,MSF;TTC;MNC;AYD;RBT,IMM;IMM;SCF;SCF;SCF,MSF - Mecánica de sólidos y fluidos; TTC - Termodinámica y transferencia de calor; MNC - Modelado numérico y simulación computacional; AYD - Automatización y digitalización; RBT - Robótica
