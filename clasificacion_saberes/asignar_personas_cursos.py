@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 
 #Aqui meter los codigos de las personas que ya estan fijas
-omitir = {"AGZ0","AAV0","ALL0","AAG0","AVH0","BMC0","CMM0","OGC0","SMG0","SMO0","RMC0"}
+omitir = {"AGZ0","AAV0","ALL0","AAG0","AVH0","BMC0","CMM0","OGC0","SMG0","SMO0","RMC0","OMR0"}
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 BASE_DIR = Path(__file__).resolve().parent

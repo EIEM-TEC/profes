@@ -534,27 +534,16 @@ NUS0,Noel Jacob Ureña Sandí,IMM0608,EE0608,Laboratorio de mecánica de fluidos
 NUS0,Noel Jacob Ureña Sandí,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
 NUS0,Noel Jacob Ureña Sandí,IMM0706,EE0706,Elementos de máquinas,7,Teórico,3,EDM,EDM - Elementos de máquinas,EDM,,1.0,1.0,1
 NUS0,Noel Jacob Ureña Sandí,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,IMM0407,EE0407,Termodinámica,4,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,IMM0606,CM4108,Transferencia de calor,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,IMM0605,EE0605,Resistencia de materiales,6,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,IMM0607,EE0607,Mecánica de fluidos,6,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,IMM0608,EE0608,Laboratorio de mecánica de fluidos,6,Práctico,1,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,IMM0707,EE0707,Sistemas térmicos,7,Teórico,3,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Práctico,1,TTC,TTC - Termodinámica y transferencia de calor,TTC,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,AER0801,EE6801,Sistemas de la aeronave,8,Teórico,3,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,AER0902,EE6902,Aerodinámica,9,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
-OMR0,Oscar Monge Ruiz,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,AER1001,EE7001,Gestión del ciclo de vida de la aeronave,10,Teórico,2,GCA,GCA - Gestión del ciclo de vida de la aeronave,GCA,,1.0,1.0,1
 OMR0,Oscar Monge Ruiz,AER1002,EE7002,Sistemas de propulsión,10,Teórico - Práctico,3,ACP,ACP - Aerodinámica y sistemas de propulsión,ACP,,1.0,1.0,1
 OGC0,Osvaldo Guerrero Castro,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
