@@ -33,8 +33,6 @@ ALL0,Ana Laura Loría,IEE0403,EE0403,Análisis de circuitos II,4,Teórico,3,CEE,
 ALL0,Ana Laura Loría,IEE0404,EE0404,Laboratorio de circuitos II,4,Práctico,1,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 ALL0,Ana Laura Loría,IEE0503,EE0503,Sistemas analógicos,5,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
 ALL0,Ana Laura Loría,IEE0604,EE0604,Sistemas digitales,6,Teórico - Práctico,2,CEE,CEE - Circuitos eléctricos y electrónica,CEE,,1.0,1.0,1
-ALL0,Ana Laura Loría,CYD0609,EE0609,Dibujo industrial,6,Teórico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
-ALL0,Ana Laura Loría,AUT0704,EE0704,Control automático,7,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 ALL0,Ana Laura Loría,AUT0804,EE0804,Control por eventos discretos,8,Teórico,3,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 ALL0,Ana Laura Loría,AUT0805,EE0805,Laboratorio de control,8,Práctico,1,SCA,SCA - Sistemas de control y automatización,SCA,,1.0,1.0,1
 AAG0,Andrés Arguello Guillén,IEE0702,EE0702,Máquinas eléctricas I,7,Teórico,3,MEE,MEE - Máquinas eléctricas,MEE,,1.0,1.0,1
@@ -560,10 +558,7 @@ RMC0,Rosa Matarrita Chaves,INS0903,EE4903,Sistemas de refrigeración y aire acon
 RMC0,Rosa Matarrita Chaves,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 RMC0,Rosa Matarrita Chaves,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 RMC0,Rosa Matarrita Chaves,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-RMC0,Rosa Matarrita Chaves,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-RMC0,Rosa Matarrita Chaves,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 RMC0,Rosa Matarrita Chaves,INS1003,EE5003,Gestión de la energía,10,Teórico,3,GEE,GEE - Gestión de la energía,GEE,,1.0,1.0,1
-RMC0,Rosa Matarrita Chaves,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,ADD0602,EE0602,Fiabilidad y disponibilidad de sistemas electromecánicos,6,Teórico,2,CDM,"CDM - Confiabilidad,disponibilidad,mantenibilidad y seguridad",CDM,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,FPH0701,EE0701,Administración de proyectos,7,Teórico,2,ADP,ADP - Administración de proyectos,ADP,,1.0,1.0,1
 SMO0,Sebastián Mata Ortega,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
@@ -584,14 +579,7 @@ SMG0,Sofia Madrigal Gamboa,IMM0708,EE0708,Laboratorio de sistemas térmicos,7,Pr
 SMG0,Sofia Madrigal Gamboa,SCF0901,EE8901,Modelado numérico y simulación computacional,9,Teórico - Práctico,3,MNC,MNC - Modelado numérico y simulación computacional,MNC,,1.0,1.0,1
 SFM0,Sofía Jimenez Monge,FPH0108,EE0108,Introducción a la ingeniería electromecánica,1,Teórico,1,HIP,HIP - Habilidades interpersonales,HIP,,1.0,1.0,1
 SFM0,Sofía Jimenez Monge,INS0806,EE4806,Instalaciones eléctricas,8,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0807,EE4807,Ventilación y aire comprimido,8,Teórico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0903,EE4903,Sistemas de refrigeración y aire acondicionado,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0904,EE4904,Laboratorio de refrigeración y aire acondicionado,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 SFM0,Sofía Jimenez Monge,INS0906,EE4906,Instalaciones mecánico-sanitarias,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0907,EE4907,Laboratorio de sistemas de fluidos,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0908,EE4908,Sistemas de vapor,9,Teórico,3,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS0909,EE4909,Laboratorio de sistemas de vapor,9,Práctico,1,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
-SFM0,Sofía Jimenez Monge,INS1007,EE5007,Neumática y oleohidráulica,10,Teórico - Práctico,2,IEM,IEM - Instalaciones electromecánicas,IEM,,1.0,1.0,1
 VJH0,Víctor Julio Hernández,CYD0107,EE0107,Dibujo técnico,1,Teórico - Práctico,3,DPI,DPI - Dibujo para ingeniería,DPI,,1.0,1.0,1
 VJH0,Víctor Julio Hernández,IMM0207,EE0207,Estática,2,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
 VJH0,Víctor Julio Hernández,IMM0307,EE0307,Dinámica,3,Teórico,3,MSF,MSF - Mecánica de sólidos y fluidos,MSF,,1.0,1.0,1
